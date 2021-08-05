@@ -1,6 +1,7 @@
 import React from "react" 
+import { CLickCounter } from "./ClickCounter"
 import './styles.css'
 
 export const App = () => {
-  return <h1>React Typescript Webpack</h1>
+  return <CLickCounter/>
 }
