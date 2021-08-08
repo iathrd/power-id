@@ -1,4 +1,3 @@
-import React from "react" 
 import { CLickCounter } from "./ClickCounter"
 import './styles.css'
 
