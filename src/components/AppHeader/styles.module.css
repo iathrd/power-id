@@ -1,0 +1,23 @@
+.navigationWrapper {
+  height: 100px;
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 150px;
+}
+
+.navigationWrapper > div:first-child > img {
+  width: 127px;
+  height: 35px;
+}
+
+.navigationWrapper > div:last-child {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigationWrapper > div:last-child > div:first-child > button {
+  margin-right: 16px;
+}
