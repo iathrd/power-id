@@ -1,6 +1,5 @@
-import { CLickCounter } from "./ClickCounter";
-import "./styles.css";
-
+import { Home } from "./pages/Home/Home";
+import "./App.css";
 export const App = () => {
-  return <CLickCounter />;
+  return <Home />;
 };
