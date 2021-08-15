@@ -1,16 +1,16 @@
 .navigationWrapper {
-  height: 100px;
+  height: 6.25rem;
   background-color: var(--white-color);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 150px;
+  padding-inline: 9.375rem;
 }
 
 .navigationWrapper > div:first-child > img {
-  width: 127px;
-  height: 35px;
+  width: 7.938rem;
+  height: 2.188rem;
 }
 
 .navigationWrapper > div:last-child {
@@ -19,5 +19,5 @@
 }
 
 .navigationWrapper > div:last-child > div:first-child > button {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
