@@ -1,23 +1,51 @@
 .navigationWrapper {
-  height: 100px;
+  height: 6.25rem;
   background-color: var(--white-color);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 150px;
+  padding-inline: 9.375rem;
+  position: sticky;
+  transition: 0.4s ease-out;
+  top: 0;
+  z-index: 999;
 }
 
-.navigationWrapper > div:first-child > img {
-  width: 127px;
-  height: 35px;
+.navigationWrapperActive {
+  height: 6.25rem;
+  /* transition: 0.4s ease-in-out; */
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 9.375rem;
+  transform: background-color 2s;
+  position: sticky;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  top: 0;
+  z-index: 999;
 }
 
-.navigationWrapper > div:last-child {
+.image > img {
+  width: 7.938rem;
+  height: 2.188rem;
+}
+
+.buttonWrapper {
   display: flex;
   flex-direction: row;
 }
 
-.navigationWrapper > div:last-child > div:first-child > button {
-  margin-right: 16px;
+.buttonWrapper > div:first-child > button {
+  margin-right: 1rem;
+}
+.btnActive > button {
+  border: 2px solid var(--white-color);
+}
+
+.btnActive > button:focus,
+.btnActive > button:active {
+  border: 2px solid var(--white-color);
 }

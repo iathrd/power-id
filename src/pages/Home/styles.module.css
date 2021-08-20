@@ -1,0 +1,141 @@
+.main {
+  padding-inline: 150px;
+  padding-block: 110px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 110px;
+}
+
+.imageContent img {
+  width: 500px;
+  height: 500px;
+}
+
+.content > div:first-child {
+  width: 490px;
+}
+
+.content > div:first-child > div:first-child {
+  margin-bottom: 20px;
+}
+
+.content > div:first-child > div:nth-child(2) {
+  margin-bottom: 55px;
+}
+
+.content > div:first-child > div:nth-child(2) h5 {
+  color: var(--grey-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.content > div:first-child > div:nth-child(2) h1 {
+  color: var(--black);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 70px;
+}
+
+.imageContent {
+  position: relative;
+}
+
+.imageContent > div:first-child {
+  width: 500px;
+  height: 500px;
+  background-color: var(--grey-color-4);
+  position: absolute;
+  transform: rotate(-15.79deg);
+  z-index: -1;
+}
+.imageContent > div:nth-child(2) {
+  position: relative;
+}
+
+.imageContent > div:nth-child(2) > .blue {
+  width: 118px;
+  height: 118px;
+  background-color: var(--primary-color);
+  bottom: 0;
+  left: -30px;
+  transform: translateY(25px);
+  position: absolute;
+}
+
+.imageContent > div:nth-child(2) > .yellow {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  bottom: -10;
+  transform: translateX(55px);
+  background-color: var(--yellow);
+}
+
+.content-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 110px;
+}
+
+.imageContentChild {
+  position: relative;
+  padding-top: 17px;
+}
+
+.imageContentChild > div:first-child {
+  width: 496px;
+  height: 390px;
+  background-color: var(--grey-color-4);
+  position: absolute;
+  z-index: -1;
+  transform: rotate(12.57deg);
+}
+
+.imageContentChild > div:nth-child(2) img {
+  width: 496px;
+  height: 390px;
+}
+
+.imageContentChild .blue {
+  width: 90px;
+  height: 90px;
+  background-color: var(--primary-color);
+  top: -25px;
+  left: -35px;
+  position: absolute;
+}
+
+.text-content {
+  padding-left: 65px;
+}
+
+.text-content h2 {
+  color: var(--black);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.text-content h5 {
+  color: var(--grey-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-content > div:first-child {
+  margin-bottom: 12px;
+}
