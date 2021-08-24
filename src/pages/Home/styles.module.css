@@ -88,12 +88,12 @@
   margin-bottom: 110px;
 }
 
-.imageContentChild {
+.image-child-right {
   position: relative;
   padding-top: 17px;
 }
 
-.imageContentChild > div:first-child {
+.image-child-right > div:first-child {
   width: 496px;
   height: 390px;
   background-color: var(--grey-color-4);
@@ -102,12 +102,12 @@
   transform: rotate(12.57deg);
 }
 
-.imageContentChild > div:nth-child(2) img {
+.image-child-right > div:nth-child(2) img {
   width: 496px;
   height: 390px;
 }
 
-.imageContentChild .blue {
+.image-child-right .blue {
   width: 90px;
   height: 90px;
   background-color: var(--primary-color);
@@ -116,11 +116,39 @@
   position: absolute;
 }
 
-.text-content {
+.image-child-left {
+  position: relative;
+  padding-top: 17px;
+}
+
+.image-child-left > div:first-child {
+  width: 496px;
+  height: 390px;
+  background-color: var(--grey-color-4);
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-12.92deg);
+}
+
+.image-child-left > div:nth-child(2) img {
+  width: 496px;
+  height: 390px;
+}
+
+.image-child-left .blue {
+  width: 90px;
+  height: 90px;
+  background-color: var(--yellow);
+  top: -25px;
+  right: -35px;
+  position: absolute;
+}
+
+.text-content-right {
   padding-left: 65px;
 }
 
-.text-content h2 {
+.text-content-right h2 {
   color: var(--black);
   font-style: normal;
   font-weight: 600;
@@ -128,7 +156,7 @@
   line-height: 56px;
 }
 
-.text-content h5 {
+.text-content-right h5 {
   color: var(--grey-color);
   font-style: normal;
   font-weight: normal;
@@ -136,6 +164,62 @@
   line-height: 28px;
 }
 
-.text-content > div:first-child {
-  margin-bottom: 12px;
+.text-content-right > div:nth-child(2) {
+  margin-top: 32px;
+}
+
+.text-content-left {
+  padding-right: 65px;
+}
+
+.text-content-left h2 {
+  color: var(--black);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.text-content-left h5 {
+  color: var(--grey-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-content-left > div:nth-child(2) {
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+
+.checklist-right {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.checklist-left {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+}
+
+.checklistWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.checklistWrapper > div:first-child {
+  margin-right: 22px;
 }

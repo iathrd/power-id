@@ -26,6 +26,22 @@ h1 {
   line-height: 70px;
 }
 
+h5 {
+  color: var(--grey-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h6 {
+  color: var(--grey-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
 :root {
   --font-family: "Open-sans";
   --primary-color: #5e50a1;
