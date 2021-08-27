@@ -3,6 +3,7 @@ import { AppFotter } from "../../components/AppFotter/AppFotter";
 import styles from "./styles.module.css";
 import { ICON, IMG } from "../../configs";
 import { Button } from "../../components/Button/Button";
+import { Card } from "../../components/Card/Card";
 
 interface ContentProps {
   headerText: string;
@@ -155,6 +156,7 @@ export const Home: React.FC = () => {
           image: IMG.BANNER3,
           listData: ["Java.", "Golang", "Kotlin", "10+ Bahasa lainnya"],
         })}
+        <Card />
       </main>
       <AppFotter />
     </>
