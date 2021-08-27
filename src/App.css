@@ -26,6 +26,22 @@ h1 {
   line-height: 70px;
 }
 
+h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 56px;
+  color: var(--black);
+}
+
+h3 {
+  color: var(--black);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 56px;
+}
+
 h5 {
   color: var(--grey-color);
   font-style: normal;
