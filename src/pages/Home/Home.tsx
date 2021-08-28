@@ -132,6 +132,37 @@ export const Home: React.FC = () => {
     }
   };
 
+  const renderCourosel = (): JSX.Element => {
+    return (
+      <div>
+        <div className={styles.headerText}>
+          <h2>Their opinion about peworld</h2>
+        </div>
+        <Card />
+      </div>
+    );
+  };
+
+  const renderBanner = (): JSX.Element => {
+    return (
+      <div className={styles.banner}>
+        <img src={IMG.CURVE} alt="Curve" />
+        <div className={styles.bannerContent}>
+          <div>
+            <h2>Lorem ipsum dolor sit amet</h2>
+          </div>
+          <div>
+            <Button
+              variant="medium"
+              label="Mulai Dari Sekarang"
+              color="white"
+            />
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <>
       <AppHeader />
@@ -156,7 +187,8 @@ export const Home: React.FC = () => {
           image: IMG.BANNER3,
           listData: ["Java.", "Golang", "Kotlin", "10+ Bahasa lainnya"],
         })}
-        <Card />
+        {renderCourosel()}
+        {renderBanner()}
       </main>
       <AppFotter />
     </>
