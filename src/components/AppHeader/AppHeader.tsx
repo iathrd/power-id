@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "./styles.module.css";
 import { IMG } from "../../configs";
 import { Button } from "../Button/Button";
+import { Link } from "react-router-dom";
 
 export const AppHeader: React.FC = () => {
   const [navbar, setNavbar] = useState<boolean>(false);
@@ -26,7 +27,9 @@ export const AppHeader: React.FC = () => {
       </div>
       <div className={styles.buttonWrapper}>
         <div>
-          <Button label="Masuk" variant="small" color="white" />
+          <Link to="/login">
+            <Button label="Masuk" variant="small" color="white" />
+          </Link>
         </div>
         <div className={navbar && styles.btnActive}>
           <Button label="Daftar" variant="small" color="primary" />

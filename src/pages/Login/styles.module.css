@@ -1,0 +1,17 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  padding: 39px 75px 39px 75px;
+}
+
+.loginForm {
+  margin-left: 70px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.loginForm h5 {
+  margin-bottom: 20px;
+}

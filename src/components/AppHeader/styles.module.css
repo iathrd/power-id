@@ -38,7 +38,7 @@
   flex-direction: row;
 }
 
-.buttonWrapper > div:first-child > button {
+.buttonWrapper > div:first-child {
   margin-right: 1rem;
 }
 .btnActive > button {
