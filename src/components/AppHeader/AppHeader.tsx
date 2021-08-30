@@ -31,7 +31,7 @@ export const AppHeader: React.FC = () => {
             <Button label="Masuk" variant="small" color="white" />
           </Link>
         </div>
-        <div className={navbar && styles.btnActive}>
+        <div className={navbar ? styles.btnActive : ""}>
           <Button label="Daftar" variant="small" color="primary" />
         </div>
       </div>

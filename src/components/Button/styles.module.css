@@ -3,6 +3,10 @@
   height: 44px;
 }
 
+.button-fullwidth {
+  width: 100% !important;
+}
+
 .button-small-primary {
   background-color: var(--primary-color);
   height: 44px;
@@ -15,6 +19,16 @@
   height: 63px;
   color: var(--white-color);
   background-color: var(--primary-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button-medium-yellow {
+  height: 50px;
+  color: var(--white-color);
+  background-color: var(--yellow);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

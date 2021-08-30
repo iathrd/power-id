@@ -60,6 +60,7 @@ h6 {
 
 :root {
   --font-family: "Open-sans";
+  --font-family-regural: "Open-sans-regural";
   --primary-color: #5e50a1;
   --primary-bold: #524789;
   --yellow: #fbb017;
