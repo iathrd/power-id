@@ -17,6 +17,12 @@
   font-family: "Open-sans";
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 h1 {
   font-family: "Open-sans";
   color: var(--black);
@@ -71,4 +77,9 @@ h6 {
   --grey-color-4: #e2e5ed;
   --white-color: #ffffff;
   --white-color-2: #f6f7f8;
+  --red: red;
+  --sm: 640px;
+  --md: 768px;
+  --lg: 1024px;
+  --xl: 1280px;
 }

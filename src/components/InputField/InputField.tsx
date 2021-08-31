@@ -15,8 +15,8 @@ export const InputField: React.FC<InputFieldProps> = ({ label, ...props }) => {
       <div className={styles.input}>
         <label htmlFor={field.name}>{label}</label>
         <input {...field} {...props} id={field.name} />
+        <div>{error && touched && <p>{error}</p>}</div>
       </div>
-      <div>{error && touched && <h5>{error}</h5>}</div>
     </div>
   );
 };

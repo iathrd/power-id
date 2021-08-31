@@ -35,6 +35,10 @@
   line-height: 20px;
 }
 
+.button-yellow:hover {
+  opacity: 80%;
+}
+
 .button-primary:hover {
   background-color: var(--primary-bold);
 }

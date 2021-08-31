@@ -15,7 +15,7 @@
 }
 
 .loginForm div:nth-child(2) {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 .loginForm h6 {
@@ -24,10 +24,9 @@
   line-height: 22px;
 }
 
-.loginForm div:nth-child(3) {
-  margin-top: -15px;
+.forgotPassword {
   text-align: end;
-  margin-bottom: 24px;
+  margin-block: 24px;
 }
 
 .haveAccount {

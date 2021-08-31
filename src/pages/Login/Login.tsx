@@ -3,15 +3,18 @@ import { Banner } from "../../components/Banner/Banner";
 import { Form, Formik } from "formik";
 import { InputField } from "../../components/InputField/InputField";
 import { Button } from "../../components/Button/Button";
+import useResponsive from "../../hooks/useResponsive";
+import { validate } from "./validate";
 
 export const Login: React.FC = () => {
   const renderLoginForm = (): JSX.Element => {
     return (
       <Formik
-        initialValues={{ username: "" }}
+        initialValues={{ email: "", password: "" }}
         onSubmit={(values) => {
           console.log(values);
         }}
+        validate={validate}
       >
         {() => (
           <Form>
@@ -25,7 +28,7 @@ export const Login: React.FC = () => {
               placeholder="Masukan kata sandi"
               label="Kata Sandi"
             />
-            <div>
+            <div className={styles.forgotPassword}>
               <h6>Lupa kata sandi?</h6>
             </div>
             <Button
@@ -44,9 +47,12 @@ export const Login: React.FC = () => {
     );
   };
 
+  const { isTablet } = useResponsive();
+
   return (
     <div className={styles.parent}>
-      <Banner />
+      {isTablet ? null : <Banner />}
+
       <div className={styles.loginForm}>
         <h3>Halo, Pewpeople</h3>
         <h5>

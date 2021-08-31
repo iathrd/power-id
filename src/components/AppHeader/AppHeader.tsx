@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import { IMG } from "../../configs";
 import { Button } from "../Button/Button";
@@ -15,7 +15,14 @@ export const AppHeader: React.FC = () => {
     }
   };
 
-  window.addEventListener("scroll", changeBackground);
+  useEffect(() => {
+    document.addEventListener("scroll", changeBackground);
+
+    return () => {
+      document.removeEventListener("scroll", changeBackground);
+    };
+  }, []);
+
   return (
     <nav
       className={
