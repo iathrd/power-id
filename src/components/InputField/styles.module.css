@@ -17,6 +17,16 @@
   height: 16px;
 }
 
+.errorInput {
+  border: 1px solid var(--red) !important;
+}
+
+.errorInput:focus,
+.errorInput:active {
+  border: 1px solid var(--red) !important;
+  outline: none;
+}
+
 .input p {
   font-family: var(--font-family);
   font-size: 12px;
