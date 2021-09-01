@@ -10,13 +10,14 @@ export const Login: React.FC = () => {
   const renderLoginForm = (): JSX.Element => {
     return (
       <Formik
-        initialValues={{ email: "", password: "" }}
         onSubmit={(values) => {
           console.log(values);
         }}
+        initialValues={{ email: "", password: "" }}
         validate={validate}
+        isInitialValid={false}
       >
-        {() => (
+        {({ isValid, handleSubmit }) => (
           <Form>
             <InputField
               name="email"
@@ -25,6 +26,7 @@ export const Login: React.FC = () => {
             />
             <InputField
               name="password"
+              type="password"
               placeholder="Masukan kata sandi"
               label="Kata Sandi"
             />
@@ -32,6 +34,9 @@ export const Login: React.FC = () => {
               <h6>Lupa kata sandi?</h6>
             </div>
             <Button
+              type="submit"
+              disabled={!isValid}
+              onClick={() => handleSubmit()}
               label="Masuk"
               variant="medium"
               color="yellow"

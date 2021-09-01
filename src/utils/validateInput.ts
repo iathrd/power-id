@@ -9,7 +9,7 @@ export const validateInput = (values: any, rules: string) => {
       if (values.match(pattern) === null) {
         return "Invalid email adress";
       }
-      return "";
+      return;
     }
   } else if (rules === "password") {
     if (!values) {
@@ -24,7 +24,13 @@ export const validateInput = (values: any, rules: string) => {
       if (values.search(/[0-9]/) < 0) {
         return "Your password must contain at least one digit.";
       }
+      return;
     }
+  } else if (rules === "errors") {
+    return Object.entries(values).reduce(
+      (a, [k, v]) => (v ? ((a[k] = v), a) : a),
+      {}
+    );
   }
 
   return;

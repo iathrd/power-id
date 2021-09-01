@@ -9,7 +9,6 @@ type InputFieldProps = InputHTMLAttributes<HTMLElement> & {
 
 export const InputField: React.FC<InputFieldProps> = ({ label, ...props }) => {
   const [field, { error, touched }] = useField(props);
-
   return (
     <div>
       <div className={styles.input}>

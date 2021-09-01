@@ -39,6 +39,10 @@
   opacity: 80%;
 }
 
+.button-yellow:disabled {
+  opacity: 60%;
+}
+
 .button-primary:hover {
   background-color: var(--primary-bold);
 }

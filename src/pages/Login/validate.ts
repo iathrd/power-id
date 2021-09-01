@@ -1,8 +1,8 @@
 import { validateInput } from "../../utils/validateInput";
 
 interface LoginForm {
-  email: string;
-  password: string;
+  email: string | undefined;
+  password: string | undefined;
 }
 
 export const validate = (values: LoginForm) => {
@@ -13,5 +13,5 @@ export const validate = (values: LoginForm) => {
     password: validateInput(password, "password"),
   };
 
-  return errors;
+  return validateInput(errors, "errors");
 };

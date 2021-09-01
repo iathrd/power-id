@@ -1,6 +1,10 @@
+import { ButtonHTMLAttributes, DetailedHTMLProps } from "react";
 import styles from "./styles.module.css";
 
-type ButtonProps = {
+type ButtonProps = DetailedHTMLProps<
+  ButtonHTMLAttributes<HTMLButtonElement>,
+  HTMLButtonElement
+> & {
   label: string;
   variant: "small" | "medium" | "large";
   color: "primary" | "white" | "yellow";
@@ -12,6 +16,7 @@ export const Button: React.FC<ButtonProps> = ({
   variant = "small",
   color = "primary",
   fullWidth,
+  ...props
 }) => {
   if (fullWidth) {
     return (
@@ -19,6 +24,7 @@ export const Button: React.FC<ButtonProps> = ({
         className={`${styles[`button-${variant}-${color}`]} ${
           styles[`button-${color}`]
         } ${styles["button-fullwidth"]}`}
+        {...props}
       >
         {label}
       </button>
@@ -29,6 +35,7 @@ export const Button: React.FC<ButtonProps> = ({
         className={`${styles[`button-${variant}-${color}`]} ${
           styles[`button-${color}`]
         }`}
+        {...props}
       >
         {label}
       </button>
