@@ -1,26 +1,24 @@
-.loginForm {
+.registerForm {
   margin-left: 70px;
   margin-top: 100px;
 }
 
-.loginForm h5 {
-  margin-bottom: 20px;
+.registerForm h5 {
+  margin-bottom: 4px;
 }
 
-.loginForm div:nth-child(2) {
+.registerForm label {
   margin-top: 16px;
 }
 
-.loginForm h6 {
+.registerForm h6 {
   font-weight: bold;
   color: var(--black);
   line-height: 22px;
 }
 
-.forgotPassword {
-  text-align: end;
-  margin-top: 8px;
-  margin-bottom: 24px;
+.registerForm button {
+  margin-top: 40px;
 }
 
 .haveAccount {
@@ -34,4 +32,5 @@
 .haveAccount h6:last-child {
   color: var(--yellow);
   margin-left: 5px;
+  text-decoration: none;
 }

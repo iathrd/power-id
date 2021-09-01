@@ -31,6 +31,22 @@ export const validateInput = (values: any, rules: string) => {
       (a, [k, v]) => (v ? ((a[k] = v), a) : a),
       {}
     );
+  } else if (rules === "required") {
+    const { label, value } = values;
+
+    if (!value) {
+      return `${label} is required`;
+    }
+  } else if (rules === "matchValue") {
+    const { value, matchValue, message } = values;
+
+    if (value !== matchValue) {
+      if (message) {
+        return message;
+      } else {
+        return "Value is not match";
+      }
+    }
   }
 
   return;

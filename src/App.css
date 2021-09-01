@@ -64,6 +64,17 @@ h6 {
   line-height: 28px;
 }
 
+.parent {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 39px 75px 39px 75px;
+}
+
+.text-link {
+  text-decoration: none;
+}
+
 :root {
   --font-family: "Open-sans";
   --font-family-regural: "Open-sans-regural";

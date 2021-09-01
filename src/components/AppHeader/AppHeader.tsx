@@ -39,7 +39,9 @@ export const AppHeader: React.FC = () => {
           </Link>
         </div>
         <div className={navbar ? styles.btnActive : ""}>
-          <Button label="Daftar" variant="small" color="primary" />
+          <Link to="/register">
+            <Button label="Daftar" variant="small" color="primary" />
+          </Link>
         </div>
       </div>
     </nav>
