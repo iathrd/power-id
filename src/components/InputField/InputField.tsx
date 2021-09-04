@@ -1,4 +1,4 @@
-import styles from "./styles.css";
+import styles from "./styles.module.css";
 import { useField } from "formik";
 import { InputHTMLAttributes } from "react";
 

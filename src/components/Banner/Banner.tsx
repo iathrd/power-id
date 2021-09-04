@@ -1,5 +1,5 @@
 import { IMG } from "../../configs";
-import styles from "./styles.css";
+import styles from "./styles.module.css";
 
 export const Banner: React.FC = () => {
   return (
