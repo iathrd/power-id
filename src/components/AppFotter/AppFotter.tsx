@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./styles.css";
 import { IMG } from "../../configs";
 
 export const AppFotter: React.FC = () => {

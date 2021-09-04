@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./styles.css";
 import { Banner } from "../../components/Banner/Banner";
 import { Form, Formik } from "formik";
 import { InputField } from "../../components/InputField/InputField";

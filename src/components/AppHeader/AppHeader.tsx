@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from "./styles.module.css";
+import styles from "./styles.css";
 import { IMG } from "../../configs";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";

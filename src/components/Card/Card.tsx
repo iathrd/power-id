@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./styles.css";
 
 export const Card: React.FC = () => {
   return (
