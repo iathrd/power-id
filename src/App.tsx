@@ -15,7 +15,12 @@ export const App = () => {
       <Switch>
         <Route path="/login" render={() => <Login />} />
         <Route path="/register" render={() => <Register />} />
-        <NavRoute exact component={LandingPage} path="/" />
+        <NavRoute
+          exact
+          component={LandingPage}
+          path="/"
+          navbarTransparent={true}
+        />
         <NavRoute exact path="/home" component={Home} />
       </Switch>
     </Router>

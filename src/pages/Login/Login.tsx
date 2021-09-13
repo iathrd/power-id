@@ -46,15 +46,17 @@ export const Login: React.FC = () => {
             <div className={styles.forgotPassword}>
               <h6>Lupa kata sandi?</h6>
             </div>
-            <Button
-              type="submit"
-              disabled={!isValid || !dirty}
-              onClick={() => handleSubmit()}
-              label="Masuk"
-              variant="medium"
-              color="yellow"
-              fullWidth={true}
-            />
+            <Link to="/home">
+              <Button
+                type="submit"
+                disabled={!isValid || !dirty}
+                onClick={() => handleSubmit()}
+                label="Masuk"
+                variant="medium"
+                color="yellow"
+                fullWidth={true}
+              />
+            </Link>
             <div className={styles.haveAccount}>
               <h6>Anda belum punya akun ? </h6>
               <Link className="text-link" to="/register">

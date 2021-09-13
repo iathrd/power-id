@@ -12,12 +12,14 @@ type RouterProps = RouteProps & {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     RouteComponentProps<any, StaticContext, unknown>
   >;
+  navbarTransparent?: boolean;
 };
 
 export const NavRoute: React.FC<RouterProps> = ({
   exact,
   path,
   component: Component,
+  navbarTransparent,
 }) => {
   return (
     <Route
@@ -25,7 +27,7 @@ export const NavRoute: React.FC<RouterProps> = ({
       path={path}
       render={(props) => (
         <div>
-          <AppHeader />
+          <AppHeader transparent={navbarTransparent} />
           <Component {...props} />
           <AppFotter />
         </div>

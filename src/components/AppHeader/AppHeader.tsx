@@ -4,8 +4,15 @@ import { IMG } from "../../configs";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 
-export const AppHeader: React.FC = () => {
+type NavbarProps = {
+  transparent?: boolean;
+};
+
+export const AppHeader: React.FC<NavbarProps> = ({ transparent }) => {
   const [navbar, setNavbar] = useState<boolean>(false);
+  const navbarStyles = transparent
+    ? styles.navbarTransparent
+    : styles.navigationWrapper;
 
   const changeBackground = () => {
     if (window.scrollY >= 80) {
@@ -24,11 +31,7 @@ export const AppHeader: React.FC = () => {
   }, []);
 
   return (
-    <nav
-      className={
-        navbar ? styles.navigationWrapperActive : styles.navigationWrapper
-      }
-    >
+    <nav className={navbar ? styles.navigationWrapperActive : navbarStyles}>
       <div className={styles.image}>
         <img src={navbar ? IMG.LOGO_WHITE : IMG.LOGO} alt="logo" />
       </div>
