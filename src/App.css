@@ -75,6 +75,10 @@ h6 {
   text-decoration: none;
 }
 
+.main-content {
+  padding: 50px 150px 70px 150px;
+}
+
 :root {
   --font-family: "Open-sans";
   --font-family-regural: "Open-sans-regural";
