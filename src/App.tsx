@@ -13,8 +13,8 @@ export const App = () => {
     <Router>
       <ScrollToTop />
       <Switch>
-        <Route path="/login" render={() => <Login />} />
-        <Route path="/register" render={() => <Register />} />
+        <Route path="/signin" render={() => <Login />} />
+        <Route path="/signup" render={() => <Register />} />
         <NavRoute
           exact
           component={LandingPage}
