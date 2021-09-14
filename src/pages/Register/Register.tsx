@@ -65,7 +65,7 @@ export const Register: React.FC = () => {
             />
             <div className={styles.haveAccount}>
               <h6>Anda sudah punya akun ? </h6>
-              <Link className="text-link" to="/login">
+              <Link className="text-link" to="/signin">
                 <h6>Masuk disini</h6>
               </Link>
             </div>

@@ -59,7 +59,7 @@ export const Login: React.FC = () => {
             </Link>
             <div className={styles.haveAccount}>
               <h6>Anda belum punya akun ? </h6>
-              <Link className="text-link" to="/register">
+              <Link className="text-link" to="/signup">
                 <h6>Daftar disini</h6>
               </Link>
             </div>
