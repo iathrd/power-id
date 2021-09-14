@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import { ICON, IMG } from "../../configs";
 import { Button } from "../../components/Button/Button";
 import { Card } from "../../components/Card/Card";
+import { ImageContent } from "../../components/ImageContent/ImageContent";
 
 interface ContentProps {
   headerText: string;
@@ -12,38 +13,6 @@ interface ContentProps {
 }
 
 export const LandingPage: React.FC = () => {
-  const renderImageContent = (): JSX.Element => {
-    return (
-      <div className={styles.imageContent}>
-        <div />
-        <div>
-          <img src={IMG.BANNER} alt="Banner1" />
-          <div className={styles.blue} />
-          <div className={styles.yellow} />
-        </div>
-
-        <div />
-      </div>
-    );
-  };
-
-  const renderImageChild = (
-    contentPosition: string,
-    image: string
-  ): JSX.Element => {
-    return (
-      <div className={styles[`image-child-${contentPosition}`]}>
-        <div />
-        <div>
-          <img src={image} alt="Banner" />
-          <div className={styles.blue} />
-        </div>
-
-        <div />
-      </div>
-    );
-  };
-
   const renderHeadContent = (): JSX.Element => {
     return (
       <div className={styles.content}>
@@ -65,7 +34,7 @@ export const LandingPage: React.FC = () => {
             />
           </div>
         </div>
-        {renderImageContent()}
+        <ImageContent image={IMG.BANNER} />
       </div>
     );
   };
@@ -76,7 +45,11 @@ export const LandingPage: React.FC = () => {
     if (contentPosition === "right") {
       return (
         <div className={styles["content-child"]}>
-          {renderImageChild(contentPosition, image)}
+          <ImageContent
+            isChild={true}
+            image={image}
+            position={contentPosition}
+          />
           <div className={styles[`text-content-${contentPosition}`]}>
             <div>
               <h2>{headerText}</h2>
@@ -124,7 +97,11 @@ export const LandingPage: React.FC = () => {
               </div>
             ))}
           </div>
-          {renderImageChild(contentPosition, image)}
+          <ImageContent
+            isChild={true}
+            image={image}
+            position={contentPosition}
+          />
         </div>
       );
     }

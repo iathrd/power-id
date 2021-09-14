@@ -12,11 +12,6 @@
   margin-bottom: 110px;
 }
 
-.imageContent img {
-  width: 500px;
-  height: 500px;
-}
-
 .content > div:first-child {
   width: 490px;
 }
@@ -45,103 +40,12 @@
   line-height: 70px;
 }
 
-.imageContent {
-  position: relative;
-}
-
-.imageContent > div:first-child {
-  width: 500px;
-  height: 500px;
-  background-color: var(--grey-color-4);
-  position: absolute;
-  transform: rotate(-15.79deg);
-  z-index: -1;
-}
-.imageContent > div:nth-child(2) {
-  position: relative;
-}
-
-.imageContent > div:nth-child(2) > .blue {
-  width: 118px;
-  height: 118px;
-  background-color: var(--primary-color);
-  bottom: 0;
-  left: -30px;
-  transform: translateY(25px);
-  position: absolute;
-}
-
-.imageContent > div:nth-child(2) > .yellow {
-  width: 46px;
-  height: 46px;
-  position: absolute;
-  bottom: -10;
-  transform: translateX(55px);
-  background-color: var(--yellow);
-}
-
 .content-child {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
   margin-bottom: 110px;
-}
-
-.image-child-right {
-  position: relative;
-  padding-top: 17px;
-}
-
-.image-child-right > div:first-child {
-  width: 496px;
-  height: 390px;
-  background-color: var(--grey-color-4);
-  position: absolute;
-  z-index: -1;
-  transform: rotate(12.57deg);
-}
-
-.image-child-right > div:nth-child(2) img {
-  width: 496px;
-  height: 390px;
-}
-
-.image-child-right .blue {
-  width: 90px;
-  height: 90px;
-  background-color: var(--primary-color);
-  top: -25px;
-  left: -35px;
-  position: absolute;
-}
-
-.image-child-left {
-  position: relative;
-  padding-top: 17px;
-}
-
-.image-child-left > div:first-child {
-  width: 496px;
-  height: 390px;
-  background-color: var(--grey-color-4);
-  position: absolute;
-  z-index: -1;
-  transform: rotate(-12.92deg);
-}
-
-.image-child-left > div:nth-child(2) img {
-  width: 496px;
-  height: 390px;
-}
-
-.image-child-left .blue {
-  width: 90px;
-  height: 90px;
-  background-color: var(--yellow);
-  top: -25px;
-  right: -35px;
-  position: absolute;
 }
 
 .text-content-right {
