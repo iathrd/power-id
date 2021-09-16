@@ -27,12 +27,12 @@ export const Login: React.FC = () => {
   const renderLoginForm = (): JSX.Element => {
     return (
       <Formik
+        initialValues={{ email: "", password: "" }}
+        isInitialValid={false}
         onSubmit={(values) => {
           console.log(values);
         }}
-        initialValues={{ email: "", password: "" }}
         validate={validate}
-        isInitialValid={false}
       >
         {({ isValid, handleSubmit, dirty }) => (
           <Form>
@@ -48,13 +48,13 @@ export const Login: React.FC = () => {
             </div>
             <Link to="/home">
               <Button
-                type="submit"
-                disabled={!isValid || !dirty}
-                onClick={() => handleSubmit()}
-                label="Masuk"
-                variant="medium"
                 color="yellow"
+                disabled={!isValid || !dirty}
                 fullWidth={true}
+                label="Masuk"
+                onClick={() => handleSubmit()}
+                type="submit"
+                variant="medium"
               />
             </Link>
             <div className={styles.haveAccount}>

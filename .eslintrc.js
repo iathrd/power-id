@@ -31,7 +31,6 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:jsx-a11y/recommended',
     'plugin:eslint-comments/recommended',
-    'plugin:@typescript-eslint/recommended',
   ],
   rules: {
     'no-unused-vars': 'off',
@@ -41,5 +40,14 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "max-len": ["warn", { "code": 100 }],
+    "react/jsx-no-duplicate-props": 2,
+    "react/jsx-no-undef": 2,
+    "react/jsx-pascal-case": 2,
+    "react/jsx-sort-default-props": [2, { "ignoreCase": true }],
+    "react/jsx-sort-props": [2, { "ignoreCase": true }],
+
   },
 };

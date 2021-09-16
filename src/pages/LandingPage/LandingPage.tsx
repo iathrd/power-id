@@ -28,9 +28,9 @@ export const LandingPage: React.FC = () => {
           </div>
           <div>
             <Button
-              variant="medium"
               color="primary"
               label="Mulai Dari Sekarang"
+              variant="medium"
             />
           </div>
         </div>
@@ -46,8 +46,8 @@ export const LandingPage: React.FC = () => {
       return (
         <div className={styles["content-child"]}>
           <ImageContent
-            isChild={true}
             image={image}
+            isChild={true}
             position={contentPosition}
           />
           <div className={styles[`text-content-${contentPosition}`]}>
@@ -63,7 +63,7 @@ export const LandingPage: React.FC = () => {
             {listData.map((item, idx) => (
               <div className={styles.checklistWrapper} key={idx}>
                 <div className={styles[`checklist-${contentPosition}`]}>
-                  <img src={ICON.CHECKLIST} alt="checklist" />
+                  <img alt="checklist" src={ICON.CHECKLIST} />
                 </div>
                 <div>
                   <h6>{item}</h6>
@@ -89,7 +89,7 @@ export const LandingPage: React.FC = () => {
             {listData.map((item, idx) => (
               <div className={styles.checklistWrapper} key={idx}>
                 <div className={styles[`checklist-${contentPosition}`]}>
-                  <img src={ICON.CHECKLIST} alt="checklist" />
+                  <img alt="checklist" src={ICON.CHECKLIST} />
                 </div>
                 <div>
                   <h6>{item}</h6>
@@ -98,8 +98,8 @@ export const LandingPage: React.FC = () => {
             ))}
           </div>
           <ImageContent
-            isChild={true}
             image={image}
+            isChild={true}
             position={contentPosition}
           />
         </div>
@@ -121,16 +121,16 @@ export const LandingPage: React.FC = () => {
   const renderBanner = (): JSX.Element => {
     return (
       <div className={styles.banner}>
-        <img src={IMG.CURVE} alt="Curve" />
+        <img alt="Curve" src={IMG.CURVE} />
         <div className={styles.bannerContent}>
           <div>
             <h2>Lorem ipsum dolor sit amet</h2>
           </div>
           <div>
             <Button
-              variant="medium"
-              label="Mulai Dari Sekarang"
               color="white"
+              label="Mulai Dari Sekarang"
+              variant="medium"
             />
           </div>
         </div>
@@ -155,8 +155,8 @@ export const LandingPage: React.FC = () => {
       {renderChildContent({
         headerText: "Skill Tallent",
         contentPosition: "left",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ineuismod ipsum et dui rhoncus auctor.",
+        description: `Lorem ipsum dolor sit amet, consectetur 
+        adipiscing elit. Ineuismod ipsum et dui rhoncus auctor.`,
         image: IMG.BANNER3,
         listData: ["Java.", "Golang", "Kotlin", "10+ Bahasa lainnya"],
       })}

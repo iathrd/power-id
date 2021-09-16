@@ -17,8 +17,8 @@ export const Register: React.FC = () => {
       <InputField
         label={label}
         name={name}
-        type={type}
         placeholder={placeholder}
+        type={type}
       />
     );
   };
@@ -56,12 +56,12 @@ export const Register: React.FC = () => {
               "password"
             )}
             <Button
-              disabled={!dirty || !isValid}
-              onClick={() => handleSubmit()}
-              label="Daftar"
-              variant="medium"
               color="yellow"
+              disabled={!dirty || !isValid}
               fullWidth={true}
+              label="Daftar"
+              onClick={() => handleSubmit()}
+              variant="medium"
             />
             <div className={styles.haveAccount}>
               <h6>Anda sudah punya akun ? </h6>
