@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { IMG } from "../../configs";
+import { IMG } from "@configs/index";
 
 export const AppFotter: React.FC = () => {
   return (

@@ -4,8 +4,8 @@ import {
   RouteProps,
   StaticContext,
 } from "react-router";
-import { AppFotter } from "../AppFotter/AppFotter";
-import { AppHeader } from "../AppHeader/AppHeader";
+import { AppFotter } from "@components/AppFotter/AppFotter";
+import { AppHeader } from "@components/AppHeader/AppHeader";
 
 type RouterProps = RouteProps & {
   component: React.ComponentType<

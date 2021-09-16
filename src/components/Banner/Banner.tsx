@@ -1,4 +1,4 @@
-import { IMG } from "../../configs";
+import { IMG } from "@configs/index";
 import styles from "./styles.module.css";
 
 export const Banner: React.FC = () => {

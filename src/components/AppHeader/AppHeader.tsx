@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./styles.module.css";
-import { IMG } from "../../configs";
-import { Button } from "../Button/Button";
+import { IMG } from "@configs/index";
+import { Button } from "@components/Button/Button";
 import { Link } from "react-router-dom";
 
 type NavbarProps = {

@@ -8,6 +8,19 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': {
+      "eslint-import-resolver-custom-alias":{
+       "alias":{
+          "@pages": "./src/pages",
+          "@components": "./src/components",
+          "@configs": "./src/configs",
+          '@hooks' : "./src/hooks",
+          "@utils": "./src/utils"
+        },
+        extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
+      }
+     
+    }
   },
   extends: [
     'plugin:react/recommended',
@@ -18,6 +31,7 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:jsx-a11y/recommended',
     'plugin:eslint-comments/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   rules: {
     'no-unused-vars': 'off',

@@ -6,8 +6,17 @@ module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
+    alias: {
+      // path to your models
+      '@components': path.resolve(__dirname,'..', './src/components'),
+      '@pages': path.resolve(__dirname,'..', './src/pages'),
+      '@configs': path.resolve(__dirname, '..', './src/configs'),
+      "@hooks": path.resolve(__dirname, '..' , './src/hooks'),
+      "@utils": path.resolve(__dirname, '..', './src/utils')
+  },
   },
   module: {
+   
     rules: [
       {
         test: /\.(ts|js)x?$/,

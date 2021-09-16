@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
-import { ICON, IMG } from "../../configs";
-import { Button } from "../../components/Button/Button";
-import { Card } from "../../components/Card/Card";
-import { ImageContent } from "../../components/ImageContent/ImageContent";
+import { ICON, IMG } from "@configs/index";
+import { Button } from "@components/Button/Button";
+import { Card } from "@components/Card/Card";
+import { ImageContent } from "@components/ImageContent/ImageContent";
 
 interface ContentProps {
   headerText: string;

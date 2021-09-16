@@ -1,4 +1,4 @@
-import { validateInput } from "../../utils/validateInput";
+import { validateInput } from "@utils/validateInput";
 
 interface LoginForm {
   email: string | undefined;
