@@ -1,7 +1,14 @@
+import { SearchField } from "@components/SearchField/SearchField";
+
 export const Home: React.FC = () => {
+  const handleSubmit = (): void => {
+    const test = "test";
+    test + "test";
+  };
+
   return (
     <main className="main-content">
-      <h1>Home</h1>
+      <SearchField handleSubmit={handleSubmit} />
     </main>
   );
 };
