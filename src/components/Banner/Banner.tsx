@@ -6,11 +6,11 @@ export const Banner: React.FC = () => {
     <div>
       <div className={styles.banner}>
         <div>
-          <img src={IMG.BANNER} alt="Banner" />
+          <img alt="Banner" src={IMG.BANNER} />
         </div>
         <div />
         <div>
-          <img src={IMG.LOGO_WHITE} alt="logo" />
+          <img alt="logo" src={IMG.LOGO_WHITE} />
           <div>
             <h1>
               Temukan developer berbakat & terbaik di berbagai bidang keahlian

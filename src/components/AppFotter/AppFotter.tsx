@@ -5,7 +5,7 @@ export const AppFotter: React.FC = () => {
   return (
     <footer className={styles.fotterWrapper}>
       <div>
-        <img src={IMG.LOGO_WHITE} alt="Logo" />
+        <img alt="Logo" src={IMG.LOGO_WHITE} />
       </div>
       <div>
         <p>

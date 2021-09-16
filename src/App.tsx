@@ -16,12 +16,12 @@ export const App = () => {
         <Route path="/signin" render={() => <Login />} />
         <Route path="/signup" render={() => <Register />} />
         <NavRoute
-          exact
           component={LandingPage}
-          path="/"
+          exact
           navbarTransparent={true}
+          path="/"
         />
-        <NavRoute exact path="/home" component={Home} />
+        <NavRoute component={Home} exact path="/home" />
       </Switch>
     </Router>
   );

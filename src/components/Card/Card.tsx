@@ -6,7 +6,7 @@ export const Card: React.FC = () => {
       {[...Array(3)].map((_, idx: number) => (
         <div className={styles.card} key={idx}>
           <div>
-            <img src="https://source.unsplash.com/random" alt={idx + "image"} />
+            <img alt={idx + "image"} src="https://source.unsplash.com/random" />
           </div>
           <div>
             <h3>Harry Styles</h3>

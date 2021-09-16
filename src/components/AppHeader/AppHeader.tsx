@@ -33,17 +33,17 @@ export const AppHeader: React.FC<NavbarProps> = ({ transparent }) => {
   return (
     <nav className={navbar ? styles.navigationWrapperActive : navbarStyles}>
       <div className={styles.image}>
-        <img src={navbar ? IMG.LOGO_WHITE : IMG.LOGO} alt="logo" />
+        <img alt="logo" src={navbar ? IMG.LOGO_WHITE : IMG.LOGO} />
       </div>
       <div className={styles.buttonWrapper}>
         <div>
           <Link to="/signin">
-            <Button label="Masuk" variant="small" color="white" />
+            <Button color="white" label="Masuk" variant="small" />
           </Link>
         </div>
         <div className={navbar ? styles.btnActive : ""}>
           <Link to="/signup">
-            <Button label="Daftar" variant="small" color="primary" />
+            <Button color="primary" label="Daftar" variant="small" />
           </Link>
         </div>
       </div>

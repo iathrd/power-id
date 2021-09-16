@@ -16,7 +16,7 @@ export const ImageContent: React.FC<ImageContentProps> = ({
       <div className={styles.imageContent}>
         <div />
         <div>
-          <img src={image} alt="Banner1" />
+          <img alt="Banner1" src={image} />
           <div className={styles.blue} />
           <div className={styles.yellow} />
         </div>
@@ -29,7 +29,7 @@ export const ImageContent: React.FC<ImageContentProps> = ({
       <div className={styles[`image-child-${position}`]}>
         <div />
         <div>
-          <img src={image} alt="Banner" />
+          <img alt="Banner" src={image} />
           <div className={styles.blue} />
         </div>
 
