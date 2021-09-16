@@ -19,7 +19,6 @@ module.exports = {
         },
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
       }
-     
     }
   },
   extends: [
@@ -48,6 +47,10 @@ module.exports = {
     "react/jsx-pascal-case": 2,
     "react/jsx-sort-default-props": [2, { "ignoreCase": true }],
     "react/jsx-sort-props": [2, { "ignoreCase": true }],
-
+    "no-console": 2,
+    "no-trailing-spaces": 2,
+    "object-curly-spacing": [2, "always", { "arraysInObjects": false }],
+    "react/jsx-key": 2,
+    "react/jsx-max-depth": [0, { "max": 5 }],
   },
 };

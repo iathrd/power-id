@@ -63,3 +63,21 @@
 .btnActive > button:active {
   border: 2px solid var(--white-color);
 }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu > div:nth-child(2) > img {
+  margin-left: 40px;
+}
+
+.userImg {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 50px;
+}
