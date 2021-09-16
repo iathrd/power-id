@@ -15,11 +15,12 @@ type RouterProps = RouteProps & {
   navbarTransparent?: boolean;
 };
 
-export const NavRoute: React.FC<RouterProps> = ({
+const NavRoute: React.FC<RouterProps> = ({
   exact,
   path,
   component: Component,
   navbarTransparent,
+  ...props
 }) => {
   return (
     <Route
@@ -32,6 +33,9 @@ export const NavRoute: React.FC<RouterProps> = ({
           <AppFotter />
         </div>
       )}
+      {...props}
     />
   );
 };
+
+export default NavRoute;

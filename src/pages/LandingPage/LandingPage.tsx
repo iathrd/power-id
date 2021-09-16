@@ -12,7 +12,7 @@ interface ContentProps {
   listData: string[];
 }
 
-export const LandingPage: React.FC = () => {
+const LandingPage: React.FC = () => {
   const renderHeadContent = (): JSX.Element => {
     return (
       <div className={styles.content}>
@@ -165,3 +165,5 @@ export const LandingPage: React.FC = () => {
     </main>
   );
 };
+
+export default LandingPage;

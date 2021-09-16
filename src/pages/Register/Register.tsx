@@ -6,7 +6,7 @@ import { validate } from "./validate";
 import { Button } from "@components/Button/Button";
 import { Link } from "react-router-dom";
 
-export const Register: React.FC = () => {
+const Register: React.FC = () => {
   const renderField = (
     name: string,
     label: string,
@@ -34,7 +34,7 @@ export const Register: React.FC = () => {
           rePassword: "",
         }}
         onSubmit={() => {
-          console.log("OKOKOK");
+          return;
         }}
         validate={validate}
       >
@@ -89,3 +89,5 @@ export const Register: React.FC = () => {
     </div>
   );
 };
+
+export default Register;

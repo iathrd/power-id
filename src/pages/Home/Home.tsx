@@ -1,6 +1,6 @@
 import { SearchField } from "@components/SearchField/SearchField";
 
-export const Home: React.FC = () => {
+const Home: React.FC = () => {
   const handleSubmit = (): void => {
     const test = "test";
     test + "test";
@@ -12,3 +12,5 @@ export const Home: React.FC = () => {
     </main>
   );
 };
+
+export default Home;

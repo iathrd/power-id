@@ -7,7 +7,7 @@ import useResponsive from "@hooks/useResponsive";
 import { validate } from "./validate";
 import { Link, useHistory } from "react-router-dom";
 
-export const Login: React.FC = () => {
+const Login: React.FC = () => {
   const history = useHistory();
 
   const renderField = (
@@ -90,3 +90,5 @@ export const Login: React.FC = () => {
     </div>
   );
 };
+
+export default Login;

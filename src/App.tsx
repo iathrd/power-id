@@ -1,28 +1,31 @@
 import "./App.css";
+import { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-import { Register } from "@pages/Register/Register";
 import ScrollToTop from "@components/ScrollToTop/ScrollToTop";
-import { LandingPage } from "@pages/LandingPage/LandingPage";
-import { Login } from "@pages/Login/Login";
-import { Home } from "@pages/Home/Home";
-import { NavRoute } from "@components/NavRoute/NavRoute";
+import NavRoute from "@components/NavRoute/NavRoute";
+
+const Register = lazy(() => import("@pages/Register/Register"));
+const LandingPage = lazy(() => import("@pages/LandingPage/LandingPage"));
+const Login = lazy(() => import("@pages/Login/Login"));
+const Home = lazy(() => import("@pages/Home/Home"));
 
 export const App = () => {
   return (
-    <Router>
-      <ScrollToTop />
-      <Switch>
-        <Route path="/signin" render={() => <Login />} />
-        <Route path="/signup" render={() => <Register />} />
-        <NavRoute
-          component={LandingPage}
-          exact
-          navbarTransparent={true}
-          path="/"
-        />
-        <NavRoute component={Home} exact path="/home" />
-      </Switch>
-    </Router>
+    <Suspense fallback={<div></div>}>
+      <Router>
+        <ScrollToTop />
+        <Switch>
+          <Route path="/signin" render={() => <Login />} />
+          <Route path="/signup" render={() => <Register />} />
+          <NavRoute
+            component={LandingPage}
+            exact
+            navbarTransparent={true}
+            path="/"
+          />
+          <NavRoute component={Home} exact path="/home" />
+        </Switch>
+      </Router>
+    </Suspense>
   );
 };
