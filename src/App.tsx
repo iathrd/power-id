@@ -11,9 +11,9 @@ const Home = lazy(() => import("@pages/Home/Home"));
 
 export const App = () => {
   return (
-    <Suspense fallback={<div></div>}>
-      <Router>
-        <ScrollToTop />
+    <Router>
+      <ScrollToTop />
+      <Suspense fallback={<div></div>}>
         <Switch>
           <Route path="/signin" render={() => <Login />} />
           <Route path="/signup" render={() => <Register />} />
@@ -25,7 +25,7 @@ export const App = () => {
           />
           <NavRoute component={Home} exact path="/home" />
         </Switch>
-      </Router>
-    </Suspense>
+      </Suspense>
+    </Router>
   );
 };
