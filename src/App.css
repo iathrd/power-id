@@ -4,12 +4,6 @@
     url("./assets/font/open-sans.light.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "Open-sans-regural";
-  src: local("Open-sans-regural"),
-    url("./assets/font/OpenSans-Regular.ttf") format("truetype");
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -89,7 +83,6 @@ h6 {
 
 :root {
   --font-family: "Open-sans";
-  --font-family-regural: "Open-sans-regural";
   --primary-color: #5e50a1;
   --primary-bold: #524789;
   --yellow: #fbb017;

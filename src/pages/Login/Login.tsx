@@ -34,7 +34,6 @@ const Login: React.FC = () => {
     return (
       <Formik
         initialValues={{ email: "", password: "" }}
-        isInitialValid={false}
         onSubmit={() => {
           handleSubmit();
         }}
