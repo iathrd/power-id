@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 export const Banner: React.FC = () => {
   return (
-    <div>
+    <div className={styles.parent}>
       <div className={styles.banner}>
         <div>
           <img alt="Banner" src={IMG.BANNER} />
