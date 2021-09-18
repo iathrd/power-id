@@ -3,6 +3,12 @@
   margin-top: 100px;
 }
 
+@media only screen and (max-width: 768px) {
+  .loginForm {
+    margin: 0;
+  }
+}
+
 .loginForm h5 {
   margin-bottom: 20px;
 }

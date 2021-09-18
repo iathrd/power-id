@@ -5,8 +5,11 @@ import { InputField } from "@components/InputField/InputField";
 import { validate } from "./validate";
 import { Button } from "@components/Button/Button";
 import { Link } from "react-router-dom";
+import useResponsive from "@hooks/useResponsive";
 
 const Register: React.FC = () => {
+  const { isLaptop } = useResponsive();
+
   const renderField = (
     name: string,
     label: string,
@@ -77,7 +80,7 @@ const Register: React.FC = () => {
 
   return (
     <div className="parent">
-      <Banner />
+      {!isLaptop ? null : <Banner />}
       <div className={styles.registerForm}>
         <h3>Halo, Pewpeople</h3>
         <h5>

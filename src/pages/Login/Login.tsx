@@ -72,11 +72,11 @@ const Login: React.FC = () => {
     );
   };
 
-  const { isTablet } = useResponsive();
+  const { isLaptop } = useResponsive();
 
   return (
     <div className="parent">
-      {isTablet ? null : <Banner />}
+      {!isLaptop ? null : <Banner />}
 
       <div className={styles.loginForm}>
         <h3>Halo, Pewpeople</h3>
