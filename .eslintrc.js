@@ -52,5 +52,11 @@ module.exports = {
     "object-curly-spacing": [2, "always", { "arraysInObjects": false }],
     "react/jsx-key": 2,
     "react/jsx-max-depth": [0, { "max": 5 }],
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": ["@mui/*/*/*", "!@mui/material/test-utils/*"]
+      }
+    ]
   },
 };
