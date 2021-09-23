@@ -16,7 +16,7 @@ module.exports = {
   },
   },
   module: {
-   
+
     rules: [
       {
         test: /\.(ts|js)x?$/,
@@ -44,13 +44,14 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '..', './build'),
     filename: 'bundle.js',
-    chunkFilename: '[name].[chunkhash].js',
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '..', './src/index.html'),
+      filename: "index.html",
+      inject: "body",
     }),
   ],
 };
