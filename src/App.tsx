@@ -9,7 +9,7 @@ const LandingPage = lazy(() => import("@pages/LandingPage/LandingPage"));
 const Login = lazy(() => import("@pages/Login/Login"));
 const Home = lazy(() => import("@pages/Home/Home"));
 
-export const App = () => {
+const App = () => {
   return (
     <Router>
       <ScrollToTop />
@@ -29,3 +29,5 @@ export const App = () => {
     </Router>
   );
 };
+
+export default App;
