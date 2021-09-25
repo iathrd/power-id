@@ -21,6 +21,7 @@ const Root: React.FC = () => {
   );
   let theme = useMemo(() => createTheme(getDesignToken(mode)), [mode]);
   theme = createTheme(theme, componentsTheme(theme));
+  document.body.style.background = theme.palette.background.default;
 
   return (
     <ColorModeContext.Provider value={colorMode}>
