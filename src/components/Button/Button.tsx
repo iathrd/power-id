@@ -1,44 +1,47 @@
-import { ButtonHTMLAttributes, DetailedHTMLProps } from "react";
-import styles from "./styles.module.css";
+import { styled, ButtonProps } from "@mui/material";
+import MuButton from "@mui/material/Button";
 
-type ButtonProps = DetailedHTMLProps<
-  ButtonHTMLAttributes<HTMLButtonElement>,
-  HTMLButtonElement
-> & {
+type ButtonProp = ButtonProps & {
   label: string;
-  variant: "small" | "medium" | "large";
-  color: "primary" | "white" | "yellow";
-  fullWidth?: boolean;
 };
 
-export const Button: React.FC<ButtonProps> = ({
-  label,
-  variant = "small",
-  color = "primary",
-  fullWidth,
-  ...props
-}) => {
-  if (fullWidth) {
-    return (
-      <button
-        className={`${styles[`button-${variant}-${color}`]} ${
-          styles[`button-${color}`]
-        } ${styles["button-fullwidth"]}`}
-        {...props}
-      >
-        {label}
-      </button>
-    );
-  } else {
-    return (
-      <button
-        className={`${styles[`button-${variant}-${color}`]} ${
-          styles[`button-${color}`]
-        }`}
-        {...props}
-      >
-        {label}
-      </button>
-    );
-  }
+const MUIButton = styled(MuButton)`
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  box-shadow: none;
+  text-decoration: none;
+  text-transform: capitalize;
+`;
+export const Button: React.FC<ButtonProp> = ({ label, ...props }) => {
+  return (
+    <MUIButton size="large" variant="contained" {...props}>
+      {label}
+    </MUIButton>
+  );
+
+  // if (fullWidth) {
+  //   return (
+  //     <button
+  //       className={`${styles[`button-${variant}-${color}`]} ${
+  //         styles[`button-${color}`]
+  //       } ${styles["button-fullwidth"]}`}
+  //       {...props}
+  //     >
+  //       {label}
+  //     </button>
+  //   );
+  // } else {
+  //   return (
+  //     <button
+  //       className={`${styles[`button-${variant}-${color}`]} ${
+  //         styles[`button-${color}`]
+  //       }`}
+  //       {...props}
+  //     >
+  //       {label}
+  //     </button>
+  //   );
+  // }
 };

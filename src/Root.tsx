@@ -1,13 +1,13 @@
 import { useState, useMemo } from "react";
 import { ColorModeContext } from "@utils/context";
-import { getDesignTokens } from "@utils/appTheme";
+import { getDesignToken, componentsTheme } from "@utils/index";
 import App from "./App";
-import { PaletteMode } from "@mui/material";
 import {
+  PaletteMode,
   createTheme,
   ThemeProvider as MuiThemeProvider,
   StyledEngineProvider,
-} from "@mui/material/styles";
+} from "@mui/material";
 
 const Root: React.FC = () => {
   const [mode, setMode] = useState<PaletteMode>("light");
@@ -19,12 +19,14 @@ const Root: React.FC = () => {
     }),
     []
   );
-  const theme = useMemo(() => createTheme(getDesignTokens(mode)), [mode]);
+  let theme = useMemo(() => createTheme(getDesignToken(mode)), [mode]);
+  theme = createTheme(theme, componentsTheme(theme));
 
   return (
     <ColorModeContext.Provider value={colorMode}>
       <StyledEngineProvider injectFirst>
         <MuiThemeProvider theme={theme}>
+          <div style={{}} />
           <App />
         </MuiThemeProvider>
       </StyledEngineProvider>

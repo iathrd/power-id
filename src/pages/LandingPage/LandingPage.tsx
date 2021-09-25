@@ -27,11 +27,7 @@ const LandingPage: React.FC = () => {
             </h5>
           </div>
           <div>
-            <Button
-              color="primary"
-              label="Mulai Dari Sekarang"
-              variant="medium"
-            />
+            <Button color="primary" label="Mulai Dari Sekarang" />
           </div>
         </div>
         <ImageContent image={IMG.BANNER} />
@@ -127,11 +123,7 @@ const LandingPage: React.FC = () => {
             <h2>Lorem ipsum dolor sit amet</h2>
           </div>
           <div>
-            <Button
-              color="white"
-              label="Mulai Dari Sekarang"
-              variant="medium"
-            />
+            <Button color="info" label="Mulai Dari Sekarang" size="large" />
           </div>
         </div>
       </div>

@@ -52,13 +52,12 @@ const Login: React.FC = () => {
               <h6>Lupa kata sandi?</h6>
             </div>
             <Button
-              color="yellow"
+              color="secondary"
               disabled={!isValid || !dirty}
               fullWidth={true}
               label="Masuk"
               onClick={() => handleSubmit()}
               type="submit"
-              variant="medium"
             />
             <div className={styles.haveAccount}>
               <h6>Anda belum punya akun ? </h6>

@@ -41,7 +41,7 @@ export const SearchField: React.FC<SearchFieldProps> = ({ handleSubmit }) => {
                       label="Search"
                       onSubmit={() => handleSubmit}
                       type="submit"
-                      variant="small"
+                      variant="contained"
                     />
                   </div>
                 </div>

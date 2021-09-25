@@ -59,12 +59,11 @@ const Register: React.FC = () => {
               "password"
             )}
             <Button
-              color="yellow"
+              color="secondary"
               disabled={!dirty || !isValid}
               fullWidth={true}
               label="Daftar"
               onClick={() => handleSubmit()}
-              variant="medium"
             />
             <div className={styles.haveAccount}>
               <h6>Anda sudah punya akun ? </h6>
