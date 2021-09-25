@@ -21,7 +21,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           },
           background: {
             default: "rgba(229, 229, 229, 0.2)",
-            paper: " #121212",
+            paper: "#ffffff",
           },
         }
       : {

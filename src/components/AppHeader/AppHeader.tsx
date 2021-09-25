@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import { IMG, ICON } from "@configs/index";
 import { Button } from "@components/Button/Button";
 import { Link, useLocation } from "react-router-dom";
-import { Switch, useTheme } from "@mui/material";
+import { Switch, useTheme, Box, styled } from "@mui/material";
 import { ColorModeContext } from "@utils/context";
 
 type NavbarProps = {
@@ -14,15 +14,30 @@ type stateType = {
   isLogin?: boolean | undefined;
 };
 
-export const AppHeader: React.FC<NavbarProps> = ({ transparent }) => {
+const Nav = styled(Box)(
+  ({ theme }) => `
+  height: 6.25rem;
+  background-color: ${theme.palette.background.paper};
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 9.375rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+`
+);
+
+export const AppHeader: React.FC<NavbarProps> = () => {
   const [navbar, setNavbar] = useState<boolean>(false);
   const { state = {} } = useLocation<stateType>();
   const colorMode = useContext(ColorModeContext);
   const theme = useTheme();
   const { isLogin } = state;
-  const navbarStyles = transparent
-    ? styles.navbarTransparent
-    : styles.navigationWrapper;
+  // const navbarStyles = transparent
+  //   ? styles.navbarTransparent
+  //   : styles.navigationWrapper;
 
   const changeBackground = () => {
     if (window.scrollY >= 80) {
@@ -41,7 +56,7 @@ export const AppHeader: React.FC<NavbarProps> = ({ transparent }) => {
   }, []);
 
   return (
-    <nav className={navbar ? styles.navigationWrapperActive : navbarStyles}>
+    <Nav component="nav">
       <div className={styles.image}>
         <img alt="logo" src={IMG.LOGO} />
       </div>
@@ -81,6 +96,6 @@ export const AppHeader: React.FC<NavbarProps> = ({ transparent }) => {
           </div>
         )}
       </div>
-    </nav>
+    </Nav>
   );
 };
