@@ -7,7 +7,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           // palette values for light mode
           primary: {
             main: "#5e50a1",
-            dark: "#b39ddb",
+            dark: "#473a85",
           },
           secondary: {
             main: "#fbb017",
@@ -30,6 +30,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           },
           info: {
             main: "#ffffff",
+            dark: "#e0dada",
           },
           background: {
             default: "#121212",
