@@ -26,6 +26,9 @@ const Nav = styled(Box)(
   position: sticky;
   top: 0;
   z-index: 999;
+  ${theme.breakpoints.down("md")} {
+    padding-inline: 2.25rem;
+  }
 `
 );
 
