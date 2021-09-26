@@ -16,7 +16,7 @@ const MUIButton = styled(MuButton)`
 `;
 export const Button: React.FC<ButtonProp> = ({ label, ...props }) => {
   return (
-    <MUIButton size="large" variant="contained" {...props}>
+    <MUIButton variant="contained" {...props}>
       {label}
     </MUIButton>
   );

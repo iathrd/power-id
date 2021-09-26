@@ -72,12 +72,17 @@ export const AppHeader: React.FC<NavbarProps> = () => {
           <div className={styles.buttonWrapper}>
             <div>
               <Link className="text-link" to="/signin">
-                <Button color="primary" label="Masuk" variant="outlined" />
+                <Button
+                  color="primary"
+                  label="Masuk"
+                  size="small"
+                  variant="outlined"
+                />
               </Link>
             </div>
             <div className={navbar ? styles.btnActive : ""}>
               <Link className="text-link" to="/signup">
-                <Button color="primary" label="Daftar" />
+                <Button color="primary" label="Daftar" size="small" />
               </Link>
             </div>
           </div>

@@ -27,7 +27,7 @@ const LandingPage: React.FC = () => {
             </h5>
           </div>
           <div>
-            <Button color="primary" label="Mulai Dari Sekarang" />
+            <Button color="primary" label="Mulai Dari Sekarang" size="large" />
           </div>
         </div>
         <ImageContent image={IMG.BANNER} />

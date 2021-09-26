@@ -57,6 +57,7 @@ const Login: React.FC = () => {
               fullWidth={true}
               label="Masuk"
               onClick={() => handleSubmit()}
+              size="medium"
               type="submit"
             />
             <div className={styles.haveAccount}>

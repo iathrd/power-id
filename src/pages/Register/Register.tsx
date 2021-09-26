@@ -64,6 +64,7 @@ const Register: React.FC = () => {
               fullWidth={true}
               label="Daftar"
               onClick={() => handleSubmit()}
+              size="medium"
             />
             <div className={styles.haveAccount}>
               <h6>Anda sudah punya akun ? </h6>
