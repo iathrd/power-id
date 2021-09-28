@@ -1,9 +1,10 @@
-import { useState, useEffect, useContext } from "react";
+import { useContext } from "react";
+import { Link, useLocation } from "react-router-dom";
 import styles from "./styles.module.css";
 import { IMG, ICON } from "@configs/index";
 import { Button } from "@components/Button/Button";
-import { Link, useLocation } from "react-router-dom";
 import { Switch, useTheme, Box, styled } from "@mui/material";
+import Flex from "@components/Wrapper/Flex";
 import { ColorModeContext } from "@utils/context";
 
 type NavbarProps = {
@@ -32,8 +33,16 @@ const Nav = styled(Box)(
 `
 );
 
+const Avatar = styled("img")`
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 50px;
+`;
+
 export const AppHeader: React.FC<NavbarProps> = () => {
-  const [navbar, setNavbar] = useState<boolean>(false);
+  // const [_navbar, setNavbar] = useState<boolean>(false);
   const { state = {} } = useLocation<stateType>();
   const colorMode = useContext(ColorModeContext);
   const theme = useTheme();
@@ -42,35 +51,38 @@ export const AppHeader: React.FC<NavbarProps> = () => {
   //   ? styles.navbarTransparent
   //   : styles.navigationWrapper;
 
-  const changeBackground = () => {
-    if (window.scrollY >= 80) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
+  // const changeBackground = () => {
+  //   if (window.scrollY >= 80) {
+  //     setNavbar(true);
+  //   } else {
+  //     setNavbar(false);
+  //   }
+  // };
 
-  useEffect(() => {
-    document.addEventListener("scroll", changeBackground);
+  // useEffect(() => {
+  //   document.addEventListener("scroll", changeBackground);
 
-    return () => {
-      document.removeEventListener("scroll", changeBackground);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener("scroll", changeBackground);
+  //   };
+  // }, []);
 
   return (
     <Nav component="nav">
       <div className={styles.image}>
-        <img alt="logo" src={IMG.LOGO} />
+        <img
+          alt="logo"
+          src={theme.palette.mode === "light" ? IMG.LOGO : IMG.LOGO_DARK}
+        />
       </div>
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <Flex>
         <Switch
           checked={theme.palette.mode === "dark"}
           onClick={colorMode.toggleColorMode}
         />
         {!isLogin ? (
-          <div className={styles.buttonWrapper}>
-            <div>
+          <Flex>
+            <Box sx={{ marginRight: "1rem" }}>
               <Link className="text-link" to="/signin">
                 <Button
                   color="primary"
@@ -79,31 +91,27 @@ export const AppHeader: React.FC<NavbarProps> = () => {
                   variant="outlined"
                 />
               </Link>
-            </div>
-            <div className={navbar ? styles.btnActive : ""}>
+            </Box>
+            <Box>
               <Link className="text-link" to="/signup">
                 <Button color="primary" label="Daftar" size="small" />
               </Link>
-            </div>
-          </div>
+            </Box>
+          </Flex>
         ) : (
-          <div className={styles.menu}>
-            <div>
+          <Flex alignItems="center">
+            <Box>
               <img alt="bell icon" src={ICON.BELL} />
-            </div>
-            <div>
+            </Box>
+            <Box sx={{ marginLeft: "40px" }}>
               <img alt="mail icon" src={ICON.MAIL} />
-            </div>
-            <div>
-              <img
-                alt="user"
-                className={styles.userImg}
-                src="https://source.unsplash.com/random"
-              />
-            </div>
-          </div>
+            </Box>
+            <Box>
+              <Avatar alt="avatar" src="https://source.unsplash.com/random" />
+            </Box>
+          </Flex>
         )}
-      </div>
+      </Flex>
     </Nav>
   );
 };
