@@ -7,6 +7,7 @@ const getComponentThme = (theme: Theme) => ({
         // Name of the slot
         root: {
           // Some CSS
+          fontFamily: "Open Sans",
           minWidth: "5.438rem",
           paddingLeft: "1.5rem",
           paddingRight: "1.5rem",
@@ -60,6 +61,70 @@ const getComponentThme = (theme: Theme) => ({
             fontStyle: "normal",
             fontWeight: "bold",
             fontSize: "16px",
+          },
+        },
+      ],
+    },
+    MuiTypography: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          fontFamily: "Open Sans",
+        },
+      },
+      variants: [
+        {
+          props: { variant: "h1" },
+          style: {
+            fontSize: "2.75rem",
+            fontWeight: "bold",
+            lineHeight: "4.375rem",
+            color: theme.palette.text.primary,
+          },
+        },
+        {
+          props: { variant: "h2" },
+          style: {
+            fontSize: "2.25rem",
+            fontWeight: "600",
+            lineHeight: "3.5rem",
+            color: theme.palette.text.primary,
+          },
+        },
+        {
+          props: { variant: "h3" },
+          style: {
+            fontSize: "2rem",
+            fontWeight: "600",
+            lineHeight: "2.75rem",
+            color: theme.palette.text.primary,
+          },
+        },
+        {
+          props: { variant: "h4" },
+          style: {
+            fontSize: "1.875rem",
+            fontWeight: "600",
+            lineHeight: "3.125rem",
+            color: theme.palette.text.primary,
+          },
+        },
+        {
+          props: { variant: "h5" },
+          style: {
+            fontSize: "1.75rem",
+            fontWeight: "bold",
+            lineHeight: "1.25rem",
+            color: theme.palette.text.primary,
+          },
+        },
+        {
+          props: { variant: "h6" },
+          style: {
+            fontSize: "1.375rem",
+            fontWeight: "600",
+            color: theme.palette.text.primary,
           },
         },
       ],

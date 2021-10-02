@@ -3,6 +3,7 @@ import { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ScrollToTop from "@components/ScrollToTop/ScrollToTop";
 import NavRoute from "@components/NavRoute/NavRoute";
+import "@fontsource/open-sans";
 
 const Register = lazy(() => import("@pages/Register/Register"));
 const LandingPage = lazy(() => import("@pages/LandingPage/LandingPage"));
