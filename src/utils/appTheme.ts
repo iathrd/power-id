@@ -19,10 +19,16 @@ export const getDesignTokens = (mode: PaletteMode) => ({
             primary: "#ffffff",
             secondary: "#5e50a1",
             black: "#1f2a36",
+            pink: "#a8329b",
           },
           background: {
             default: "rgba(229, 229, 229, 0.2)",
             paper: "#ffffff",
+          },
+
+          fontColor: {
+            primary: "#1F2A36",
+            secondary: "#FFFFFF",
           },
         }
       : {
@@ -45,6 +51,11 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           text: {
             primary: "#ffffff",
             secondary: "#8171c9",
+            pink: "#1f2a36",
+          },
+          fontColor: {
+            primary: "#f0f6fc",
+            secondary: "#FFFFFF",
           },
         }),
   },

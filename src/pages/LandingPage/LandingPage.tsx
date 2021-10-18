@@ -3,7 +3,7 @@ import { ICON, IMG } from "@configs/index";
 import { Button } from "@components/Button/Button";
 import { Card } from "@components/Card/Card";
 import { ImageContent } from "@components/ImageContent/ImageContent";
-import { Typography } from "@mui/material";
+import Typography from "@components/Typography/Typography";
 
 interface ContentProps {
   headerText: string;
@@ -19,7 +19,7 @@ const LandingPage: React.FC = () => {
       <div className={styles.content}>
         <div>
           <div>
-            <Typography color="black" variant="h1">
+            <Typography newColor="primary" variant="h1">
               Talenta terbaik negri untuk perubahan revolusi 4.0
             </Typography>
             {/* <Text color="black" variant="h1" >

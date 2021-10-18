@@ -21,7 +21,7 @@ const getComponentThme = (theme: Theme) => ({
             "&:disabled": {
               backgroundColor: theme.palette.secondary.main,
               opacity: "60%",
-              color: theme.palette.text.primary,
+              color: theme.palette.fontColor.primary,
             },
           },
         },

@@ -2,6 +2,8 @@ declare module "*.png";
 declare module "*.jpg";
 declare module "*.svg";
 declare module "*.module.css";
+import "@mui/material/styles";
+import React from "react";
 
 declare module "@mui/material/styles" {
   interface PaletteColor {
@@ -12,19 +14,24 @@ declare module "@mui/material/styles" {
     white?: string;
   }
 
-  interface Theme {
-    text: {
-      primary: string;
-      secondary: string;
-      black: string;
+  export interface Theme {
+    fontColor: {
+      primary: React.CSSProperties["color"];
+      secondary: React.CSSProperties["color"];
     };
   }
 
-  interface ThemeOptions {
-    text: {
-      primary?: string;
-      secondary?: string;
-      black?: string;
+  export interface Palette {
+    fontColor: {
+      primary: React.CSSProperties["color"];
+      secondary: React.CSSProperties["color"];
+    };
+  }
+
+  export interface ThemeOptions {
+    fontColor: {
+      primary: React.CSSProperties["color"];
+      secondary: React.CSSProperties["color"];
     };
   }
 }
