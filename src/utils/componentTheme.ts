@@ -80,7 +80,6 @@ const getComponentThme = (theme: Theme) => ({
             fontSize: "2.75rem",
             fontWeight: "bold",
             lineHeight: "4.375rem",
-            color: theme.palette.text.primary,
           },
         },
         {
@@ -89,7 +88,6 @@ const getComponentThme = (theme: Theme) => ({
             fontSize: "2.25rem",
             fontWeight: "600",
             lineHeight: "3.5rem",
-            color: theme.palette.text.primary,
           },
         },
         {
@@ -125,6 +123,20 @@ const getComponentThme = (theme: Theme) => ({
             fontSize: "1.375rem",
             fontWeight: "600",
             color: theme.palette.text.primary,
+          },
+        },
+        {
+          props: { variant: "body1" },
+          style: {
+            fontSize: "1.125rem",
+            fontWeight: "normal",
+          },
+        },
+        {
+          props: { variant: "body2" },
+          style: {
+            fontSize: "1rem",
+            fontWeight: "normal",
           },
         },
       ],

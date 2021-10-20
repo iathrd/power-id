@@ -2,6 +2,8 @@ import styles from "./styles.module.css";
 import { ICON, IMG } from "@configs/index";
 import { Button } from "@components/Button/Button";
 import { Card } from "@components/Card/Card";
+import Box from "@mui/material/Box";
+import { styled, BoxProps } from "@mui/material";
 import { ImageContent } from "@components/ImageContent/ImageContent";
 import Typography from "@components/Typography/Typography";
 
@@ -13,6 +15,24 @@ interface ContentProps {
   listData: string[];
 }
 
+type CircleProps = BoxProps & {
+  color: "primary" | "secondary";
+};
+
+const Circle = styled((props: CircleProps) => <Box {...props} />)(
+  ({ theme, color }) =>
+    `
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: ${theme.palette[color].main};
+`
+);
+
 const LandingPage: React.FC = () => {
   const renderHeadContent = (): JSX.Element => {
     return (
@@ -22,15 +42,12 @@ const LandingPage: React.FC = () => {
             <Typography newColor="primary" variant="h1">
               Talenta terbaik negri untuk perubahan revolusi 4.0
             </Typography>
-            {/* <Text color="black" variant="h1" >
-              Talenta terbaik negri untuk perubahan revolusi 4.0
-              </Text> */}
           </div>
           <div>
-            <h5>
+            <Typography newColor="grey" variant="body1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               euismod ipsum et dui rhoncus auctor.
-            </h5>
+            </Typography>
           </div>
           <div>
             <Button color="primary" label="Mulai Dari Sekarang" size="large" />
@@ -48,27 +65,33 @@ const LandingPage: React.FC = () => {
       return (
         <div className={styles["content-child"]}>
           <ImageContent
+            content={contentPosition}
             image={image}
             isChild={true}
-            position={contentPosition}
           />
           <div className={styles[`text-content-${contentPosition}`]}>
             <div>
-              <h2>{headerText}</h2>
+              <Typography newColor="primary" variant="h2">
+                {headerText}
+              </Typography>
             </div>
             {description && (
               <div>
-                <h5>{description}</h5>
+                <Typography newColor="grey" variant="body1">
+                  {description}
+                </Typography>
               </div>
             )}
 
             {listData.map((item, idx) => (
               <div className={styles.checklistWrapper} key={idx}>
-                <div className={styles[`checklist-${contentPosition}`]}>
+                <Circle color="primary">
                   <img alt="checklist" src={ICON.CHECKLIST} />
-                </div>
+                </Circle>
                 <div>
-                  <h6>{item}</h6>
+                  <Typography newColor="grey" variant="body2">
+                    {item}
+                  </Typography>
                 </div>
               </div>
             ))}
@@ -80,29 +103,35 @@ const LandingPage: React.FC = () => {
         <div className={styles["content-child"]}>
           <div className={styles[`text-content-${contentPosition}`]}>
             <div>
-              <h2>{headerText}</h2>
+              <Typography newColor="primary" variant="h2">
+                {headerText}
+              </Typography>
             </div>
             {description && (
               <div>
-                <h5>{description}</h5>
+                <Typography newColor="grey" variant="body1">
+                  {description}
+                </Typography>
               </div>
             )}
 
             {listData.map((item, idx) => (
               <div className={styles.checklistWrapper} key={idx}>
-                <div className={styles[`checklist-${contentPosition}`]}>
+                <Circle color="secondary">
                   <img alt="checklist" src={ICON.CHECKLIST} />
-                </div>
+                </Circle>
                 <div>
-                  <h6>{item}</h6>
+                  <Typography newColor="grey" variant="body2">
+                    {item}
+                  </Typography>
                 </div>
               </div>
             ))}
           </div>
           <ImageContent
+            content={contentPosition}
             image={image}
             isChild={true}
-            position={contentPosition}
           />
         </div>
       );
@@ -113,25 +142,11 @@ const LandingPage: React.FC = () => {
     return (
       <div>
         <div className={styles.headerText}>
-          <h2>Their opinion about peworld</h2>
+          <Typography newColor="primary" variant="h2">
+            Their opinion about peworld
+          </Typography>
         </div>
         <Card />
-      </div>
-    );
-  };
-
-  const renderBanner = (): JSX.Element => {
-    return (
-      <div className={styles.banner}>
-        <img alt="Curve" src={IMG.CURVE} />
-        <div className={styles.bannerContent}>
-          <div>
-            <h2>Lorem ipsum dolor sit amet</h2>
-          </div>
-          <div>
-            <Button color="info" label="Mulai Dari Sekarang" size="large" />
-          </div>
-        </div>
       </div>
     );
   };
@@ -159,7 +174,6 @@ const LandingPage: React.FC = () => {
         listData: ["Java.", "Golang", "Kotlin", "10+ Bahasa lainnya"],
       })}
       {renderCourosel()}
-      {renderBanner()}
     </main>
   );
 };

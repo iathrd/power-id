@@ -18,6 +18,8 @@ declare module "@mui/material/styles" {
     fontColor: {
       primary: React.CSSProperties["color"];
       secondary: React.CSSProperties["color"];
+      grey: React.CSSProperties["color"];
+      lightGrey: React.CSSProperties["color"];
     };
   }
 
@@ -25,6 +27,11 @@ declare module "@mui/material/styles" {
     fontColor: {
       primary: React.CSSProperties["color"];
       secondary: React.CSSProperties["color"];
+      grey: React.CSSProperties["color"];
+      lightGrey: React.CSSProperties["color"];
+    };
+    content: {
+      main: React.CSSProperties["color"];
     };
   }
 
@@ -32,6 +39,11 @@ declare module "@mui/material/styles" {
     fontColor: {
       primary: React.CSSProperties["color"];
       secondary: React.CSSProperties["color"];
+      grey: React.CSSProperties["color"];
+      lightGrey: React.CSSProperties["color"];
+    };
+    content: {
+      main: React.CSSProperties["color"];
     };
   }
 }

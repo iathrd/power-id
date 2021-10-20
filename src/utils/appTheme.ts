@@ -24,11 +24,17 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           background: {
             default: "rgba(229, 229, 229, 0.2)",
             paper: "#ffffff",
+            coba: "#ffffff",
           },
 
           fontColor: {
             primary: "#1F2A36",
             secondary: "#FFFFFF",
+            grey: "#46505C",
+            lightGrey: "#9EA0A5",
+          },
+          content: {
+            main: "#E2E5ED",
           },
         }
       : {
@@ -47,6 +53,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           background: {
             default: "#0d1117",
             paper: "#161b22",
+            coba: "#ffffff",
           },
           text: {
             primary: "#ffffff",
@@ -56,6 +63,11 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           fontColor: {
             primary: "#f0f6fc",
             secondary: "#FFFFFF",
+            grey: "#8b949e",
+            lightGrey: "#ced6de",
+          },
+          content: {
+            main: "#161b22",
           },
         }),
   },
