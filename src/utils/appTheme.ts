@@ -62,7 +62,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           },
           fontColor: {
             primary: "#f0f6fc",
-            secondary: "#FFFFFF",
+            secondary: "#f0f6fc",
             grey: "#8b949e",
             lightGrey: "#ced6de",
           },

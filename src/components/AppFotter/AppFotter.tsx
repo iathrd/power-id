@@ -1,5 +1,7 @@
 import { IMG } from "@configs/index";
-import { styled, useTheme, Typography } from "@mui/material";
+import { styled, useTheme, Box } from "@mui/material";
+import Typography from "@components/Typography/Typography";
+import Flex from "@components/Wrapper/Flex";
 
 const Footer = styled("footer")(
   ({ theme }) => `
@@ -21,27 +23,36 @@ export const AppFotter: React.FC = () => {
   const theme = useTheme();
   return (
     <Footer>
-      <div>
+      <Box marginBottom="1.875rem">
         <img
           alt="Logo"
+          height="50"
           src={theme.palette.mode === "light" ? IMG.LOGO_WHITE : IMG.LOGO_DARK}
+          width="178"
         />
-      </div>
-      <div>
-        <p>
+      </Box>
+      <Box marginBottom="4.188rem" width="23.813rem">
+        <Typography newColor="secondary" variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
           ipsum et dui rhoncus auctor.
-        </p>
-      </div>
+        </Typography>
+      </Box>
       <hr />
-      <Typography>as</Typography>
-      <div>
-        <h5>2021 Pewworld. All right reserved</h5>
-        <div>
-          <h5>Telepon : +6281923920</h5>
-          <h5>Email : power.id@gmail.com</h5>
-        </div>
-      </div>
+      <Flex justifyContent="normal" marginTop="1.875rem">
+        <Typography newColor="secondary" variant="body1">
+          2021 Pewworld. All right reserved
+        </Typography>
+        <Flex flex="1" justifyContent="flex-end">
+          <Typography newColor="secondary" variant="body1">
+            Telepon : +6281923920
+          </Typography>
+          <Box marginLeft="4.938rem">
+            <Typography newColor="secondary" variant="body1">
+              Email : power.id@gmail.com
+            </Typography>
+          </Box>
+        </Flex>
+      </Flex>
     </Footer>
   );
 };
