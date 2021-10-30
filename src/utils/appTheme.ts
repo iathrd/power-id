@@ -32,6 +32,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
             secondary: "#FFFFFF",
             grey: "#46505C",
             lightGrey: "#9EA0A5",
+            yellow: "#fbb017",
           },
           content: {
             main: "#E2E5ED",
@@ -65,6 +66,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
             secondary: "#f0f6fc",
             grey: "#8b949e",
             lightGrey: "#ced6de",
+            yellow: "#e0a222",
           },
           content: {
             main: "#161b22",

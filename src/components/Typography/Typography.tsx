@@ -1,7 +1,7 @@
 import { Typography, TypographyProps, styled } from "@mui/material";
 
 type TextProps = TypographyProps & {
-  newColor: "primary" | "secondary" | "grey" | "lightGrey";
+  newColor: "primary" | "secondary" | "grey" | "lightGrey" | "yellow";
 };
 
 const TextStyled = styled((props: TextProps) => <Typography {...props} />)(

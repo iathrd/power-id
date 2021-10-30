@@ -2,6 +2,15 @@ import { Theme } from "@mui/material";
 
 const getComponentThme = (theme: Theme) => ({
   components: {
+    MuiOutlinedInput: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          fontFamily: "Open Sans",
+        },
+      },
+    },
     MuiButton: {
       styleOverrides: {
         // Name of the slot
@@ -61,6 +70,12 @@ const getComponentThme = (theme: Theme) => ({
             fontStyle: "normal",
             fontWeight: "bold",
             fontSize: "16px",
+          },
+        },
+        {
+          props: { color: "secondary" },
+          style: {
+            color: theme.palette.fontColor.secondary + "!important",
           },
         },
       ],

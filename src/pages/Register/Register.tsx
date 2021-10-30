@@ -5,6 +5,7 @@ import { InputField } from "@components/InputField/InputField";
 import { validate } from "./validate";
 import { Button } from "@components/Button/Button";
 import { Link } from "react-router-dom";
+import Typography from "@components/Typography/Typography";
 import useResponsive from "@hooks/useResponsive";
 
 const Register: React.FC = () => {
@@ -18,6 +19,7 @@ const Register: React.FC = () => {
   ) => {
     return (
       <InputField
+        error={{}}
         label={label}
         name={name}
         placeholder={placeholder}
@@ -67,9 +69,13 @@ const Register: React.FC = () => {
               size="medium"
             />
             <div className={styles.haveAccount}>
-              <h6>Anda sudah punya akun ? </h6>
+              <Typography newColor="primary" variant="body2">
+                Anda sudah punya akun ?{" "}
+              </Typography>
               <Link className="text-link" to="/signin">
-                <h6>Masuk disini</h6>
+                <Typography newColor="yellow" variant="body2">
+                  &nbsp;Masuk disini
+                </Typography>
               </Link>
             </div>
           </Form>
@@ -82,11 +88,13 @@ const Register: React.FC = () => {
     <div className="parent">
       {!isLaptop ? null : <Banner />}
       <div className={styles.registerForm}>
-        <h3>Halo, Pewpeople</h3>
-        <h5>
+        <Typography newColor="primary" variant="h3">
+          Halo, Pewpeople
+        </Typography>
+        <Typography newColor="grey" variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
           ipsum et dui rhoncus auctor.
-        </h5>
+        </Typography>
         {renderRegisterForm()}
       </div>
     </div>

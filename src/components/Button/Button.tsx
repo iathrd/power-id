@@ -20,28 +20,4 @@ export const Button: React.FC<ButtonProp> = ({ label, ...props }) => {
       {label}
     </MUIButton>
   );
-
-  // if (fullWidth) {
-  //   return (
-  //     <button
-  //       className={`${styles[`button-${variant}-${color}`]} ${
-  //         styles[`button-${color}`]
-  //       } ${styles["button-fullwidth"]}`}
-  //       {...props}
-  //     >
-  //       {label}
-  //     </button>
-  //   );
-  // } else {
-  //   return (
-  //     <button
-  //       className={`${styles[`button-${variant}-${color}`]} ${
-  //         styles[`button-${color}`]
-  //       }`}
-  //       {...props}
-  //     >
-  //       {label}
-  //     </button>
-  //   );
-  // }
 };

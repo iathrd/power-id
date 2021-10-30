@@ -6,6 +6,8 @@ import { Button } from "@components/Button/Button";
 import useResponsive from "@hooks/useResponsive";
 import { validate } from "./validate";
 import { Link, useHistory } from "react-router-dom";
+import { Box } from "@mui/material";
+import Typography from "@components/Typography/Typography";
 
 const Login: React.FC = () => {
   const history = useHistory();
@@ -18,6 +20,7 @@ const Login: React.FC = () => {
   ): JSX.Element => {
     return (
       <InputField
+        error={{}}
         label={label}
         name={name}
         placeholder={placeholder}
@@ -49,7 +52,9 @@ const Login: React.FC = () => {
               "password"
             )}
             <div className={styles.forgotPassword}>
-              <h6>Lupa kata sandi?</h6>
+              <Typography newColor="primary" variant="body2">
+                Lupa kata sandi?
+              </Typography>
             </div>
             <Button
               color="secondary"
@@ -61,9 +66,13 @@ const Login: React.FC = () => {
               type="submit"
             />
             <div className={styles.haveAccount}>
-              <h6>Anda belum punya akun ? </h6>
+              <Typography newColor="primary" variant="body2">
+                Anda belum punya akun ?{" "}
+              </Typography>
               <Link className="text-link" to="/signup">
-                <h6>Daftar disini</h6>
+                <Typography newColor="yellow" variant="body2">
+                  &nbsp;Daftar disini
+                </Typography>
               </Link>
             </div>
           </Form>
@@ -79,11 +88,15 @@ const Login: React.FC = () => {
       {!isLaptop ? null : <Banner />}
 
       <div className={styles.loginForm}>
-        <h3>Halo, Pewpeople</h3>
-        <h5>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
-          ipsum et dui rhoncus auctor.
-        </h5>
+        <Typography newColor="primary" variant="h3">
+          Halo, Pewpeople
+        </Typography>
+        <Box marginBottom="52px">
+          <Typography newColor="grey" variant="body1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
+            ipsum et dui rhoncus auctor.
+          </Typography>
+        </Box>
         {renderLoginForm()}
       </div>
     </div>

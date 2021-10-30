@@ -29,6 +29,7 @@ declare module "@mui/material/styles" {
       secondary: React.CSSProperties["color"];
       grey: React.CSSProperties["color"];
       lightGrey: React.CSSProperties["color"];
+      yellow: React.CSSProperties["color"];
     };
     content: {
       main: React.CSSProperties["color"];
@@ -41,6 +42,7 @@ declare module "@mui/material/styles" {
       secondary: React.CSSProperties["color"];
       grey: React.CSSProperties["color"];
       lightGrey: React.CSSProperties["color"];
+      yellow: React.CSSProperties["color"];
     };
     content: {
       main: React.CSSProperties["color"];
