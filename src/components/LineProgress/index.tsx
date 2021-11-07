@@ -1,31 +1,19 @@
-import { useState, useEffect, useRef } from "react";
 import * as React from "react";
 import Box from "@mui/material/Box";
 import LinearProgress from "@mui/material/LinearProgress";
 
-export default function LinearBuffer() {
-  const [progress, setProgress] = useState(0);
-  const [buffer, setBuffer] = useState(10);
+export default function LinearDeterminate() {
+  const [progress, setProgress] = React.useState(0);
 
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
-  const progressRef = useRef(() => {});
-  useEffect(() => {
-    progressRef.current = () => {
-      if (progress > 100) {
-        setProgress(0);
-        setBuffer(10);
-      } else {
-        const diff = Math.random() * 10;
-        const diff2 = Math.random() * 10;
-        setProgress(progress + diff);
-        setBuffer(progress + diff + diff2);
-      }
-    };
-  });
-
-  useEffect(() => {
+  React.useEffect(() => {
     const timer = setInterval(() => {
-      progressRef.current();
+      setProgress((oldProgress) => {
+        if (oldProgress === 100) {
+          return 100;
+        }
+        const diff = Math.random() * 40;
+        return Math.min(oldProgress + diff, 100);
+      });
     }, 500);
 
     return () => {
@@ -35,7 +23,7 @@ export default function LinearBuffer() {
 
   return (
     <Box sx={{ width: "100%" }}>
-      <LinearProgress value={progress} valueBuffer={buffer} variant="buffer" />
+      <LinearProgress value={progress} variant="determinate" />
     </Box>
   );
 }
