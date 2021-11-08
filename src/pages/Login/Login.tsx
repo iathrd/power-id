@@ -20,7 +20,6 @@ const Login: React.FC = () => {
   ): JSX.Element => {
     return (
       <InputField
-        error={{}}
         label={label}
         name={name}
         placeholder={placeholder}

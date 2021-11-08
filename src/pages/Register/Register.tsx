@@ -19,7 +19,6 @@ const Register: React.FC = () => {
   ) => {
     return (
       <InputField
-        error={{}}
         label={label}
         name={name}
         placeholder={placeholder}

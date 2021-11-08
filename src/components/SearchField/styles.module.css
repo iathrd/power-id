@@ -1,4 +1,4 @@
-.searchWrapper > input {
+/* .searchWrapper > input {
   width: 100%;
   background-color: var(--white-color);
   box-shadow: 0px 1px 20px rgba(197, 197, 197, 0.25);
@@ -8,17 +8,17 @@
   outline: none;
   box-sizing: border-box;
   padding-left: 20px;
-}
+} */
 
 .searchWrapper {
   width: 100%;
   position: relative;
 }
 
-.searchWrapper input:focus {
+/* .searchWrapper input:focus {
   outline: none;
   box-shadow: 0 0 3pt 2pt var(--primary-color);
-}
+} */
 
 .searchWrapper input::placeholder {
   color: var(--grey-color-3);

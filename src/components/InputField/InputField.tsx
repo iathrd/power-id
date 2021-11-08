@@ -5,14 +5,17 @@ import { styled, Box } from "@mui/material";
 type InputFieldProps = InputHTMLAttributes<HTMLElement> & {
   label?: string;
   name: string;
+  fulwidth?: boolean;
+};
+
+type Error = {
   error: {
     error?: string | undefined;
     touched?: boolean;
   };
-  fulwidth?: boolean;
 };
 
-const Input = styled((props: InputFieldProps) => <input {...props} />)(
+const Input = styled((props: InputFieldProps & Error) => <input {...props} />)(
   ({ theme, error }) => ({
     height: "50px",
     color: theme.palette.fontColor.primary,
