@@ -18,7 +18,7 @@ const Content = styled(Box)(({ theme }) => ({
   height: "100%",
 }));
 
-export const Banner: React.FC = () => {
+const Banner: React.FC = () => {
   return (
     <Box height="51.375rem" position="relative" width="50.625rem">
       <BannerImage alt="banner" src={IMG.BANNER} />
@@ -35,3 +35,5 @@ export const Banner: React.FC = () => {
     </Box>
   );
 };
+
+export default Banner;

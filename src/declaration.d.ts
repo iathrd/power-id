@@ -14,29 +14,7 @@ declare module "@mui/material/styles" {
     white?: string;
   }
 
-  export interface Theme {
-    fontColor: {
-      primary: React.CSSProperties["color"];
-      secondary: React.CSSProperties["color"];
-      grey: React.CSSProperties["color"];
-      lightGrey: React.CSSProperties["color"];
-    };
-  }
-
   export interface Palette {
-    fontColor: {
-      primary: React.CSSProperties["color"];
-      secondary: React.CSSProperties["color"];
-      grey: React.CSSProperties["color"];
-      lightGrey: React.CSSProperties["color"];
-      yellow: React.CSSProperties["color"];
-    };
-    content: {
-      main: React.CSSProperties["color"];
-    };
-  }
-
-  export interface ThemeOptions {
     fontColor: {
       primary: React.CSSProperties["color"];
       secondary: React.CSSProperties["color"];

@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { Banner } from "@components/Banner/Banner";
+import Banner from "@components/Banner/Banner";
 import { Form, Formik } from "formik";
 import { InputField } from "@components/InputField/InputField";
 import { validate } from "./validate";

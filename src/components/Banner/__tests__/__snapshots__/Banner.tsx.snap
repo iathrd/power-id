@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-1m3ha2a{height:51.375rem;position:relative;width:50.625rem;}",
+      }
+    }
+    data-emotion="css 1m3ha2a"
+  />,
+  <div
+    className="MuiBox-root css-1m3ha2a"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-1uwnamb{position:absolute;height:100%;width:100%;object-fit:cover;}",
+        }
+      }
+      data-emotion="css 1uwnamb"
+    />
+    <img
+      alt="banner"
+      className="css-1uwnamb"
+      src="test-file-stub"
+    />
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-impuai{background-color:rgba(94, 80, 161, 0.7);width:100%;position:absolute;height:100%;}",
+        }
+      }
+      data-emotion="css impuai"
+    />
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-8037ks{background-color:rgba(94, 80, 161, 0.7);width:100%;position:absolute;height:100%;}",
+        }
+      }
+      data-emotion="css 8037ks"
+    />
+    <div
+      className="MuiBox-root css-8037ks"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1xe7hwg{margin:44px;}",
+          }
+        }
+        data-emotion="css 1xe7hwg"
+      />
+      <div
+        className="MuiBox-root css-1xe7hwg"
+      >
+        <img
+          alt="logo"
+          height="24"
+          src="test-file-stub"
+          width="86"
+        />
+      </div>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-11vc29a{margin-left:10%;margin-top:129px;width:75%;}",
+          }
+        }
+        data-emotion="css 11vc29a"
+      />
+      <div
+        className="MuiBox-root css-11vc29a"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-swsfmf{color:#FFFFFF;}",
+            }
+          }
+          data-emotion="css swsfmf"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-9pojj8-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:300;font-size:6rem;line-height:1.167;letter-spacing:-0.01562em;font-family:Open Sans;font-size:2.75rem;font-weight:bold;line-height:4.375rem;color:#FFFFFF;}",
+            }
+          }
+          data-emotion="css 9pojj8-MuiTypography-root"
+        />
+        <h1
+          className="MuiTypography-root MuiTypography-h1 css-9pojj8-MuiTypography-root"
+          newColor="secondary"
+        >
+          Temukan developer berbakat & terbaik di berbagai bidang keahlian
+        </h1>
+      </div>
+    </div>
+  </div>,
+]
+`;
