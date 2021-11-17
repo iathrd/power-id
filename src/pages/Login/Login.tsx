@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
 import Banner from "@components/Banner/Banner";
 import { Form, Formik } from "formik";
-import { InputField } from "@components/InputField/InputField";
-import { Button } from "@components/Button/Button";
+import InputField from "@components/InputField";
+import Button from "@components/Button";
 import useResponsive from "@hooks/useResponsive";
 import { validate } from "./validate";
 import { Link, useHistory } from "react-router-dom";

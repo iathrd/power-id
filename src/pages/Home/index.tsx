@@ -1,4 +1,5 @@
 import { SearchField } from "@components/SearchField/SearchField";
+import { ContentWrapper } from "./styled";
 
 const Home: React.FC = () => {
   const handleSubmit = (): void => {
@@ -7,9 +8,9 @@ const Home: React.FC = () => {
   };
 
   return (
-    <main className="main-content">
+    <ContentWrapper>
       <SearchField handleSubmit={handleSubmit} />
-    </main>
+    </ContentWrapper>
   );
 };
 

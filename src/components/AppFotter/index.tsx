@@ -1,25 +1,10 @@
 import { IMG } from "@configs/index";
-import { styled, useTheme, Box } from "@mui/material";
+import { useTheme, Box } from "@mui/material";
 import Typography from "@components/Typography/Typography";
 import Flex from "@components/Wrapper/Flex";
+import { Footer } from "./styled";
 
-const Footer = styled("footer")(
-  ({ theme }) => `
- height: 25.063rem;
-  width: 100%;
-  background-color:${
-    theme.palette.mode === "light"
-      ? theme.palette.primary.main
-      : theme.palette.background.paper
-  };
-  padding: 4.375rem 9.375rem 2.625rem 9.375rem;
-  /* position: absolute; */
-  bottom: 0;
-
-`
-);
-
-export const AppFotter: React.FC = () => {
+const AppFotter: React.FC = () => {
   const theme = useTheme();
   return (
     <Footer>
@@ -56,3 +41,5 @@ export const AppFotter: React.FC = () => {
     </Footer>
   );
 };
+
+export default AppFotter;

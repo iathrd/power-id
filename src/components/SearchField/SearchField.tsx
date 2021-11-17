@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import { ICON } from "@configs/index";
 import { Formik, Form } from "formik";
-import { Button } from "@components/Button/Button";
+import Button from "@components/Button";
 import Typography from "@components/Typography/Typography";
 import { styled } from "@mui/material";
 

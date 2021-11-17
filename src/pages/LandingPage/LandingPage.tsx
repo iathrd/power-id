@@ -1,11 +1,10 @@
 import styles from "./styles.module.css";
 import { ICON, IMG } from "@configs/index";
-import { Button } from "@components/Button/Button";
-import { Card } from "@components/Card/Card";
-import Box from "@mui/material/Box";
-import { styled, BoxProps } from "@mui/material";
-import { ImageContent } from "@components/ImageContent/ImageContent";
+import Button from "@components/Button";
+import { Card } from "@components/Card";
+import ImageContent from "@components/ImageContent";
 import Typography from "@components/Typography/Typography";
+import { Circle } from "./styled";
 
 interface ContentProps {
   headerText: string;
@@ -14,24 +13,6 @@ interface ContentProps {
   contentPosition: "left" | "right";
   listData: string[];
 }
-
-type CircleProps = BoxProps & {
-  color: "primary" | "secondary";
-};
-
-const Circle = styled((props: CircleProps) => <Box {...props} />)(
-  ({ theme, color }) =>
-    `
-  height: 24px;
-  width: 24px;
-  border-radius: 50%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: ${theme.palette[color].main};
-`
-);
 
 const LandingPage: React.FC = () => {
   const renderHeadContent = (): JSX.Element => {
@@ -85,7 +66,7 @@ const LandingPage: React.FC = () => {
 
             {listData.map((item, idx) => (
               <div className={styles.checklistWrapper} key={idx}>
-                <Circle color="primary">
+                <Circle fillColor="primary">
                   <img alt="checklist" src={ICON.CHECKLIST} />
                 </Circle>
                 <div>
@@ -117,7 +98,7 @@ const LandingPage: React.FC = () => {
 
             {listData.map((item, idx) => (
               <div className={styles.checklistWrapper} key={idx}>
-                <Circle color="secondary">
+                <Circle fillColor="secondary">
                   <img alt="checklist" src={ICON.CHECKLIST} />
                 </Circle>
                 <div>

@@ -1,33 +1,6 @@
 import Flex from "@components/Wrapper/Flex";
 import Typography from "@components/Typography/Typography";
-import { styled, Box } from "@mui/material";
-
-const CardWrapper = styled(Box)(
-  ({ theme }) => `
- width: 339px;
-  height: 437px;
-  background-color: ${theme.palette.background.paper};
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  ${
-    theme.palette.mode === "dark"
-      ? `border:1px solid #30363d; `
-      : `box-shadow: 0px 8px 16px rgba(197, 197, 197, 0.25);`
-  } 
-  margin-right: 28px;
-  padding: 26px 36px;
-
-`
-);
-
-const Image = styled("img")`
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;
-`;
+import { CardWrapper, Image } from "./styled";
 
 export const Card: React.FC = () => {
   return (

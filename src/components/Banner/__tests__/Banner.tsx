@@ -1,11 +1,9 @@
-import React from "react";
 import renderer from "react-test-renderer";
-import { ThemeProvider, createTheme } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import Component from "../Banner";
-import { getDesignToken, componentsTheme } from "@utils/index";
+import { mocks } from "@utils/index";
 
-let themeMock = createTheme(getDesignToken("light"));
-themeMock = createTheme(themeMock, componentsTheme(themeMock));
+const themeMock = mocks.getThemeMock();
 
 it("renders correctly", () => {
   const tree = renderer
