@@ -1,6 +1,6 @@
 import { IMG } from "@configs/index";
 import { styled, Box } from "@mui/material";
-import Typography from "@components/Typography/Typography";
+import Typography from "@components/Typography";
 
 const BannerImage = styled("img")`
   position: absolute;
@@ -27,7 +27,7 @@ const Banner: React.FC = () => {
           <img alt="logo" height="24" src={IMG.LOGO_WHITE} width="86" />
         </Box>
         <Box marginLeft="10%" marginTop="129px" width="75%">
-          <Typography newColor="secondary" variant="h1">
+          <Typography newcolor="secondary" variant="h1">
             Temukan developer berbakat & terbaik di berbagai bidang keahlian
           </Typography>
         </Box>

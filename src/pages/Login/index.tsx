@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import Banner from "@components/Banner/Banner";
+import Banner from "@components/Banner";
 import { Form, Formik } from "formik";
 import InputField from "@components/InputField";
 import Button from "@components/Button";
@@ -7,7 +7,7 @@ import useResponsive from "@hooks/useResponsive";
 import { validate } from "./validate";
 import { Link, useHistory } from "react-router-dom";
 import { Box } from "@mui/material";
-import Typography from "@components/Typography/Typography";
+import Typography from "@components/Typography";
 
 const Login: React.FC = () => {
   const history = useHistory();
@@ -51,7 +51,7 @@ const Login: React.FC = () => {
               "password"
             )}
             <div className={styles.forgotPassword}>
-              <Typography newColor="primary" variant="body2">
+              <Typography newcolor="primary" variant="body2">
                 Lupa kata sandi?
               </Typography>
             </div>
@@ -65,11 +65,11 @@ const Login: React.FC = () => {
               type="submit"
             />
             <div className={styles.haveAccount}>
-              <Typography newColor="primary" variant="body2">
+              <Typography newcolor="primary" variant="body2">
                 Anda belum punya akun ?{" "}
               </Typography>
               <Link className="text-link" to="/signup">
-                <Typography newColor="yellow" variant="body2">
+                <Typography newcolor="yellow" variant="body2">
                   &nbsp;Daftar disini
                 </Typography>
               </Link>
@@ -87,11 +87,11 @@ const Login: React.FC = () => {
       {!isLaptop ? null : <Banner />}
 
       <div className={styles.loginForm}>
-        <Typography newColor="primary" variant="h3">
+        <Typography newcolor="primary" variant="h3">
           Halo, Pewpeople
         </Typography>
         <Box marginBottom="52px">
-          <Typography newColor="grey" variant="body1">
+          <Typography newcolor="grey" variant="body1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
             ipsum et dui rhoncus auctor.
           </Typography>

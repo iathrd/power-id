@@ -4,6 +4,7 @@ type Content = "left" | "right";
 
 export const GreyBox = styled(Box)(({ theme }) => ({
   height: "100%",
+  width: "100%",
   position: "absolute",
   transform: "rotate(-15.79deg)",
   backgroundColor: theme.palette.content.main,

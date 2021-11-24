@@ -21,7 +21,7 @@ const Suspensed = (Element: React.FC) =>
 
 export default {
   Home: Suspensed(lazy(() => import("@pages/Home"))),
-  LandingPage: Suspensed(lazy(() => import("@pages/LandingPage/LandingPage"))),
-  Login: Suspensed(lazy(() => import("@pages/Login/Login"))),
-  Register: Suspensed(lazy(() => import("@pages/Register/Register"))),
+  LandingPage: Suspensed(lazy(() => import("@pages/LandingPage"))),
+  Login: Suspensed(lazy(() => import("@pages/Login"))),
+  Register: Suspensed(lazy(() => import("@pages/Register"))),
 };

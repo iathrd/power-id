@@ -1,4 +1,4 @@
-import { SearchField } from "@components/SearchField/SearchField";
+import SearchField from "@components/SearchField";
 import { ContentWrapper } from "./styled";
 
 const Home: React.FC = () => {

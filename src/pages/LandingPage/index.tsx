@@ -3,7 +3,7 @@ import { ICON, IMG } from "@configs/index";
 import Button from "@components/Button";
 import { Card } from "@components/Card";
 import ImageContent from "@components/ImageContent";
-import Typography from "@components/Typography/Typography";
+import Typography from "@components/Typography";
 import { Circle } from "./styled";
 
 interface ContentProps {
@@ -20,12 +20,12 @@ const LandingPage: React.FC = () => {
       <div className={styles.content}>
         <div>
           <div>
-            <Typography newColor="primary" variant="h1">
+            <Typography newcolor="primary" variant="h1">
               Talenta terbaik negri untuk perubahan revolusi 4.0
             </Typography>
           </div>
           <div>
-            <Typography newColor="grey" variant="body1">
+            <Typography newcolor="grey" variant="body1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               euismod ipsum et dui rhoncus auctor.
             </Typography>
@@ -52,13 +52,13 @@ const LandingPage: React.FC = () => {
           />
           <div className={styles[`text-content-${contentPosition}`]}>
             <div>
-              <Typography newColor="primary" variant="h2">
+              <Typography newcolor="primary" variant="h2">
                 {headerText}
               </Typography>
             </div>
             {description && (
               <div>
-                <Typography newColor="grey" variant="body1">
+                <Typography newcolor="grey" variant="body1">
                   {description}
                 </Typography>
               </div>
@@ -70,7 +70,7 @@ const LandingPage: React.FC = () => {
                   <img alt="checklist" src={ICON.CHECKLIST} />
                 </Circle>
                 <div>
-                  <Typography newColor="grey" variant="body2">
+                  <Typography newcolor="grey" variant="body2">
                     {item}
                   </Typography>
                 </div>
@@ -84,13 +84,13 @@ const LandingPage: React.FC = () => {
         <div className={styles["content-child"]}>
           <div className={styles[`text-content-${contentPosition}`]}>
             <div>
-              <Typography newColor="primary" variant="h2">
+              <Typography newcolor="primary" variant="h2">
                 {headerText}
               </Typography>
             </div>
             {description && (
               <div>
-                <Typography newColor="grey" variant="body1">
+                <Typography newcolor="grey" variant="body1">
                   {description}
                 </Typography>
               </div>
@@ -102,7 +102,7 @@ const LandingPage: React.FC = () => {
                   <img alt="checklist" src={ICON.CHECKLIST} />
                 </Circle>
                 <div>
-                  <Typography newColor="grey" variant="body2">
+                  <Typography newcolor="grey" variant="body2">
                     {item}
                   </Typography>
                 </div>
@@ -123,7 +123,7 @@ const LandingPage: React.FC = () => {
     return (
       <div>
         <div className={styles.headerText}>
-          <Typography newColor="primary" variant="h2">
+          <Typography newcolor="primary" variant="h2">
             Their opinion about peworld
           </Typography>
         </div>

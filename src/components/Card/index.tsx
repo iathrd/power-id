@@ -1,5 +1,5 @@
-import Flex from "@components/Wrapper/Flex";
-import Typography from "@components/Typography/Typography";
+import Flex from "@components/Flex";
+import Typography from "@components/Typography";
 import { CardWrapper, Image } from "./styled";
 
 export const Card: React.FC = () => {
@@ -14,15 +14,15 @@ export const Card: React.FC = () => {
             />
           </div>
           <div>
-            <Typography newColor="primary" variant="h4">
+            <Typography newcolor="primary" variant="h4">
               Harry Styles
             </Typography>
-            <Typography newColor="lightGrey" variant="body1">
+            <Typography newcolor="lightGrey" variant="body1">
               Web Developer
             </Typography>
           </div>
           <div>
-            <Typography newColor="grey" variant="body1">
+            <Typography newcolor="grey" variant="body1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               euismod ipsum et dui rhoncus auctor.
             </Typography>

@@ -27,19 +27,27 @@ Array [
         onReset={[Function]}
         onSubmit={[Function]}
       >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1jke4yk{position:relative;width:100%;}",
+            }
+          }
+          data-emotion="css 1jke4yk"
+        />
         <div
-          className="searchWrapper"
+          className="MuiBox-root css-1jke4yk"
         >
           <style
             dangerouslySetInnerHTML={
               Object {
-                "__html": ".css-s5d7xv{width:100%;background-color:#ffffff;border-radius:8px;height:70px;outline:none;padding-left:20px;color:#1F2A36;box-shadow:0px 1px 20px rgba(197, 197, 197, 0.25);border:none;}.css-s5d7xv::-webkit-input-placeholder{font-family:Open Sans!important;color:#9EA0A5!important;font-size:14px!important;}.css-s5d7xv::-moz-placeholder{font-family:Open Sans!important;color:#9EA0A5!important;font-size:14px!important;}.css-s5d7xv:-ms-input-placeholder{font-family:Open Sans!important;color:#9EA0A5!important;font-size:14px!important;}.css-s5d7xv::placeholder{font-family:Open Sans!important;color:#9EA0A5!important;font-size:14px!important;}",
+                "__html": ".css-xzoypt{width:100%;background-color:#ffffff;border-radius:8px;height:70px;outline:none;padding-inline:20px;color:#1F2A36;box-shadow:0px 1px 20px rgba(197, 197, 197, 0.25);border:none;}.css-xzoypt::-webkit-input-placeholder{font-family:Open Sans!important;color:#9EA0A5!important;font-size:14px!important;}.css-xzoypt::-moz-placeholder{font-family:Open Sans!important;color:#9EA0A5!important;font-size:14px!important;}.css-xzoypt:-ms-input-placeholder{font-family:Open Sans!important;color:#9EA0A5!important;font-size:14px!important;}.css-xzoypt::placeholder{font-family:Open Sans!important;color:#9EA0A5!important;font-size:14px!important;}",
               }
             }
-            data-emotion="css s5d7xv"
+            data-emotion="css xzoypt"
           />
           <input
-            className="css-s5d7xv"
+            className="css-xzoypt"
             id="search"
             name="search"
             onBlur={[Function]}
@@ -47,8 +55,24 @@ Array [
             placeholder="Search for any skill"
             value=""
           />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-11bb0w4{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100%;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;position:absolute;width:33%;top:50%;right:17%;-webkit-transform:translate(50%, -50%);-moz-transform:translate(50%, -50%);-ms-transform:translate(50%, -50%);transform:translate(50%, -50%);padding-block:8px;padding-right:8px;}",
+              }
+            }
+            data-emotion="css 11bb0w4"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-13yr0o0{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100%;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;position:absolute;width:33%;top:50%;right:17%;-webkit-transform:translate(50%, -50%);-moz-transform:translate(50%, -50%);-ms-transform:translate(50%, -50%);transform:translate(50%, -50%);padding-block:8px;padding-right:8px;}",
+              }
+            }
+            data-emotion="css 13yr0o0"
+          />
           <div
-            className="action"
+            className="MuiBox-root css-13yr0o0"
           >
             <div>
               <img
@@ -56,29 +80,44 @@ Array [
                 src="test-file-stub"
               />
             </div>
+            <style
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": ".css-qb6sov{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-left:30px;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;width:100%;height:100%;padding-left:25px;border-left:1px solid #9EA0A5;}",
+                }
+              }
+              data-emotion="css qb6sov"
+            />
+            <style
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": ".css-1r7phi8{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-left:30px;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;width:100%;height:100%;padding-left:25px;border-left:1px solid #9EA0A5;}",
+                }
+              }
+              data-emotion="css 1r7phi8"
+            />
             <div
-              className="filter"
+              className="MuiBox-root css-1r7phi8"
             >
               <div>
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-1q0sibo{color:#9EA0A5;}",
+                      "__html": ".css-1i4hmap{color:#9EA0A5;}",
                     }
                   }
-                  data-emotion="css 1q0sibo"
+                  data-emotion="css 1i4hmap"
                 />
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-1y0rhsq-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#9EA0A5;}",
+                      "__html": ".css-1rg99b0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#9EA0A5;}",
                     }
                   }
-                  data-emotion="css 1y0rhsq-MuiTypography-root"
+                  data-emotion="css 1rg99b0-MuiTypography-root"
                 />
                 <p
-                  className="MuiTypography-root MuiTypography-body2 css-1y0rhsq-MuiTypography-root"
-                  newColor="lightGrey"
+                  className="MuiTypography-root MuiTypography-body2 css-1rg99b0-MuiTypography-root"
                 >
                   Kategori
                 </p>
@@ -87,29 +126,37 @@ Array [
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-dcynhe{font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;}",
+                      "__html": ".css-159to4x{height:54px;width:121px;font-size:16px;font-weight:600;}",
                     }
                   }
-                  data-emotion="css dcynhe"
+                  data-emotion="css 159to4x"
                 />
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-fmw31i-MuiButton-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 16px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.125rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;}.css-fmw31i-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-fmw31i-MuiButton-root:hover{background-color:#5e50a1;}}.css-fmw31i-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-fmw31i-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-fmw31i-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-fmw31i-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
+                      "__html": ".css-1n3i73j{font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}",
                     }
                   }
-                  data-emotion="css fmw31i-MuiButton-root"
+                  data-emotion="css 1n3i73j"
                 />
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-ww3jzo-MuiButtonBase-root-MuiButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 16px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.125rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;}.css-ww3jzo-MuiButtonBase-root-MuiButton-root::-moz-focus-inner{border-style:none;}.css-ww3jzo-MuiButtonBase-root-MuiButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-ww3jzo-MuiButtonBase-root-MuiButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-ww3jzo-MuiButtonBase-root-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-ww3jzo-MuiButtonBase-root-MuiButton-root:hover{background-color:#5e50a1;}}.css-ww3jzo-MuiButtonBase-root-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-ww3jzo-MuiButtonBase-root-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-ww3jzo-MuiButtonBase-root-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-ww3jzo-MuiButtonBase-root-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
+                      "__html": ".css-1n5x22s-MuiButton-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 16px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.125rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}.css-1n5x22s-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-1n5x22s-MuiButton-root:hover{background-color:#5e50a1;}}.css-1n5x22s-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-1n5x22s-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-1n5x22s-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-1n5x22s-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
                     }
                   }
-                  data-emotion="css ww3jzo-MuiButtonBase-root-MuiButton-root"
+                  data-emotion="css 1n5x22s-MuiButton-root"
+                />
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": ".css-yxhyn7-MuiButtonBase-root-MuiButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 16px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.125rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}.css-yxhyn7-MuiButtonBase-root-MuiButton-root::-moz-focus-inner{border-style:none;}.css-yxhyn7-MuiButtonBase-root-MuiButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-yxhyn7-MuiButtonBase-root-MuiButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-yxhyn7-MuiButtonBase-root-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-yxhyn7-MuiButtonBase-root-MuiButton-root:hover{background-color:#5e50a1;}}.css-yxhyn7-MuiButtonBase-root-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-yxhyn7-MuiButtonBase-root-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-yxhyn7-MuiButtonBase-root-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-yxhyn7-MuiButtonBase-root-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
+                    }
+                  }
+                  data-emotion="css yxhyn7-MuiButtonBase-root-MuiButton-root"
                 />
                 <button
-                  className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root css-ww3jzo-MuiButtonBase-root-MuiButton-root"
+                  className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root css-yxhyn7-MuiButtonBase-root-MuiButton-root"
                   disabled={false}
                   onBlur={[Function]}
                   onContextMenu={[Function]}

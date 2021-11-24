@@ -24,6 +24,9 @@ declare module "@mui/material/styles" {
     };
     content: {
       main: React.CSSProperties["color"];
+      border: {
+        lightGrey: React.CSSProperties["color"];
+      };
     };
   }
 }

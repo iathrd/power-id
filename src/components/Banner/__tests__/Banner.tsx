@@ -1,6 +1,6 @@
 import renderer from "react-test-renderer";
 import { ThemeProvider } from "@mui/material";
-import Component from "../Banner";
+import Component from "..";
 import { mocks } from "@utils/index";
 
 const themeMock = mocks.getThemeMock();

@@ -1,35 +1,14 @@
-import styles from "./styles.module.css";
 import { ICON } from "@configs/index";
 import { Formik, Form } from "formik";
-import Button from "@components/Button";
-import Typography from "@components/Typography/Typography";
-import { styled } from "@mui/material";
+import Typography from "@components/Typography";
+import { Box } from "@mui/material";
+import { SearchInput, Action, Filter, SearchButton } from "./styled";
 
 type SearchFieldProps = {
   handleSubmit: () => void;
 };
 
-const SearchInput = styled("input")(({ theme }) => ({
-  width: "100%",
-  backgroundColor: theme.palette.background.paper,
-  borderRadius: "8px",
-  height: "70px",
-  outline: "none",
-  paddingLeft: "20px",
-  color: theme.palette.fontColor.primary,
-  boxShadow:
-    theme.palette.mode === "light"
-      ? "0px 1px 20px rgba(197, 197, 197, 0.25)"
-      : "none",
-  border: theme.palette.mode === "dark" ? "1px solid #30363d" : "none",
-  "&::placeholder": {
-    fontFamily: "Open Sans !important",
-    color: "#9EA0A5 !important",
-    fontSize: "14px !important",
-  },
-}));
-
-export const SearchField: React.FC<SearchFieldProps> = ({ handleSubmit }) => {
+const SearchField: React.FC<SearchFieldProps> = ({ handleSubmit }) => {
   return (
     <div>
       <Formik
@@ -40,7 +19,7 @@ export const SearchField: React.FC<SearchFieldProps> = ({ handleSubmit }) => {
       >
         {({ values, handleChange, handleBlur, handleSubmit }) => (
           <Form>
-            <div className={styles.searchWrapper}>
+            <Box position="relative" width="100%">
               <SearchInput
                 id="search"
                 name="search"
@@ -49,18 +28,18 @@ export const SearchField: React.FC<SearchFieldProps> = ({ handleSubmit }) => {
                 placeholder="Search for any skill"
                 value={values.search}
               />
-              <div className={styles.action}>
+              <Action>
                 <div>
                   <img alt="search icon" src={ICON.SEARCH} />
                 </div>
-                <div className={styles.filter}>
+                <Filter>
                   <div>
-                    <Typography newColor="lightGrey" variant="body2">
+                    <Typography newcolor="lightGrey" variant="body2">
                       Kategori
                     </Typography>
                   </div>
                   <div>
-                    <Button
+                    <SearchButton
                       color="primary"
                       label="Search"
                       onSubmit={() => handleSubmit}
@@ -68,12 +47,14 @@ export const SearchField: React.FC<SearchFieldProps> = ({ handleSubmit }) => {
                       variant="contained"
                     />
                   </div>
-                </div>
-              </div>
-            </div>
+                </Filter>
+              </Action>
+            </Box>
           </Form>
         )}
       </Formik>
     </div>
   );
 };
+
+export default SearchField;

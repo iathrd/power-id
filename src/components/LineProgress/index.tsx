@@ -1,32 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import LinearProgress from "@mui/material/LinearProgress";
-import { styled } from "@mui/material";
-import { keyframes } from "@mui/styled-engine";
-
-const slide = keyframes`
-from {
-    left: -200px;
-  }
-
-  to {
-    left: 100%;
-  }
-
-`;
-const Load = styled(Box)(() => ({
-  width: "50px",
-  height: "4px",
-  position: "relative",
-  background: `linear-gradient(
-    to right,
-    transparent,
-    rgba(255,255,255,0.8),
-    transparent
-  )`,
-  animation: `${slide} 10s infinite`,
-  overflow: "hidden",
-}));
+import { Load } from "./styled";
 
 export default function LinearDeterminate() {
   const [progress, setProgress] = React.useState(0);

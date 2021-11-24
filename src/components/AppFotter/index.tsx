@@ -1,7 +1,7 @@
 import { IMG } from "@configs/index";
 import { useTheme, Box } from "@mui/material";
-import Typography from "@components/Typography/Typography";
-import Flex from "@components/Wrapper/Flex";
+import Typography from "@components/Typography";
+import Flex from "@components/Flex";
 import { Footer } from "./styled";
 
 const AppFotter: React.FC = () => {
@@ -17,22 +17,22 @@ const AppFotter: React.FC = () => {
         />
       </Box>
       <Box marginBottom="4.188rem" width="23.813rem">
-        <Typography newColor="secondary" variant="body1">
+        <Typography newcolor="secondary" variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
           ipsum et dui rhoncus auctor.
         </Typography>
       </Box>
       <hr />
       <Flex justifyContent="normal" marginTop="1.875rem">
-        <Typography newColor="secondary" variant="body1">
+        <Typography newcolor="secondary" variant="body1">
           2021 Pewworld. All right reserved
         </Typography>
         <Flex flex="1" justifyContent="flex-end">
-          <Typography newColor="secondary" variant="body1">
+          <Typography newcolor="secondary" variant="body1">
             Telepon : +6281923920
           </Typography>
           <Box marginLeft="4.938rem">
-            <Typography newColor="secondary" variant="body1">
+            <Typography newcolor="secondary" variant="body1">
               Email : power.id@gmail.com
             </Typography>
           </Box>

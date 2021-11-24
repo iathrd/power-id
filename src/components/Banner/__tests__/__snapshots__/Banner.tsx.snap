@@ -77,22 +77,21 @@ Array [
         <style
           dangerouslySetInnerHTML={
             Object {
-              "__html": ".css-swsfmf{color:#FFFFFF;}",
+              "__html": ".css-zm3qx2{color:#FFFFFF;}",
             }
           }
-          data-emotion="css swsfmf"
+          data-emotion="css zm3qx2"
         />
         <style
           dangerouslySetInnerHTML={
             Object {
-              "__html": ".css-9pojj8-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:300;font-size:6rem;line-height:1.167;letter-spacing:-0.01562em;font-family:Open Sans;font-size:2.75rem;font-weight:bold;line-height:4.375rem;color:#FFFFFF;}",
+              "__html": ".css-tbxthi-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:300;font-size:6rem;line-height:1.167;letter-spacing:-0.01562em;font-family:Open Sans;font-size:2.75rem;font-weight:bold;line-height:4.375rem;color:#FFFFFF;}",
             }
           }
-          data-emotion="css 9pojj8-MuiTypography-root"
+          data-emotion="css tbxthi-MuiTypography-root"
         />
         <h1
-          className="MuiTypography-root MuiTypography-h1 css-9pojj8-MuiTypography-root"
-          newColor="secondary"
+          className="MuiTypography-root MuiTypography-h1 css-tbxthi-MuiTypography-root"
         >
           Temukan developer berbakat & terbaik di berbagai bidang keahlian
         </h1>

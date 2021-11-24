@@ -36,6 +36,9 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           },
           content: {
             main: "#E2E5ED",
+            border: {
+              lightGrey: "#9EA0A5",
+            },
           },
         }
       : {
@@ -70,6 +73,9 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           },
           content: {
             main: "#161b22",
+            border: {
+              lightGrey: "#9EA0A5",
+            },
           },
         }),
   },

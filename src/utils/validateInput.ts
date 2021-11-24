@@ -2,7 +2,7 @@
 export const validateInput = (values: any, rules: string) => {
   if (rules === "email") {
     if (!values) {
-      return "Email is required";
+      return "Required";
     } else if (values) {
       const pattern =
         /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -13,7 +13,7 @@ export const validateInput = (values: any, rules: string) => {
     }
   } else if (rules === "password") {
     if (!values) {
-      return "Password is required";
+      return "Required";
     } else {
       if (values.length < 8) {
         return "Your password must be at least 8 characters";
@@ -32,10 +32,10 @@ export const validateInput = (values: any, rules: string) => {
       {}
     );
   } else if (rules === "required") {
-    const { label, value } = values;
+    const { value } = values;
 
     if (!value) {
-      return `${label} is required`;
+      return `Required`;
     }
   } else if (rules === "matchValue") {
     const { value, matchValue, message } = values;

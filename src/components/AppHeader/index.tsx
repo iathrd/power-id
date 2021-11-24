@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { IMG, ICON } from "@configs/index";
 import Button from "@components/Button";
 import { Switch, useTheme, Box } from "@mui/material";
-import Flex from "@components/Wrapper/Flex";
+import Flex from "@components/Flex";
 import { ColorModeContext } from "@utils/context";
 import { Nav, Avatar } from "./styled";
 

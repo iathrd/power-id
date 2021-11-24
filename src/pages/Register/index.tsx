@@ -1,11 +1,11 @@
 import styles from "./styles.module.css";
-import Banner from "@components/Banner/Banner";
+import Banner from "@components/Banner";
 import { Form, Formik } from "formik";
 import InputField from "@components/InputField";
 import { validate } from "./validate";
 import Button from "@components/Button";
 import { Link } from "react-router-dom";
-import Typography from "@components/Typography/Typography";
+import Typography from "@components/Typography";
 import useResponsive from "@hooks/useResponsive";
 
 const Register: React.FC = () => {
@@ -68,11 +68,11 @@ const Register: React.FC = () => {
               size="medium"
             />
             <div className={styles.haveAccount}>
-              <Typography newColor="primary" variant="body2">
+              <Typography newcolor="primary" variant="body2">
                 Anda sudah punya akun ?{" "}
               </Typography>
               <Link className="text-link" to="/signin">
-                <Typography newColor="yellow" variant="body2">
+                <Typography newcolor="yellow" variant="body2">
                   &nbsp;Masuk disini
                 </Typography>
               </Link>
@@ -87,10 +87,10 @@ const Register: React.FC = () => {
     <div className="parent">
       {!isLaptop ? null : <Banner />}
       <div className={styles.registerForm}>
-        <Typography newColor="primary" variant="h3">
+        <Typography newcolor="primary" variant="h3">
           Halo, Pewpeople
         </Typography>
-        <Typography newColor="grey" variant="body1">
+        <Typography newcolor="grey" variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
           ipsum et dui rhoncus auctor.
         </Typography>
