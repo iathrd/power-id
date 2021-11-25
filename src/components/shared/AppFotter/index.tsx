@@ -1,7 +1,7 @@
 import { IMG } from "@configs/index";
 import { useTheme, Box } from "@mui/material";
-import Typography from "@components/Typography";
-import Flex from "@components/Flex";
+import Typography from "@components/core/Typography";
+import Flex from "@components/core/Flex";
 import { Footer } from "./styled";
 
 const AppFotter: React.FC = () => {

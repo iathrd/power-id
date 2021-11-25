@@ -1,11 +1,11 @@
 import styles from "./styles.module.css";
-import Banner from "@components/Banner";
+import Banner from "@components/shared/Banner";
 import { Form, Formik } from "formik";
-import InputField from "@components/InputField";
+import InputField from "@components/core/InputField";
 import { validate } from "./validate";
-import Button from "@components/Button";
+import Button from "@components/core/Button";
 import { Link } from "react-router-dom";
-import Typography from "@components/Typography";
+import Typography from "@components/core/Typography";
 import useResponsive from "@hooks/useResponsive";
 
 const Register: React.FC = () => {

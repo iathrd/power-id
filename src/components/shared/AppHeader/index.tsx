@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { IMG, ICON } from "@configs/index";
-import Button from "@components/Button";
+import Button from "@components/core/Button";
 import { Switch, useTheme, Box } from "@mui/material";
-import Flex from "@components/Flex";
+import Flex from "@components/core/Flex";
 import { ColorModeContext } from "@utils/context";
 import { Nav, Avatar } from "./styled";
 

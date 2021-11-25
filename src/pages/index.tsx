@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import Box from "@mui/material/Box";
-import LinearBuffer from "@components/LineProgress";
+import LinearBuffer from "@components/core/LineProgress";
 
 const Suspensed = (Element: React.FC) =>
   function suspense(

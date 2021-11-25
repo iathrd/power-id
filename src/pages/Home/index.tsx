@@ -1,5 +1,7 @@
-import SearchField from "@components/SearchField";
-import { ContentWrapper } from "./styled";
+import Flex from "@components/core/Flex";
+import HeaderContent from "@components/shared/HeaderContent";
+import SearchField from "@components/shared/SearchField";
+import { ContentWrapper, CardWrapper } from "./styled";
 
 const Home: React.FC = () => {
   const handleSubmit = (): void => {
@@ -8,9 +10,15 @@ const Home: React.FC = () => {
   };
 
   return (
-    <ContentWrapper>
-      <SearchField handleSubmit={handleSubmit} />
-    </ContentWrapper>
+    <>
+      <HeaderContent />
+      <ContentWrapper>
+        <SearchField handleSubmit={handleSubmit} />
+        <CardWrapper>
+          <Flex />
+        </CardWrapper>
+      </ContentWrapper>
+    </>
   );
 };
 

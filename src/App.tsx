@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import ScrollToTop from "@components/ScrollToTop";
-import NavRoute from "@components/NavRoute";
+import ScrollToTop from "@components/core/ScrollToTop";
+import NavRoute from "@components/shared/NavRoute";
 import pages from "./pages";
 import "@fontsource/open-sans";
 

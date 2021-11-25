@@ -1,5 +1,5 @@
 import { styled, Box } from "@mui/material";
-import Button from "@components/Button";
+import Button from "@components/core/Button";
 
 export const SearchInput = styled("input")(({ theme }) => ({
   width: "100%",

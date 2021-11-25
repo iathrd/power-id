@@ -1,13 +1,13 @@
 import styles from "./styles.module.css";
-import Banner from "@components/Banner";
+import Banner from "@components/shared/Banner";
 import { Form, Formik } from "formik";
-import InputField from "@components/InputField";
-import Button from "@components/Button";
+import InputField from "@components/core/InputField";
+import Button from "@components/core/Button";
 import useResponsive from "@hooks/useResponsive";
 import { validate } from "./validate";
 import { Link, useHistory } from "react-router-dom";
 import { Box } from "@mui/material";
-import Typography from "@components/Typography";
+import Typography from "@components/core/Typography";
 
 const Login: React.FC = () => {
   const history = useHistory();

@@ -1,6 +1,6 @@
 import { IMG } from "@configs/index";
 import { styled, Box } from "@mui/material";
-import Typography from "@components/Typography";
+import Typography from "@components/core/Typography";
 
 const BannerImage = styled("img")`
   position: absolute;

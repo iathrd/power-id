@@ -1,9 +1,9 @@
 import styles from "./styles.module.css";
 import { ICON, IMG } from "@configs/index";
-import Button from "@components/Button";
-import { Card } from "@components/Card";
-import ImageContent from "@components/ImageContent";
-import Typography from "@components/Typography";
+import Button from "@components/core/Button";
+import { Card } from "@components/shared/Card";
+import ImageContent from "@components/shared/ImageContent";
+import Typography from "@components/core/Typography";
 import { Circle } from "./styled";
 
 interface ContentProps {

@@ -1,5 +1,5 @@
-import Flex from "@components/Flex";
-import Typography from "@components/Typography";
+import Flex from "@components/core/Flex";
+import Typography from "@components/core/Typography";
 import { CardWrapper, Image } from "./styled";
 
 export const Card: React.FC = () => {

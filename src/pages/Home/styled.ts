@@ -12,3 +12,12 @@ export const ContentWrapper = styled(Box)(({ theme }) => ({
     padding: "50px 20px 70px 20px",
   },
 }));
+
+export const CardWrapper = styled(Box)(({ theme }) => ({
+  backgroundColor: theme.palette.background.paper,
+  borderRadius: "8px",
+  ...(theme.palette.mode === "light"
+    ? { boxShadow: "0px 1px 20px rgba(197, 197, 197, 0.25)" }
+    : { border: "1px solid #30363d" }),
+  marginTop: "50px",
+}));
