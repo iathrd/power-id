@@ -1,4 +1,5 @@
-import { styled, Typography } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import { styled } from "@mui/material/styles";
 
 type NewColor = "primary" | "secondary" | "grey" | "lightGrey" | "yellow";
 

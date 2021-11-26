@@ -1,7 +1,8 @@
+import App from "./App";
 import { useState, useMemo } from "react";
 import { ColorModeContext } from "@utils/context";
 import { getDesignToken, componentsTheme } from "@utils/index";
-import App from "./App";
+
 import {
   PaletteMode,
   createTheme,

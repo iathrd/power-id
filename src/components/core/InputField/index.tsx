@@ -1,6 +1,6 @@
 import { useField } from "formik";
 import { InputHTMLAttributes } from "react";
-import { Box } from "@mui/material";
+import Box from "@mui/material/Box";
 import { Input, Label, InputControl, ErrorText } from "./styled";
 
 type InputFieldProps = InputHTMLAttributes<HTMLElement> & {

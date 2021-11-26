@@ -1,7 +1,7 @@
+import Typography from "@components/core/Typography";
+import Box from "@mui/material/Box";
 import { ICON } from "@configs/index";
 import { Formik, Form } from "formik";
-import Typography from "@components/core/Typography";
-import { Box } from "@mui/material";
 import { SearchInput, Action, Filter, SearchButton } from "./styled";
 
 type SearchFieldProps = {

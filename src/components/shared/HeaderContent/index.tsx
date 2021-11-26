@@ -1,14 +1,5 @@
-import { styled, Box } from "@mui/material";
 import Typography from "@components/core/Typography";
-
-const Wrapper = styled(Box)(({ theme }) => ({
-  background: theme.palette.primary.main,
-  paddingInline: "9.375rem",
-  paddingBlock: "16px",
-  [theme.breakpoints.down("md")]: {
-    paddingInline: "2.25rem",
-  },
-}));
+import { Wrapper } from "./styled";
 
 const HeaderContent: React.FC = () => {
   return (

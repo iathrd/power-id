@@ -1,4 +1,4 @@
-import { ButtonProps } from "@mui/material";
+import { ButtonProps } from "@mui/material/Button";
 import { MUIButton } from "./styled";
 
 type ButtonProp = ButtonProps & {

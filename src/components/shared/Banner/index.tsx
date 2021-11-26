@@ -1,22 +1,7 @@
-import { IMG } from "@configs/index";
-import { styled, Box } from "@mui/material";
 import Typography from "@components/core/Typography";
-
-const BannerImage = styled("img")`
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-`;
-const Content = styled(Box)(({ theme }) => ({
-  backgroundColor:
-    theme.palette.mode === "light"
-      ? "rgba(94, 80, 161, 0.7)"
-      : "rgba(64,41,171, 0.7)",
-  width: "100%",
-  position: "absolute",
-  height: "100%",
-}));
+import Box from "@mui/material/Box";
+import { BannerImage, Content } from "./styled";
+import { IMG } from "@configs/index";
 
 const Banner: React.FC = () => {
   return (

@@ -2,7 +2,7 @@ import Flex from "@components/core/Flex";
 import Typography from "@components/core/Typography";
 import { CardWrapper, Image } from "./styled";
 
-export const Card: React.FC = () => {
+const Card: React.FC = () => {
   return (
     <Flex position="relative">
       {[...Array(3)].map((_, idx: number) => (
@@ -32,3 +32,5 @@ export const Card: React.FC = () => {
     </Flex>
   );
 };
+
+export default Card;

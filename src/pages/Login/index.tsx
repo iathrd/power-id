@@ -1,85 +1,11 @@
 import styles from "./styles.module.css";
 import Banner from "@components/shared/Banner";
-import { Form, Formik } from "formik";
-import InputField from "@components/core/InputField";
-import Button from "@components/core/Button";
-import useResponsive from "@hooks/useResponsive";
-import { validate } from "./validate";
-import { Link, useHistory } from "react-router-dom";
-import { Box } from "@mui/material";
+import Box from "@mui/material/Box";
 import Typography from "@components/core/Typography";
+import LoginForm from "@components/form/LoginForm";
+import useResponsive from "@hooks/useResponsive";
 
 const Login: React.FC = () => {
-  const history = useHistory();
-
-  const renderField = (
-    label: string,
-    name: string,
-    placeholder: string,
-    type = "text"
-  ): JSX.Element => {
-    return (
-      <InputField
-        label={label}
-        name={name}
-        placeholder={placeholder}
-        type={type}
-      />
-    );
-  };
-
-  const renderLoginForm = (): JSX.Element => {
-    const handleSubmit = (): void => {
-      history.push("/home", { isLogin: true });
-    };
-
-    return (
-      <Formik
-        initialValues={{ email: "", password: "" }}
-        onSubmit={() => {
-          handleSubmit();
-        }}
-        validate={validate}
-      >
-        {({ isValid, handleSubmit, dirty }) => (
-          <Form>
-            {renderField("Email", "email", "Masukan alamat email", "email")}
-            {renderField(
-              "Password",
-              "password",
-              "Masukan kata sandi",
-              "password"
-            )}
-            <div className={styles.forgotPassword}>
-              <Typography newcolor="primary" variant="body2">
-                Lupa kata sandi?
-              </Typography>
-            </div>
-            <Button
-              color="secondary"
-              disabled={!isValid || !dirty}
-              fullWidth={true}
-              label="Masuk"
-              onClick={() => handleSubmit()}
-              size="medium"
-              type="submit"
-            />
-            <div className={styles.haveAccount}>
-              <Typography newcolor="primary" variant="body2">
-                Anda belum punya akun ?{" "}
-              </Typography>
-              <Link className="text-link" to="/signup">
-                <Typography newcolor="yellow" variant="body2">
-                  &nbsp;Daftar disini
-                </Typography>
-              </Link>
-            </div>
-          </Form>
-        )}
-      </Formik>
-    );
-  };
-
   const { isLaptop } = useResponsive();
 
   return (
@@ -96,7 +22,7 @@ const Login: React.FC = () => {
             ipsum et dui rhoncus auctor.
           </Typography>
         </Box>
-        {renderLoginForm()}
+        <LoginForm />
       </div>
     </div>
   );

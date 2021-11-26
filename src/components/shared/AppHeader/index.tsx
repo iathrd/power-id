@@ -1,9 +1,11 @@
+import Button from "@components/core/Button";
+import Flex from "@components/core/Flex";
+import Switch from "@mui/material/Switch";
+import Box from "@mui/material/Box";
 import { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { IMG, ICON } from "@configs/index";
-import Button from "@components/core/Button";
-import { Switch, useTheme, Box } from "@mui/material";
-import Flex from "@components/core/Flex";
+import { useTheme } from "@mui/material/styles";
 import { ColorModeContext } from "@utils/context";
 import { Nav, Avatar } from "./styled";
 

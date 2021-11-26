@@ -1,9 +1,9 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "@fontsource/open-sans";
 import ScrollToTop from "@components/core/ScrollToTop";
 import NavRoute from "@components/shared/NavRoute";
 import pages from "./pages";
-import "@fontsource/open-sans";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (

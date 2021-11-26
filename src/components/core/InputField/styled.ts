@@ -1,4 +1,5 @@
-import { styled, Box } from "@mui/material";
+import Box from "@mui/material/Box";
+import { styled } from "@mui/material/styles";
 
 type Error = {
   error?: string | undefined;
@@ -31,9 +32,7 @@ export const Input = styled("input", {
     border:
       error.error && error.touched
         ? `2px solid ${theme.palette.error.main}`
-        : theme.palette.mode === "light"
-        ? "2px solid #e2e5ed"
-        : "2px solid #30363d",
+        : `2px solid ${theme.palette.primary.main}`,
     outline: "none",
   },
   "&::placeholder": {
