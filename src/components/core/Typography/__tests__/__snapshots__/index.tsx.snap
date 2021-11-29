@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-bj4w1q{color:#1F2A36;}",
+      }
+    }
+    data-emotion="css bj4w1q"
+  />,
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-y20jd3-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;font-family:Open Sans;font-size:1.125rem;font-weight:normal;color:#1F2A36;}",
+      }
+    }
+    data-emotion="css y20jd3-MuiTypography-root"
+  />,
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-y20jd3-MuiTypography-root"
+  />,
+]
+`;

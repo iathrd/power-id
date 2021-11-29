@@ -1,8 +1,8 @@
 import { getDesignToken, componentsTheme } from "@utils/index";
-import { createTheme, Theme } from "@mui/material";
+import { createTheme, Theme, PaletteMode } from "@mui/material";
 
-const getThemeMock = (): Theme => {
-  let themeMock = createTheme(getDesignToken("light"));
+const getThemeMock = (mode: PaletteMode = "light"): Theme => {
+  let themeMock = createTheme(getDesignToken(mode));
   themeMock = createTheme(themeMock, componentsTheme(themeMock));
   return themeMock;
 };

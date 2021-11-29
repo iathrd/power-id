@@ -1,0 +1,933 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+<main
+  className="main"
+>
+  <div
+    className="content"
+  >
+    <div>
+      <div>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-bj4w1q{color:#1F2A36;}",
+            }
+          }
+          data-emotion="css bj4w1q"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1qn1lcg-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:300;font-size:6rem;line-height:1.167;letter-spacing:-0.01562em;font-family:Open Sans;font-size:2.75rem;font-weight:bold;line-height:4.375rem;color:#1F2A36;}",
+            }
+          }
+          data-emotion="css 1qn1lcg-MuiTypography-root"
+        />
+        <h1
+          className="MuiTypography-root MuiTypography-h1 css-1qn1lcg-MuiTypography-root"
+        >
+          Talenta terbaik negri untuk perubahan revolusi 4.0
+        </h1>
+      </div>
+      <div>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-ab1rst{color:#46505C;}",
+            }
+          }
+          data-emotion="css ab1rst"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-xhn54y-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;font-family:Open Sans;font-size:1.125rem;font-weight:normal;color:#46505C;}",
+            }
+          }
+          data-emotion="css xhn54y-MuiTypography-root"
+        />
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-xhn54y-MuiTypography-root"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.
+        </p>
+      </div>
+      <div>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-dcynhe{font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;}",
+            }
+          }
+          data-emotion="css dcynhe"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-wxvu4y-MuiButton-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.9375rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:8px 22px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.75rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;}.css-wxvu4y-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-wxvu4y-MuiButton-root:hover{background-color:#5e50a1;}}.css-wxvu4y-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-wxvu4y-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-wxvu4y-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-wxvu4y-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
+            }
+          }
+          data-emotion="css wxvu4y-MuiButton-root"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1ur2sf5-MuiButtonBase-root-MuiButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.9375rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:8px 22px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.75rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;}.css-1ur2sf5-MuiButtonBase-root-MuiButton-root::-moz-focus-inner{border-style:none;}.css-1ur2sf5-MuiButtonBase-root-MuiButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-1ur2sf5-MuiButtonBase-root-MuiButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-1ur2sf5-MuiButtonBase-root-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-1ur2sf5-MuiButtonBase-root-MuiButton-root:hover{background-color:#5e50a1;}}.css-1ur2sf5-MuiButtonBase-root-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-1ur2sf5-MuiButtonBase-root-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-1ur2sf5-MuiButtonBase-root-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-1ur2sf5-MuiButtonBase-root-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
+            }
+          }
+          data-emotion="css 1ur2sf5-MuiButtonBase-root-MuiButton-root"
+        />
+        <button
+          className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButtonBase-root css-1ur2sf5-MuiButtonBase-root-MuiButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          Mulai Dari Sekarang
+        </button>
+      </div>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-1bewu61{height:31.25rem;position:relative;width:31.25rem;}",
+        }
+      }
+      data-emotion="css 1bewu61"
+    />
+    <div
+      className="MuiBox-root css-1bewu61"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-ymxr7i{height:100%;width:100%;position:absolute;-webkit-transform:rotate(-15.79deg);-moz-transform:rotate(-15.79deg);-ms-transform:rotate(-15.79deg);transform:rotate(-15.79deg);background-color:#E2E5ED;}",
+          }
+        }
+        data-emotion="css ymxr7i"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-eoi7se{height:100%;width:100%;position:absolute;-webkit-transform:rotate(-15.79deg);-moz-transform:rotate(-15.79deg);-ms-transform:rotate(-15.79deg);transform:rotate(-15.79deg);background-color:#E2E5ED;}",
+          }
+        }
+        data-emotion="css eoi7se"
+      />
+      <div
+        className="MuiBox-root css-eoi7se"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1n8ssm9{position:absolute;width:100%;height:100%;object-fit:cover;}",
+          }
+        }
+        data-emotion="css 1n8ssm9"
+      />
+      <img
+        alt="banner"
+        className="css-1n8ssm9"
+        src="test-file-stub"
+      />
+    </div>
+  </div>
+  <div
+    className="content-child"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-1i99l9s{height:24.375rem;position:relative;width:31rem;}",
+        }
+      }
+      data-emotion="css 1i99l9s"
+    />
+    <div
+      className="MuiBox-root css-1i99l9s"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-wijij3{width:100%;height:100%;position:absolute;background-color:#E2E5ED;-webkit-transform:rotate(12.57deg);-moz-transform:rotate(12.57deg);-ms-transform:rotate(12.57deg);transform:rotate(12.57deg);}",
+          }
+        }
+        data-emotion="css wijij3"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-k98fdm{width:100%;height:100%;position:absolute;background-color:#E2E5ED;-webkit-transform:rotate(12.57deg);-moz-transform:rotate(12.57deg);-ms-transform:rotate(12.57deg);transform:rotate(12.57deg);}",
+          }
+        }
+        data-emotion="css k98fdm"
+      />
+      <div
+        className="MuiBox-root css-k98fdm"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1n8ssm9{position:absolute;width:100%;height:100%;object-fit:cover;}",
+          }
+        }
+        data-emotion="css 1n8ssm9"
+      />
+      <img
+        alt="child"
+        className="css-1n8ssm9"
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="text-content-right"
+    >
+      <div>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-bj4w1q{color:#1F2A36;}",
+            }
+          }
+          data-emotion="css bj4w1q"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-mpuf2j-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:300;font-size:3.75rem;line-height:1.2;letter-spacing:-0.00833em;font-family:Open Sans;font-size:2.25rem;font-weight:600;line-height:3.5rem;color:#1F2A36;}",
+            }
+          }
+          data-emotion="css mpuf2j-MuiTypography-root"
+        />
+        <h2
+          className="MuiTypography-root MuiTypography-h2 css-mpuf2j-MuiTypography-root"
+        >
+          Kenapa harus mencari tallent di peworld
+        </h2>
+      </div>
+      <div
+        className="checklistWrapper"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-noeeui{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#5e50a1;}",
+            }
+          }
+          data-emotion="css noeeui"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-n4gg9{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#5e50a1;}",
+            }
+          }
+          data-emotion="css n4gg9"
+        />
+        <div
+          className="MuiBox-root css-n4gg9"
+        >
+          <img
+            alt="checklist"
+            src="test-file-stub"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1o5e2m0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css 1o5e2m0-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body2 css-1o5e2m0-MuiTypography-root"
+          >
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+      <div
+        className="checklistWrapper"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-noeeui{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#5e50a1;}",
+            }
+          }
+          data-emotion="css noeeui"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-n4gg9{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#5e50a1;}",
+            }
+          }
+          data-emotion="css n4gg9"
+        />
+        <div
+          className="MuiBox-root css-n4gg9"
+        >
+          <img
+            alt="checklist"
+            src="test-file-stub"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1o5e2m0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css 1o5e2m0-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body2 css-1o5e2m0-MuiTypography-root"
+          >
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+      <div
+        className="checklistWrapper"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-noeeui{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#5e50a1;}",
+            }
+          }
+          data-emotion="css noeeui"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-n4gg9{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#5e50a1;}",
+            }
+          }
+          data-emotion="css n4gg9"
+        />
+        <div
+          className="MuiBox-root css-n4gg9"
+        >
+          <img
+            alt="checklist"
+            src="test-file-stub"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1o5e2m0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css 1o5e2m0-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body2 css-1o5e2m0-MuiTypography-root"
+          >
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+      <div
+        className="checklistWrapper"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-noeeui{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#5e50a1;}",
+            }
+          }
+          data-emotion="css noeeui"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-n4gg9{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#5e50a1;}",
+            }
+          }
+          data-emotion="css n4gg9"
+        />
+        <div
+          className="MuiBox-root css-n4gg9"
+        >
+          <img
+            alt="checklist"
+            src="test-file-stub"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1o5e2m0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css 1o5e2m0-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body2 css-1o5e2m0-MuiTypography-root"
+          >
+            Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="content-child"
+  >
+    <div
+      className="text-content-left"
+    >
+      <div>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-bj4w1q{color:#1F2A36;}",
+            }
+          }
+          data-emotion="css bj4w1q"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-mpuf2j-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:300;font-size:3.75rem;line-height:1.2;letter-spacing:-0.00833em;font-family:Open Sans;font-size:2.25rem;font-weight:600;line-height:3.5rem;color:#1F2A36;}",
+            }
+          }
+          data-emotion="css mpuf2j-MuiTypography-root"
+        />
+        <h2
+          className="MuiTypography-root MuiTypography-h2 css-mpuf2j-MuiTypography-root"
+        >
+          Skill Tallent
+        </h2>
+      </div>
+      <div>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-ab1rst{color:#46505C;}",
+            }
+          }
+          data-emotion="css ab1rst"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-xhn54y-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;font-family:Open Sans;font-size:1.125rem;font-weight:normal;color:#46505C;}",
+            }
+          }
+          data-emotion="css xhn54y-MuiTypography-root"
+        />
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-xhn54y-MuiTypography-root"
+        >
+          Lorem ipsum dolor sit amet, consectetur 
+        adipiscing elit. Ineuismod ipsum et dui rhoncus auctor.
+        </p>
+      </div>
+      <div
+        className="checklistWrapper"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-36q52g{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#fbb017;}",
+            }
+          }
+          data-emotion="css 36q52g"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1p9of36{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#fbb017;}",
+            }
+          }
+          data-emotion="css 1p9of36"
+        />
+        <div
+          className="MuiBox-root css-1p9of36"
+        >
+          <img
+            alt="checklist"
+            src="test-file-stub"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1o5e2m0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css 1o5e2m0-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body2 css-1o5e2m0-MuiTypography-root"
+          >
+            Java.
+          </p>
+        </div>
+      </div>
+      <div
+        className="checklistWrapper"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-36q52g{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#fbb017;}",
+            }
+          }
+          data-emotion="css 36q52g"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1p9of36{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#fbb017;}",
+            }
+          }
+          data-emotion="css 1p9of36"
+        />
+        <div
+          className="MuiBox-root css-1p9of36"
+        >
+          <img
+            alt="checklist"
+            src="test-file-stub"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1o5e2m0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css 1o5e2m0-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body2 css-1o5e2m0-MuiTypography-root"
+          >
+            Golang
+          </p>
+        </div>
+      </div>
+      <div
+        className="checklistWrapper"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-36q52g{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#fbb017;}",
+            }
+          }
+          data-emotion="css 36q52g"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1p9of36{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#fbb017;}",
+            }
+          }
+          data-emotion="css 1p9of36"
+        />
+        <div
+          className="MuiBox-root css-1p9of36"
+        >
+          <img
+            alt="checklist"
+            src="test-file-stub"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1o5e2m0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css 1o5e2m0-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body2 css-1o5e2m0-MuiTypography-root"
+          >
+            Kotlin
+          </p>
+        </div>
+      </div>
+      <div
+        className="checklistWrapper"
+      >
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-36q52g{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#fbb017;}",
+            }
+          }
+          data-emotion="css 36q52g"
+        />
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-1p9of36{height:24px;width:24px;border-radius:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;background-color:#fbb017;}",
+            }
+          }
+          data-emotion="css 1p9of36"
+        />
+        <div
+          className="MuiBox-root css-1p9of36"
+        >
+          <img
+            alt="checklist"
+            src="test-file-stub"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1o5e2m0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;letter-spacing:0.01071em;font-family:Open Sans;font-size:1rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css 1o5e2m0-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body2 css-1o5e2m0-MuiTypography-root"
+          >
+            10+ Bahasa lainnya
+          </p>
+        </div>
+      </div>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-1i99l9s{height:24.375rem;position:relative;width:31rem;}",
+        }
+      }
+      data-emotion="css 1i99l9s"
+    />
+    <div
+      className="MuiBox-root css-1i99l9s"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-68grpl{width:100%;height:100%;position:absolute;background-color:#E2E5ED;-webkit-transform:rotate(-12.92deg);-moz-transform:rotate(-12.92deg);-ms-transform:rotate(-12.92deg);transform:rotate(-12.92deg);}",
+          }
+        }
+        data-emotion="css 68grpl"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-gjic3w{width:100%;height:100%;position:absolute;background-color:#E2E5ED;-webkit-transform:rotate(-12.92deg);-moz-transform:rotate(-12.92deg);-ms-transform:rotate(-12.92deg);transform:rotate(-12.92deg);}",
+          }
+        }
+        data-emotion="css gjic3w"
+      />
+      <div
+        className="MuiBox-root css-gjic3w"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1n8ssm9{position:absolute;width:100%;height:100%;object-fit:cover;}",
+          }
+        }
+        data-emotion="css 1n8ssm9"
+      />
+      <img
+        alt="child"
+        className="css-1n8ssm9"
+        src="test-file-stub"
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      className="headerText"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-bj4w1q{color:#1F2A36;}",
+          }
+        }
+        data-emotion="css bj4w1q"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-mpuf2j-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:300;font-size:3.75rem;line-height:1.2;letter-spacing:-0.00833em;font-family:Open Sans;font-size:2.25rem;font-weight:600;line-height:3.5rem;color:#1F2A36;}",
+          }
+        }
+        data-emotion="css mpuf2j-MuiTypography-root"
+      />
+      <h2
+        className="MuiTypography-root MuiTypography-h2 css-mpuf2j-MuiTypography-root"
+      >
+        Their opinion about peworld
+      </h2>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-yo9mxa{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;}",
+        }
+      }
+      data-emotion="css yo9mxa"
+    />
+    <div
+      className="MuiBox-root css-yo9mxa"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-s488o8{width:339px;height:437px;background-color:#ffffff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;text-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;box-shadow:0px 8px 16px rgba(197, 197, 197, 0.25);margin-right:28px;padding:26px 36px;}",
+          }
+        }
+        data-emotion="css s488o8"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1mjxe12{width:339px;height:437px;background-color:#ffffff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;text-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;box-shadow:0px 8px 16px rgba(197, 197, 197, 0.25);margin-right:28px;padding:26px 36px;}",
+          }
+        }
+        data-emotion="css 1mjxe12"
+      />
+      <div
+        className="MuiBox-root css-1mjxe12"
+      >
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1hixr6x{width:120px;height:120px;object-fit:cover;border-radius:50%;}",
+              }
+            }
+            data-emotion="css 1hixr6x"
+          />
+          <img
+            alt="image0"
+            className="css-1hixr6x"
+            src="https://source.unsplash.com/random"
+          />
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-bj4w1q{color:#1F2A36;}",
+              }
+            }
+            data-emotion="css bj4w1q"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-19ld6mt-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:2.125rem;line-height:1.235;letter-spacing:0.00735em;font-family:Open Sans;font-size:1.875rem;font-weight:600;line-height:3.125rem;color:#ffffff;color:#1F2A36;}",
+              }
+            }
+            data-emotion="css 19ld6mt-MuiTypography-root"
+          />
+          <h4
+            className="MuiTypography-root MuiTypography-h4 css-19ld6mt-MuiTypography-root"
+          >
+            Harry Styles
+          </h4>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-1i4hmap{color:#9EA0A5;}",
+              }
+            }
+            data-emotion="css 1i4hmap"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-25f2cj-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;font-family:Open Sans;font-size:1.125rem;font-weight:normal;color:#9EA0A5;}",
+              }
+            }
+            data-emotion="css 25f2cj-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-25f2cj-MuiTypography-root"
+          >
+            Web Developer
+          </p>
+        </div>
+        <div>
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-ab1rst{color:#46505C;}",
+              }
+            }
+            data-emotion="css ab1rst"
+          />
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": ".css-xhn54y-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;font-family:Open Sans;font-size:1.125rem;font-weight:normal;color:#46505C;}",
+              }
+            }
+            data-emotion="css xhn54y-MuiTypography-root"
+          />
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-xhn54y-MuiTypography-root"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiBox-root css-1mjxe12"
+      >
+        <div>
+          <img
+            alt="image1"
+            className="css-1hixr6x"
+            src="https://source.unsplash.com/random"
+          />
+        </div>
+        <div>
+          <h4
+            className="MuiTypography-root MuiTypography-h4 css-19ld6mt-MuiTypography-root"
+          >
+            Harry Styles
+          </h4>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-25f2cj-MuiTypography-root"
+          >
+            Web Developer
+          </p>
+        </div>
+        <div>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-xhn54y-MuiTypography-root"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiBox-root css-1mjxe12"
+      >
+        <div>
+          <img
+            alt="image2"
+            className="css-1hixr6x"
+            src="https://source.unsplash.com/random"
+          />
+        </div>
+        <div>
+          <h4
+            className="MuiTypography-root MuiTypography-h4 css-19ld6mt-MuiTypography-root"
+          >
+            Harry Styles
+          </h4>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-25f2cj-MuiTypography-root"
+          >
+            Web Developer
+          </p>
+        </div>
+        <div>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-xhn54y-MuiTypography-root"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;

@@ -5,6 +5,47 @@ Array [
   <style
     dangerouslySetInnerHTML={
       Object {
+        "__html": ".css-fs8q2c{background:#5e50a1;padding-inline:9.375rem;padding-block:16px;}@media (max-width:899.95px){.css-fs8q2c{padding-inline:2.25rem;}}",
+      }
+    }
+    data-emotion="css fs8q2c"
+  />,
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-bdl34o{background:#5e50a1;padding-inline:9.375rem;padding-block:16px;}@media (max-width:899.95px){.css-bdl34o{padding-inline:2.25rem;}}",
+      }
+    }
+    data-emotion="css bdl34o"
+  />,
+  <div
+    className="MuiBox-root css-bdl34o"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-zm3qx2{color:#FFFFFF;}",
+        }
+      }
+      data-emotion="css zm3qx2"
+    />
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-l5wzgt-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:1.25rem;line-height:1.6;letter-spacing:0.0075em;font-family:Open Sans;font-size:1.375rem;font-weight:600;color:#ffffff;color:#FFFFFF;}",
+        }
+      }
+      data-emotion="css l5wzgt-MuiTypography-root"
+    />
+    <h6
+      className="MuiTypography-root MuiTypography-h6 css-l5wzgt-MuiTypography-root"
+    >
+      Top Jobs
+    </h6>
+  </div>,
+  <style
+    dangerouslySetInnerHTML={
+      Object {
         "__html": ".css-lc3mte{padding:50px 150px 70px 150px;}@media (min-width:900px) and (max-width:1199.95px){.css-lc3mte{padding:50px 100px 70px 100px;}}@media (min-width:600px) and (max-width:899.95px){.css-lc3mte{padding:50px 50px 70px 50px;}}@media (min-width:0px) and (max-width:599.95px){.css-lc3mte{padding:50px 20px 70px 20px;}}",
       }
     }
@@ -126,37 +167,37 @@ Array [
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-159to4x{height:54px;width:121px;font-size:16px;font-weight:600;}",
+                      "__html": ".css-1tszja{height:54px;width:121px;font-size:16px;font-weight:600;}",
                     }
                   }
-                  data-emotion="css 159to4x"
+                  data-emotion="css 1tszja"
                 />
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-1n3i73j{font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}",
+                      "__html": ".css-6z6ly5{font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}",
                     }
                   }
-                  data-emotion="css 1n3i73j"
+                  data-emotion="css 6z6ly5"
                 />
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-1n5x22s-MuiButton-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 16px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.125rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}.css-1n5x22s-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-1n5x22s-MuiButton-root:hover{background-color:#5e50a1;}}.css-1n5x22s-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-1n5x22s-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-1n5x22s-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-1n5x22s-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
+                      "__html": ".css-ps36ac-MuiButton-root{font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 16px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.125rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}.css-ps36ac-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-ps36ac-MuiButton-root:hover{background-color:#5e50a1;}}.css-ps36ac-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-ps36ac-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-ps36ac-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-ps36ac-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
                     }
                   }
-                  data-emotion="css 1n5x22s-MuiButton-root"
+                  data-emotion="css ps36ac-MuiButton-root"
                 />
                 <style
                   dangerouslySetInnerHTML={
                     Object {
-                      "__html": ".css-yxhyn7-MuiButtonBase-root-MuiButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 16px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.125rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}.css-yxhyn7-MuiButtonBase-root-MuiButton-root::-moz-focus-inner{border-style:none;}.css-yxhyn7-MuiButtonBase-root-MuiButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-yxhyn7-MuiButtonBase-root-MuiButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-yxhyn7-MuiButtonBase-root-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-yxhyn7-MuiButtonBase-root-MuiButton-root:hover{background-color:#5e50a1;}}.css-yxhyn7-MuiButtonBase-root-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-yxhyn7-MuiButtonBase-root-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-yxhyn7-MuiButtonBase-root-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-yxhyn7-MuiButtonBase-root-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
+                      "__html": ".css-1e3q1nl-MuiButtonBase-root-MuiButton-root{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;position:relative;box-sizing:border-box;-webkit-tap-highlight-color:transparent;background-color:transparent;outline:0;border:0;margin:0;border-radius:0;padding:0;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;vertical-align:middle;-moz-appearance:none;-webkit-appearance:none;-webkit-text-decoration:none;text-decoration:none;color:inherit;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:500;font-size:0.875rem;line-height:1.75;letter-spacing:0.02857em;text-transform:uppercase;min-width:64px;padding:6px 16px;border-radius:4px;-webkit-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;color:#fff;background-color:#5e50a1;box-shadow:0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);font-family:Open Sans;min-width:5.438rem;padding-left:1.5rem;padding-right:1.5rem;color:#ffffff;min-height:3.125rem;font-style:normal;font-weight:bold;font-size:16px;font-style:normal;font-weight:bold;font-size:14px;line-height:24px;box-shadow:none;-webkit-text-decoration:none;text-decoration:none;text-transform:capitalize;height:54px;width:121px;font-size:16px;font-weight:600;}.css-1e3q1nl-MuiButtonBase-root-MuiButton-root::-moz-focus-inner{border-style:none;}.css-1e3q1nl-MuiButtonBase-root-MuiButton-root.Mui-disabled{pointer-events:none;cursor:default;}@media print{.css-1e3q1nl-MuiButtonBase-root-MuiButton-root{-webkit-print-color-adjust:exact;color-adjust:exact;}}.css-1e3q1nl-MuiButtonBase-root-MuiButton-root:hover{-webkit-text-decoration:none;text-decoration:none;background-color:#473a85;box-shadow:0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);}@media (hover: none){.css-1e3q1nl-MuiButtonBase-root-MuiButton-root:hover{background-color:#5e50a1;}}.css-1e3q1nl-MuiButtonBase-root-MuiButton-root:active{box-shadow:0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);}.css-1e3q1nl-MuiButtonBase-root-MuiButton-root.Mui-focusVisible{box-shadow:0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);}.css-1e3q1nl-MuiButtonBase-root-MuiButton-root.Mui-disabled{color:rgba(0, 0, 0, 0.26);box-shadow:none;background-color:rgba(0, 0, 0, 0.12);}.css-1e3q1nl-MuiButtonBase-root-MuiButton-root:disabled{background-color:#fbb017;opacity:60%;color:#1F2A36;}",
                     }
                   }
-                  data-emotion="css yxhyn7-MuiButtonBase-root-MuiButton-root"
+                  data-emotion="css 1e3q1nl-MuiButtonBase-root-MuiButton-root"
                 />
                 <button
-                  className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root css-yxhyn7-MuiButtonBase-root-MuiButton-root"
+                  className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root css-1e3q1nl-MuiButtonBase-root-MuiButton-root"
                   disabled={false}
                   onBlur={[Function]}
                   onContextMenu={[Function]}
@@ -181,6 +222,37 @@ Array [
           </div>
         </div>
       </form>
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-jesqrs{background-color:#ffffff;border-radius:8px;box-shadow:0px 1px 20px rgba(197, 197, 197, 0.25);margin-top:50px;}",
+        }
+      }
+      data-emotion="css jesqrs"
+    />
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-12uyczc{background-color:#ffffff;border-radius:8px;box-shadow:0px 1px 20px rgba(197, 197, 197, 0.25);margin-top:50px;}",
+        }
+      }
+      data-emotion="css 12uyczc"
+    />
+    <div
+      className="MuiBox-root css-12uyczc"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-12cr3xa{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}",
+          }
+        }
+        data-emotion="css 12cr3xa"
+      />
+      <div
+        className="MuiBox-root css-12cr3xa"
+      />
     </div>
   </div>,
 ]
