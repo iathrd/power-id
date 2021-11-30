@@ -154,6 +154,20 @@ const getComponentThme = (theme: Theme) => ({
             fontWeight: "normal",
           },
         },
+        {
+          props: { variant: "subtitle1" },
+          style: {
+            fontSize: "0.875rem",
+            fontWeight: "normal",
+          },
+        },
+        {
+          props: { variant: "subtitle1" },
+          style: {
+            fontSize: "0.75rem",
+            fontWeight: "normal",
+          },
+        },
       ],
     },
   },
