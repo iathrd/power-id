@@ -1,6 +1,7 @@
 import Flex from "@components/core/Flex";
 import HeaderContent from "@components/shared/HeaderContent";
 import SearchField from "@components/shared/SearchField";
+import Avatar from "@components/core/Avatar";
 import { ContentWrapper, CardWrapper } from "./styled";
 
 const Home: React.FC = () => {
@@ -15,7 +16,9 @@ const Home: React.FC = () => {
       <ContentWrapper>
         <SearchField handleSubmit={handleSubmit} />
         <CardWrapper>
-          <Flex />
+          <Flex>
+            <Avatar />
+          </Flex>
         </CardWrapper>
       </ContentWrapper>
     </>

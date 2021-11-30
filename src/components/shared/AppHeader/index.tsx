@@ -2,12 +2,13 @@ import Button from "@components/core/Button";
 import Flex from "@components/core/Flex";
 import Switch from "@mui/material/Switch";
 import Box from "@mui/material/Box";
+import Avatar from "@components/core/Avatar";
 import { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { IMG, ICON } from "@configs/index";
 import { useTheme } from "@mui/material/styles";
 import { ColorModeContext } from "@utils/context";
-import { Nav, Avatar } from "./styled";
+import { Nav } from "./styled";
 
 type NavbarProps = {
   transparent?: boolean;
@@ -62,8 +63,12 @@ const AppHeader: React.FC<NavbarProps> = () => {
             <Box sx={{ marginLeft: "40px" }}>
               <img alt="mail icon" src={ICON.MAIL} />
             </Box>
-            <Box>
-              <Avatar alt="avatar" src="https://source.unsplash.com/random" />
+            <Box marginLeft="50px">
+              <Avatar
+                alt="avatar"
+                size="verysmall"
+                src="https://source.unsplash.com/random"
+              />
             </Box>
           </Flex>
         )}
