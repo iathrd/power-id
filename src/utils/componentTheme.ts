@@ -170,6 +170,35 @@ const getComponentThme = (theme: Theme) => ({
         },
       ],
     },
+    MuiPagination: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          fontFamily: "Open Sans",
+        },
+      },
+      variants: [
+        {
+          props: { size: "large" },
+          style: {
+            "& button": {
+              ...(theme.palette.mode === "light"
+                ? { border: "1px solid #E2E5ED" }
+                : { border: "1px solid #30363d" }),
+              width: "57px",
+              height: "58px",
+              fontSize: "18px",
+              fontWeight: "bold",
+              fontFamily: "Open Sans",
+
+              background: theme.palette.background.paper,
+              color: "#9EA0A5",
+            },
+          },
+        },
+      ],
+    },
   },
 });
 

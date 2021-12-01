@@ -4,6 +4,7 @@ import SearchField from "@components/shared/SearchField";
 import Avatar from "@components/core/Avatar";
 import Typography from "@components/core/Typography";
 import Box from "@mui/material/Box";
+import Pagination from "@mui/material/Pagination";
 import {
   ContentWrapper,
   CardWrapper,
@@ -84,6 +85,15 @@ const Home: React.FC = () => {
       <ContentWrapper>
         <SearchField handleSubmit={handleSubmit} />
         {renderCard()}
+        <Flex marginTop="50px">
+          <Pagination
+            color="primary"
+            count={100}
+            shape="rounded"
+            size="large"
+            variant="text"
+          />
+        </Flex>
       </ContentWrapper>
     </>
   );
