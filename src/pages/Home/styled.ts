@@ -1,4 +1,5 @@
 import Box from "@mui/material/Box";
+import CustomButton from "@components/core/Button";
 import { styled } from "@mui/material/styles";
 
 export const ContentWrapper = styled(Box)(({ theme }) => ({
@@ -15,14 +16,34 @@ export const ContentWrapper = styled(Box)(({ theme }) => ({
 }));
 
 export const CardWrapper = styled(Box)(({ theme }) => ({
-  backgroundColor: theme.palette.background.paper,
-  borderRadius: "8px",
+  display: "inline-flex",
+  flexWrap: "wrap",
+  gap: "40px",
+  width: "100%",
   ...(theme.palette.mode === "light"
-    ? { boxShadow: "0px 1px 20px rgba(197, 197, 197, 0.25)" }
-    : { border: "1px solid #30363d" }),
+    ? {
+        boxShadow: "0px 1px 20px rgba(197, 197, 197, 0.25)",
+        backgroundColor: theme.palette.background.paper,
+        borderRadius: "8px",
+      }
+    : { border: "none" }),
   marginTop: "50px",
-  padding: "40px 77px 38px 20px",
-  marginRight: "2px solid #F2F3F4",
+  padding: "21px 0 38px 0",
+}));
+
+export const ItemWrapper = styled(Box, {
+  shouldForwardProp: (prop) => prop !== "last",
+})<{ last?: boolean }>(({ theme, last = false }) => ({
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  width: "100%",
+  ...(theme.palette.mode === "dark"
+    ? { borderBottom: "1px solid #30363d" }
+    : { borderBottom: "2px solid #F2F3F4" }),
+  ...(last
+    ? { padding: "0 77px 0 20px", border: "none !important" }
+    : { padding: "0 77px 38px 20px" }),
 }));
 
 export const Skill = styled(Box)(({ theme }) => ({
@@ -38,4 +59,9 @@ export const Skill = styled(Box)(({ theme }) => ({
   color: theme.palette.fontColor.secondary,
   paddingInline: "21px",
   marginRight: "10px",
+}));
+
+export const Button = styled(CustomButton)(() => ({
+  height: "54px",
+  width: "148px",
 }));
