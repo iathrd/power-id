@@ -101,21 +101,14 @@
       "@configs/(.*)": "<rootDir>/src/configs/$1",
       "@components/(.*)": "<rootDir>/src/components/$1",
       "@utils/(.*)": "<rootDir>/src/utils/$1",
-      "@hooks/(.*)": "<rootDir>/src/hooks/$1"
+      "@hooks/(.*)": "<rootDir>/src/hooks/$1",
+      "@pages/(.*)":"<rootDir>/src/pages/$1"
     },
     "collectCoverageFrom": [
       "src/components/**/*.tsx",
       "src/pages/**/*.tsx",
       "src/utils/**/*.ts"
     ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 70,
-        "functions": 70,
-        "lines": 70,
-        "statements": 70
-      }
-    },
     "verbose": true
   }
 }

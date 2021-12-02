@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly  dark mode 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-y9umej{height:25.063rem;width:100%;background-color:#161b22;padding:4.375rem 9.375rem 2.625rem 9.375rem;}",
+      }
+    }
+    data-emotion="css y9umej"
+  />,
+  <footer
+    className="css-y9umej"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-1f44feo{margin-bottom:1.875rem;}",
+        }
+      }
+      data-emotion="css 1f44feo"
+    />
+    <div
+      className="MuiBox-root css-1f44feo"
+    >
+      <img
+        alt="Logo"
+        height="50"
+        src="test-file-stub"
+        width="178"
+      />
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-q92eox{margin-bottom:4.188rem;width:23.813rem;}",
+        }
+      }
+      data-emotion="css q92eox"
+    />
+    <div
+      className="MuiBox-root css-q92eox"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-prnpd1{color:#f0f6fc;}",
+          }
+        }
+        data-emotion="css prnpd1"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-uqu6b0-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;font-family:Open Sans;font-size:1.125rem;font-weight:normal;color:#f0f6fc;}",
+          }
+        }
+        data-emotion="css uqu6b0-MuiTypography-root"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-uqu6b0-MuiTypography-root"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.
+      </p>
+    </div>
+    <hr />
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-xsn2xe{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:normal;-ms-flex-pack:normal;-webkit-justify-content:normal;justify-content:normal;margin-top:1.875rem;}",
+        }
+      }
+      data-emotion="css xsn2xe"
+    />
+    <div
+      className="MuiBox-root css-xsn2xe"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-uqu6b0-MuiTypography-root"
+      >
+        2021 Pewworld. All right reserved
+      </p>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1udx99v{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:end;-ms-flex-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;-webkit-flex:1;-ms-flex:1;flex:1;}",
+          }
+        }
+        data-emotion="css 1udx99v"
+      />
+      <div
+        className="MuiBox-root css-1udx99v"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-uqu6b0-MuiTypography-root"
+        >
+          Telepon : +6281923920
+        </p>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-8d2cd1{margin-left:4.938rem;}",
+            }
+          }
+          data-emotion="css 8d2cd1"
+        />
+        <div
+          className="MuiBox-root css-8d2cd1"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-uqu6b0-MuiTypography-root"
+          >
+            Email : power.id@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+]
+`;
+
+exports[`renders correctly light mode  1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-1ksrp7j{height:25.063rem;width:100%;background-color:#5e50a1;padding:4.375rem 9.375rem 2.625rem 9.375rem;}",
+      }
+    }
+    data-emotion="css 1ksrp7j"
+  />,
+  <footer
+    className="css-1ksrp7j"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-1f44feo{margin-bottom:1.875rem;}",
+        }
+      }
+      data-emotion="css 1f44feo"
+    />
+    <div
+      className="MuiBox-root css-1f44feo"
+    >
+      <img
+        alt="Logo"
+        height="50"
+        src="test-file-stub"
+        width="178"
+      />
+    </div>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-q92eox{margin-bottom:4.188rem;width:23.813rem;}",
+        }
+      }
+      data-emotion="css q92eox"
+    />
+    <div
+      className="MuiBox-root css-q92eox"
+    >
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-zm3qx2{color:#FFFFFF;}",
+          }
+        }
+        data-emotion="css zm3qx2"
+      />
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-3gztah-MuiTypography-root{margin:0;font-family:\\"Roboto\\",\\"Helvetica\\",\\"Arial\\",sans-serif;font-weight:400;font-size:1rem;line-height:1.5;letter-spacing:0.00938em;font-family:Open Sans;font-size:1.125rem;font-weight:normal;color:#FFFFFF;}",
+          }
+        }
+        data-emotion="css 3gztah-MuiTypography-root"
+      />
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-3gztah-MuiTypography-root"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod ipsum et dui rhoncus auctor.
+      </p>
+    </div>
+    <hr />
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-xsn2xe{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:normal;-ms-flex-pack:normal;-webkit-justify-content:normal;justify-content:normal;margin-top:1.875rem;}",
+        }
+      }
+      data-emotion="css xsn2xe"
+    />
+    <div
+      className="MuiBox-root css-xsn2xe"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-3gztah-MuiTypography-root"
+      >
+        2021 Pewworld. All right reserved
+      </p>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": ".css-1udx99v{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:end;-ms-flex-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;-webkit-flex:1;-ms-flex:1;flex:1;}",
+          }
+        }
+        data-emotion="css 1udx99v"
+      />
+      <div
+        className="MuiBox-root css-1udx99v"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-3gztah-MuiTypography-root"
+        >
+          Telepon : +6281923920
+        </p>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".css-8d2cd1{margin-left:4.938rem;}",
+            }
+          }
+          data-emotion="css 8d2cd1"
+        />
+        <div
+          className="MuiBox-root css-8d2cd1"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-3gztah-MuiTypography-root"
+          >
+            Email : power.id@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>,
+]
+`;
