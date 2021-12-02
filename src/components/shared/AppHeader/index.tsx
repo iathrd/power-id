@@ -3,9 +3,11 @@ import Flex from "@components/core/Flex";
 import Switch from "@mui/material/Switch";
 import Box from "@mui/material/Box";
 import Avatar from "@components/core/Avatar";
+import Bell from "@components/icon/Bell";
+import Mail from "@components/icon/Mail";
 import { useContext } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { IMG, ICON } from "@configs/index";
+import { IMG } from "@configs/index";
 import { useTheme } from "@mui/material/styles";
 import { ColorModeContext } from "@utils/context";
 import { Nav } from "./styled";
@@ -58,10 +60,10 @@ const AppHeader: React.FC<NavbarProps> = () => {
         ) : (
           <Flex alignItems="center">
             <Box>
-              <img alt="bell icon" src={ICON.BELL} />
+              <Bell />
             </Box>
             <Box sx={{ marginLeft: "40px" }}>
-              <img alt="mail icon" src={ICON.MAIL} />
+              <Mail />
             </Box>
             <Box marginLeft="50px">
               <Avatar

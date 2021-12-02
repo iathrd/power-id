@@ -2,7 +2,8 @@ import styles from "./styles.module.css";
 import Button from "@components/core/Button";
 import ImageContent from "@components/shared/ImageContent";
 import Typography from "@components/core/Typography";
-import { ICON, IMG } from "@configs/index";
+import Checklist from "@components/icon/Checklist";
+import { IMG } from "@configs/index";
 import Card from "@components/shared/Card";
 import { Circle } from "./styled";
 
@@ -67,7 +68,7 @@ const LandingPage: React.FC = () => {
             {listData.map((item, idx) => (
               <div className={styles.checklistWrapper} key={idx}>
                 <Circle fillColor="primary">
-                  <img alt="checklist" src={ICON.CHECKLIST} />
+                  <Checklist />
                 </Circle>
                 <div>
                   <Typography newcolor="grey" variant="body2">
@@ -99,7 +100,7 @@ const LandingPage: React.FC = () => {
             {listData.map((item, idx) => (
               <div className={styles.checklistWrapper} key={idx}>
                 <Circle fillColor="secondary">
-                  <img alt="checklist" src={ICON.CHECKLIST} />
+                  <Checklist />
                 </Circle>
                 <div>
                   <Typography newcolor="grey" variant="body2">

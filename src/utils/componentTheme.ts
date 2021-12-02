@@ -182,6 +182,11 @@ const getComponentThme = (theme: Theme) => ({
         {
           props: { size: "large" },
           style: {
+            ...(theme.palette.mode === "light" && {
+              "& li > div": {
+                color: theme.palette.fontColor.primary,
+              },
+            }),
             "& button": {
               ...(theme.palette.mode === "light"
                 ? { border: "1px solid #E2E5ED" }
@@ -191,7 +196,6 @@ const getComponentThme = (theme: Theme) => ({
               fontSize: "18px",
               fontWeight: "bold",
               fontFamily: "Open Sans",
-
               background: theme.palette.background.paper,
               color: "#9EA0A5",
             },

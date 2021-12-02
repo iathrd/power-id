@@ -5,6 +5,9 @@ import Avatar from "@components/core/Avatar";
 import Typography from "@components/core/Typography";
 import Box from "@mui/material/Box";
 import Pagination from "@mui/material/Pagination";
+import MapPin from "@components/icon/MapPin";
+import ArrowBack from "@components/icon/ArrowBack";
+import ArrowForward from "@components/icon/ArrowForward";
 import {
   ContentWrapper,
   CardWrapper,
@@ -12,7 +15,7 @@ import {
   Button,
   ItemWrapper,
 } from "./styled";
-import { ICON } from "@configs/index";
+import { PaginationItem } from "@mui/material";
 
 const Home: React.FC = () => {
   const handleSubmit = (): void => {
@@ -46,7 +49,7 @@ const Home: React.FC = () => {
               </Typography>
               <Flex alignItems="center">
                 <Box component="div" marginRight="11px" marginTop="3px">
-                  <img alt="Pin" src={ICON.PIN} />
+                  <MapPin />
                 </Box>
                 <Typography newcolor="lightGrey" variant="subtitle1">
                   Bandung
@@ -89,6 +92,12 @@ const Home: React.FC = () => {
           <Pagination
             color="primary"
             count={100}
+            renderItem={(item) => (
+              <PaginationItem
+                components={{ previous: ArrowBack, next: ArrowForward }}
+                {...item}
+              />
+            )}
             shape="rounded"
             size="large"
             variant="text"

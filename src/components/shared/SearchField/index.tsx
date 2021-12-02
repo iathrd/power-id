@@ -1,6 +1,6 @@
 import Typography from "@components/core/Typography";
 import Box from "@mui/material/Box";
-import { ICON } from "@configs/index";
+import Search from "@components/icon/Search";
 import { Formik, Form } from "formik";
 import { SearchInput, Action, Filter, SearchButton } from "./styled";
 
@@ -30,7 +30,7 @@ const SearchField: React.FC<SearchFieldProps> = ({ handleSubmit }) => {
               />
               <Action>
                 <div>
-                  <img alt="search icon" src={ICON.SEARCH} />
+                  <Search />
                 </div>
                 <Filter>
                   <div>
