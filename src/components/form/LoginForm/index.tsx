@@ -48,14 +48,16 @@ const LoginForm: React.FC = () => {
             "password"
           )}
           <Box marginBottom="28px" marginTop="8px" textAlign="end">
-            <Typography newcolor="primary" variant="body2">
-              Lupa kata sandi?
-            </Typography>
+            <Link className="text-link" to="/reset-password">
+              <Typography newcolor="primary" variant="body2">
+                Lupa kata sandi?
+              </Typography>
+            </Link>
           </Box>
           <Button
             color="secondary"
             disabled={!isValid || !dirty}
-            fullWidth={true}
+            fullWidth
             label="Masuk"
             onClick={() => handleSubmit()}
             size="medium"
