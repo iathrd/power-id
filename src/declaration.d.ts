@@ -21,6 +21,7 @@ declare module "@mui/material/styles" {
       grey: React.CSSProperties["color"];
       lightGrey: React.CSSProperties["color"];
       yellow: React.CSSProperties["color"];
+      black2: React.CSSProperties["color"];
     };
     content: {
       main: React.CSSProperties["color"];

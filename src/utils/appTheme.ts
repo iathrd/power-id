@@ -33,6 +33,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
             grey: "#46505C",
             lightGrey: "#9EA0A5",
             yellow: "#fbb017",
+            black2: "#253757",
           },
           content: {
             main: "#E2E5ED",
@@ -70,6 +71,7 @@ export const getDesignTokens = (mode: PaletteMode) => ({
             grey: "#8b949e",
             lightGrey: "#ced6de",
             yellow: "#e0a222",
+            black2: "#f0f6fc",
           },
           content: {
             main: "#161b22",

@@ -5,6 +5,7 @@ import Button from "@components/core/Button";
 import { FormWrapper } from "./styled";
 import { Formik, Form } from "formik";
 import { useHistory } from "react-router-dom";
+import { validate } from "./validate";
 
 const ResetPassword: React.FC = () => {
   const history = useHistory();
@@ -26,8 +27,12 @@ const ResetPassword: React.FC = () => {
             a password reset link.
           </Typhography>
         </div>
-        <Formik initialValues={{ email: "" }} onSubmit={handleSubmit}>
-          {({ handleSubmit }) => (
+        <Formik
+          initialValues={{ email: "" }}
+          onSubmit={handleSubmit}
+          validate={validate}
+        >
+          {({ handleSubmit, dirty, isValid }) => (
             <Form>
               <InputField
                 label="Email"
@@ -38,6 +43,7 @@ const ResetPassword: React.FC = () => {
               <div id="button">
                 <Button
                   color="secondary"
+                  disabled={!dirty || !isValid}
                   fullWidth
                   label="Send password reset email"
                   onClick={() => handleSubmit()}

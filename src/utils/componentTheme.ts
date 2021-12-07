@@ -18,8 +18,8 @@ const getComponentThme = (theme: Theme) => ({
           // Some CSS
           fontFamily: "Open Sans",
           minWidth: "5.438rem",
-          paddingLeft: "1.5rem",
-          paddingRight: "1.5rem",
+          paddingLeft: "1.875rem",
+          paddingRight: "1.875rem",
         },
       },
       variants: [
