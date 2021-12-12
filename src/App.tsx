@@ -21,6 +21,7 @@ const App = () => {
         <NavRoute component={pages.Home} exact path="/home" />
         <Route component={pages.ResetPassword} exact path="/reset-password" />
         <Route component={pages.ChangePassword} exact path="/change-password" />
+        <NavRoute component={pages.Profile} exact path="/profile" />
       </Switch>
     </Router>
   );

@@ -16,11 +16,18 @@ import {
   ItemWrapper,
 } from "./styled";
 import { PaginationItem } from "@mui/material";
+import { useHistory } from "react-router-dom";
 
 const Home: React.FC = () => {
+  const history = useHistory();
+
   const handleSubmit = (): void => {
     const test = "test";
     test + "test";
+  };
+
+  const detailProfile = (): void => {
+    history.push("/profile");
   };
 
   const renderCard = (): JSX.Element => {
@@ -74,7 +81,11 @@ const Home: React.FC = () => {
               </Flex>
             </Flex>
             <Box component="div">
-              <Button color="primary" label="Lihat Profile" />
+              <Button
+                color="primary"
+                label="Lihat Profile"
+                onClick={detailProfile}
+              />
             </Box>
           </ItemWrapper>
         ))}

@@ -26,4 +26,5 @@ export default {
   Register: Suspensed(lazy(() => import("@pages/Register"))),
   ResetPassword: Suspensed(lazy(() => import("@pages/ResetPassword"))),
   ChangePassword: Suspensed(lazy(() => import("@pages/ChangePassword"))),
+  Profile: Suspensed(lazy(() => import("@pages/Profile"))),
 };
