@@ -163,9 +163,6 @@ const Profile: React.FC = () => {
             <TabPanel dir={theme.direction} index={1} value={value}>
               Item Two
             </TabPanel>
-            <TabPanel dir={theme.direction} index={2} value={value}>
-              Item Three
-            </TabPanel>
           </SwipeableViews>
         </Box>
       </Experient>
