@@ -1,3 +1,4 @@
+import MuiTabs from "@mui/material/Tabs";
 import { styled } from "@mui/material/styles";
 
 export const BlueBack = styled("div")(({ theme }) => ({
@@ -8,13 +9,15 @@ export const BlueBack = styled("div")(({ theme }) => ({
   zIndex: -1,
 }));
 
-export const Content = styled("main")(() => ({
+export const Content = styled("main")(({ theme }) => ({
   display: "flex",
   flexDirection: "row",
-  alignItems: "center",
   paddingInline: "9.375rem",
   paddingTop: "70px",
   paddingBottom: "180px",
+  [theme.breakpoints.down("md")]: {
+    paddingInline: "2.25rem",
+  },
 }));
 
 export const UserInfo = styled("section")(({ theme }) => ({
@@ -23,7 +26,9 @@ export const UserInfo = styled("section")(({ theme }) => ({
   width: "357px",
   backgroundColor: theme.palette.background.paper,
   borderRadius: "8px",
-  boxShadow: "0px 8px 16px rgba(197, 197, 197, 0.25)",
+  ...(theme.palette.mode === "light" && {
+    boxShadow: "0px 8px 16px rgba(197, 197, 197, 0.25)",
+  }),
   padding: "30px 30px 82px 30px",
   "& .textContent": {
     textAlign: "start",
@@ -49,5 +54,32 @@ export const UserInfo = styled("section")(({ theme }) => ({
   "& .skill": {
     marginTop: "36px",
     marginBottom: "60px",
+  },
+}));
+
+export const Experient = styled("section")(({ theme }) => ({
+  backgroundColor: theme.palette.background.paper,
+  borderRadius: "8px",
+  marginLeft: "30px",
+  width: "100%",
+  padding: "18px 30px 30px 30px",
+  position: "relative",
+}));
+
+export const Tabs = styled(MuiTabs)(({ theme }) => ({
+  "& button": {
+    fontFamily: "Open Sans",
+    fontSize: "22px",
+    color: theme.palette.fontColor.primary,
+    fontWeight: "600",
+    textTransform: "none",
+    padding: "0",
+    paddingBottom: "10px",
+    marginRight: "30px",
+  },
+  "& .MuiTabs-indicator": {
+    backgroundColor: theme.palette.primary.main,
+    height: "5px",
+    borderRadius: "10px",
   },
 }));
