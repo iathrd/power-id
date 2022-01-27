@@ -11,6 +11,7 @@ import { IMG } from "@configs/index";
 import { useTheme } from "@mui/material/styles";
 import { ColorModeContext } from "@utils/context";
 import { Nav } from "./styled";
+import useResponsive from "@hooks/useResponsive";
 
 type NavbarProps = {
   transparent?: boolean;
@@ -21,6 +22,7 @@ type stateType = {
 };
 
 const AppHeader: React.FC<NavbarProps> = () => {
+  const { isMobileDevice } = useResponsive();
   const { state = {} } = useLocation<stateType>();
   const colorMode = useContext(ColorModeContext);
   const theme = useTheme();
@@ -39,7 +41,7 @@ const AppHeader: React.FC<NavbarProps> = () => {
           checked={theme.palette.mode === "dark"}
           onClick={colorMode.toggleColorMode}
         />
-        {!isLogin ? (
+        {isMobileDevice ? null : !isLogin ? (
           <Flex>
             <Box sx={{ marginRight: "1rem" }}>
               <Link className="text-link" to="/signin">

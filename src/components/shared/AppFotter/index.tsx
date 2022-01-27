@@ -1,6 +1,6 @@
 import Typography from "@components/core/Typography";
-import Flex from "@components/core/Flex";
-import Box from "@mui/material/Box";
+// import Flex from "@components/core/Flex";
+// import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 import { IMG } from "@configs/index";
 import { Footer } from "./styled";
@@ -9,22 +9,22 @@ const AppFotter: React.FC = () => {
   const theme = useTheme();
   return (
     <Footer>
-      <Box marginBottom="1.875rem">
+      {/* <Box marginBottom="1.875rem"> */}
+      <div className="logo">
         <img
           alt="Logo"
-          height="50"
           src={theme.palette.mode === "light" ? IMG.LOGO_WHITE : IMG.LOGO_DARK}
-          width="178"
         />
-      </Box>
-      <Box marginBottom="4.188rem" width="23.813rem">
+      </div>
+
+      <div className="description">
         <Typography newcolor="secondary" variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
           ipsum et dui rhoncus auctor.
         </Typography>
-      </Box>
+      </div>
       <hr />
-      <Flex justifyContent="normal" marginTop="1.875rem">
+      {/* <Flex justifyContent="normal" marginTop="1.875rem">
         <Typography newcolor="secondary" variant="body1">
           2021 Pewworld. All right reserved
         </Typography>
@@ -38,7 +38,7 @@ const AppFotter: React.FC = () => {
             </Typography>
           </Box>
         </Flex>
-      </Flex>
+      </Flex> */}
     </Footer>
   );
 };

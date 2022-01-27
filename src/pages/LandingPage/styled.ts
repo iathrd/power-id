@@ -15,3 +15,14 @@ export const Circle = styled(Box, {
   justifyContent: "center",
   backgroundColor: theme.palette[fillColor].main,
 }));
+
+export const Main = styled("main")(({ theme }) => ({
+  paddingInline: "150px",
+  paddingBlock: "110px",
+  [theme.breakpoints.down("md")]: {
+    paddingInline: "2.25rem",
+  },
+  [theme.breakpoints.down("sm")]: {
+    paddingBlock: "3rem",
+  },
+}));

@@ -1,25 +1,17 @@
-import { useMediaQuery } from "react-responsive";
+import { useTheme, useMediaQuery } from "@mui/material";
 
 const useResponsive = () => {
-  const isMobileDevice = useMediaQuery({
-    query: "(min-device-width: 480px)",
-  });
+  const theme = useTheme();
 
-  const isTabletDevice = useMediaQuery({
-    query: "(min-device-width: 768px)",
-  });
+  const isMobileDevice = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const isLaptop = useMediaQuery({
-    query: "(min-device-width: 1024px)",
-  });
+  const isTabletDevice = useMediaQuery(theme.breakpoints.down("md"));
 
-  const isDesktop = useMediaQuery({
-    query: "(min-device-width: 1200px)",
-  });
+  const isLaptop = useMediaQuery(theme.breakpoints.down("xl"));
 
-  const isBigScreen = useMediaQuery({
-    query: "(min-device-width: 1201px )",
-  });
+  const isDesktop = useMediaQuery(theme.breakpoints.down("xl"));
+
+  const isBigScreen = useMediaQuery(theme.breakpoints.only("xl"));
 
   return { isMobileDevice, isTabletDevice, isLaptop, isBigScreen, isDesktop };
 };

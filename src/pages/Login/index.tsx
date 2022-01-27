@@ -6,11 +6,11 @@ import LoginForm from "@components/form/LoginForm";
 import useResponsive from "@hooks/useResponsive";
 
 const Login: React.FC = () => {
-  const { isLaptop } = useResponsive();
+  const { isTabletDevice } = useResponsive();
 
   return (
     <div className="parent">
-      {!isLaptop ? null : <Banner />}
+      {!isTabletDevice && <Banner />}
 
       <div className={styles.loginForm}>
         <Typography newcolor="primary" variant="h3">

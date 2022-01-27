@@ -4,8 +4,9 @@ import ImageContent from "@components/shared/ImageContent";
 import Typography from "@components/core/Typography";
 import Checklist from "@components/icon/Checklist";
 import { IMG } from "@configs/index";
-import Card from "@components/shared/Card";
-import { Circle } from "./styled";
+// import Card from "@components/shared/Card";
+import { Circle, Main } from "./styled";
+import useResponsive from "@hooks/useResponsive";
 
 interface ContentProps {
   headerText: string;
@@ -16,6 +17,8 @@ interface ContentProps {
 }
 
 const LandingPage: React.FC = () => {
+  const { isMobileDevice } = useResponsive();
+
   const renderHeadContent = (): JSX.Element => {
     return (
       <div className={styles.content}>
@@ -35,7 +38,7 @@ const LandingPage: React.FC = () => {
             <Button color="primary" label="Mulai Dari Sekarang" size="large" />
           </div>
         </div>
-        <ImageContent image={IMG.BANNER} />
+        {!isMobileDevice && <ImageContent image={IMG.BANNER} />}
       </div>
     );
   };
@@ -46,11 +49,13 @@ const LandingPage: React.FC = () => {
     if (contentPosition === "right") {
       return (
         <div className={styles["content-child"]}>
-          <ImageContent
-            content={contentPosition}
-            image={image}
-            isChild={true}
-          />
+          {!isMobileDevice && (
+            <ImageContent
+              content={contentPosition}
+              image={image}
+              isChild={true}
+            />
+          )}
           <div className={styles[`text-content-${contentPosition}`]}>
             <div>
               <Typography newcolor="primary" variant="h2">
@@ -110,31 +115,33 @@ const LandingPage: React.FC = () => {
               </div>
             ))}
           </div>
-          <ImageContent
-            content={contentPosition}
-            image={image}
-            isChild={true}
-          />
+          {!isMobileDevice && (
+            <ImageContent
+              content={contentPosition}
+              image={image}
+              isChild={true}
+            />
+          )}
         </div>
       );
     }
   };
 
-  const renderCourosel = (): JSX.Element => {
-    return (
-      <div>
-        <div className={styles.headerText}>
-          <Typography newcolor="primary" variant="h2">
-            Their opinion about peworld
-          </Typography>
-        </div>
-        <Card />
-      </div>
-    );
-  };
+  // const renderCourosel = (): JSX.Element => {
+  //   return (
+  //     <div>
+  //       <div className={styles.headerText}>
+  //         <Typography newcolor="primary" variant="h2">
+  //           Their opinion about peworld
+  //         </Typography>
+  //       </div>
+  //       <Card />
+  //     </div>
+  //   );
+  // };
 
   return (
-    <main className={styles.main}>
+    <Main>
       {renderHeadContent()}
       {renderChildContent({
         headerText: "Kenapa harus mencari tallent di peworld",
@@ -155,8 +162,8 @@ const LandingPage: React.FC = () => {
         image: IMG.BANNER3,
         listData: ["Java.", "Golang", "Kotlin", "10+ Bahasa lainnya"],
       })}
-      {renderCourosel()}
-    </main>
+      {/* {renderCourosel()} */}
+    </Main>
   );
 };
 

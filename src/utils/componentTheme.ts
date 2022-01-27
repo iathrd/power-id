@@ -95,6 +95,14 @@ const getComponentThme = (theme: Theme) => ({
             fontSize: "2.75rem",
             fontWeight: "bold",
             lineHeight: "4.375rem",
+            [theme.breakpoints.down("md")]: {
+              fontSize: "2rem",
+              lineHeight: "3rem",
+            },
+            [theme.breakpoints.down("sm")]: {
+              fontSize: "1.8rem",
+              lineHeight: "2.375rem",
+            },
           },
         },
         {
@@ -103,6 +111,14 @@ const getComponentThme = (theme: Theme) => ({
             fontSize: "2.25rem",
             fontWeight: "600",
             lineHeight: "3.5rem",
+            [theme.breakpoints.down("md")]: {
+              fontSize: "1.7rem",
+              lineHeight: "2.5rem",
+            },
+            [theme.breakpoints.down("sm")]: {
+              fontSize: "1.5rem",
+              lineHeight: "2.375rem",
+            },
           },
         },
         {
@@ -145,6 +161,12 @@ const getComponentThme = (theme: Theme) => ({
           style: {
             fontSize: "1.125rem",
             fontWeight: "normal",
+            [theme.breakpoints.down("md")]: {
+              fontSize: "1rem",
+            },
+            [theme.breakpoints.down("sm")]: {
+              fontSize: "1rem",
+            },
           },
         },
         {
