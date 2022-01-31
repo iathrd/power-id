@@ -47,7 +47,7 @@ function a11yProps(index: number) {
   };
 }
 
-const Profile: React.FC = () => {
+function Porto() {
   const theme = useTheme();
   const [value, setValue] = useState(0);
 
@@ -59,6 +59,39 @@ const Profile: React.FC = () => {
     setValue(index);
   };
 
+  return (
+    <Experient>
+      <Box sx={{ bgcolor: "background.paper", width: "100%" }}>
+        <Box>
+          <Tabs
+            aria-label="full width tabs example"
+            indicatorColor="primary"
+            onChange={handleChange}
+            textColor="inherit"
+            value={value}
+          >
+            <Tab label="Portofolio" {...a11yProps(0)} />
+            <Tab label="Pengalaman kerja" {...a11yProps(1)} />
+          </Tabs>
+        </Box>
+        <SwipeableViews
+          axis={theme.direction === "rtl" ? "x-reverse" : "x"}
+          index={value}
+          onChangeIndex={handleChangeIndex}
+        >
+          <TabPanel dir={theme.direction} index={0} value={value}>
+            Item One
+          </TabPanel>
+          <TabPanel dir={theme.direction} index={1} value={value}>
+            Item Two
+          </TabPanel>
+        </SwipeableViews>
+      </Box>
+    </Experient>
+  );
+}
+
+const Profile: React.FC = () => {
   const data = [
     "Phyton",
     "Laravel",
@@ -136,46 +169,13 @@ const Profile: React.FC = () => {
     );
   };
 
-  const Porto = (): JSX.Element => {
-    return (
-      <Experient>
-        <Box sx={{ bgcolor: "background.paper", width: "100%" }}>
-          <Box>
-            <Tabs
-              aria-label="full width tabs example"
-              indicatorColor="primary"
-              onChange={handleChange}
-              textColor="inherit"
-              value={value}
-            >
-              <Tab label="Portofolio" {...a11yProps(0)} />
-              <Tab label="Pengalaman kerja" {...a11yProps(1)} />
-            </Tabs>
-          </Box>
-          <SwipeableViews
-            axis={theme.direction === "rtl" ? "x-reverse" : "x"}
-            index={value}
-            onChangeIndex={handleChangeIndex}
-          >
-            <TabPanel dir={theme.direction} index={0} value={value}>
-              Item One
-            </TabPanel>
-            <TabPanel dir={theme.direction} index={1} value={value}>
-              Item Two
-            </TabPanel>
-          </SwipeableViews>
-        </Box>
-      </Experient>
-    );
-  };
-
   return (
     <>
       <BlueBack />
       <Content>
         {renderProfile()}
         <Flex alignItems="start" flex="1">
-          {Porto()}
+          <Porto />
         </Flex>
       </Content>
     </>
