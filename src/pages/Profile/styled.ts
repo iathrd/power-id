@@ -83,3 +83,22 @@ export const Tabs = styled(MuiTabs)(({ theme }) => ({
     borderRadius: "10px",
   },
 }));
+
+export const Portofolio = styled("div")(() => ({
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+  gap: "18px",
+  "& > div": {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  "& > div > img": {
+    width: "170px",
+    height: "120px",
+    objectFit: "cover",
+    borderRadius: "4px",
+    marginBottom: "8px",
+  },
+}));

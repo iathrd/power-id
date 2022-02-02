@@ -9,7 +9,14 @@ import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 import { useState } from "react";
 import { Skill } from "@pages/Home/styled";
-import { BlueBack, Content, Experient, UserInfo, Tabs } from "./styled";
+import {
+  BlueBack,
+  Content,
+  Experient,
+  UserInfo,
+  Tabs,
+  Portofolio,
+} from "./styled";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -59,6 +66,21 @@ function Porto() {
     setValue(index);
   };
 
+  const renderPortofolio = () => {
+    return (
+      <Portofolio>
+        {[...Array(6)].map((_, idx) => (
+          <div key={idx}>
+            <img alt="porto" src="https://source.unsplash.com/random" />
+            <Typography newcolor="primary" variant="subtitle1">
+              Remainder app
+            </Typography>
+          </div>
+        ))}
+      </Portofolio>
+    );
+  };
+
   return (
     <Experient>
       <Box sx={{ bgcolor: "background.paper", width: "100%" }}>
@@ -80,7 +102,7 @@ function Porto() {
           onChangeIndex={handleChangeIndex}
         >
           <TabPanel dir={theme.direction} index={0} value={value}>
-            Item One
+            {renderPortofolio()}
           </TabPanel>
           <TabPanel dir={theme.direction} index={1} value={value}>
             Item Two
