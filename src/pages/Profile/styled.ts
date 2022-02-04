@@ -102,3 +102,28 @@ export const Portofolio = styled("div")(() => ({
     marginBottom: "8px",
   },
 }));
+
+export const Experients = styled("div")(() => ({
+  display: "flex",
+  flexDirection: "column",
+  "& > div": {
+    display: "flex",
+    flexDirection: "row",
+    marginBottom: "40px",
+  },
+  "& > div > img": {
+    width: "74px",
+    height: "74px",
+    objectFit: "cover",
+    marginRight: "32px",
+    borderRadius: "4px",
+  },
+
+  "& > div div > p": {
+    marginRight: "12px",
+  },
+
+  "& > div div": {
+    marginBottom: "16px",
+  },
+}));

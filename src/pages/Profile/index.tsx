@@ -16,6 +16,7 @@ import {
   UserInfo,
   Tabs,
   Portofolio,
+  Experients,
 } from "./styled";
 
 interface TabPanelProps {
@@ -37,7 +38,7 @@ function TabPanel(props: TabPanelProps) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3 }}>
+        <Box sx={{ p: 3, paddingLeft: 0 }}>
           <Typography newcolor="primary" variant="h6">
             {children}
           </Typography>
@@ -81,6 +82,39 @@ function Porto() {
     );
   };
 
+  const renderExperient = () => {
+    return (
+      <Experients>
+        {[...Array(2)].map((_, idx) => (
+          <div key={idx}>
+            <img alt="expset" src="https://source.unsplash.com/random" />
+            <div>
+              <Typography fontSize="20px" fontWeight="bold" newcolor="primary">
+                Engineer
+              </Typography>
+              <Typography newcolor="grey" variant="body1">
+                Tokopedia
+              </Typography>
+              <Flex justifyContent="start">
+                <Typography newcolor="lightGrey" variant="body2">
+                  July 2019 - January 2020
+                </Typography>
+                <Typography newcolor="lightGrey" variant="body2">
+                  6 months
+                </Typography>
+              </Flex>
+              <Typography newcolor="primary" variant="subtitle1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum erat orci, mollis nec gravida sed, ornare quis urna.
+                Curabitur eu lacus fringilla, vestibulum risus at.
+              </Typography>
+            </div>
+          </div>
+        ))}
+      </Experients>
+    );
+  };
+
   return (
     <Experient>
       <Box sx={{ bgcolor: "background.paper", width: "100%" }}>
@@ -105,7 +139,7 @@ function Porto() {
             {renderPortofolio()}
           </TabPanel>
           <TabPanel dir={theme.direction} index={1} value={value}>
-            Item Two
+            {renderExperient()}
           </TabPanel>
         </SwipeableViews>
       </Box>
