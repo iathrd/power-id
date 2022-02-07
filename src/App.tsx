@@ -22,6 +22,11 @@ const App = () => {
         <Route component={pages.ResetPassword} exact path="/reset-password" />
         <Route component={pages.ChangePassword} exact path="/change-password" />
         <NavRoute component={pages.Profile} exact path="/profile" />
+        <NavRoute
+          component={pages.DetailProfile}
+          exact
+          path="/detail-profile"
+        />
       </Switch>
     </Router>
   );

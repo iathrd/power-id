@@ -6,14 +6,8 @@ import Box from "@mui/material/Box";
 import ProfileInfo from "@components/shared/ProfileInfo";
 import { useTheme } from "@mui/material/styles";
 import { useState } from "react";
-import {
-  BlueBack,
-  Content,
-  Experient,
-  Tabs,
-  Portofolio,
-  Experients,
-} from "./styled";
+import { Content, BlueBack } from "@components/styled/styled";
+import { Experient, Tabs, Portofolio, Experients } from "./styled";
 
 interface TabPanelProps {
   children?: React.ReactNode;
