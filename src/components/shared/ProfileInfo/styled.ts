@@ -35,4 +35,8 @@ export const UserInfo = styled("section")(({ theme }) => ({
     marginTop: "36px",
     marginBottom: "60px",
   },
+
+  "& .userBtn": {
+    marginTop: "53px",
+  },
 }));

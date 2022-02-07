@@ -6,7 +6,7 @@ const DetailProfile: React.FC = () => {
     <>
       <BlueBack />
       <Content>
-        <ProfileInfo />
+        <ProfileInfo isUser />
       </Content>
       <h1>Detail Profile</h1>
     </>
