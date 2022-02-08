@@ -5,11 +5,11 @@ import useResponsive from "@hooks/useResponsive";
 import RegisterForm from "@components/form/RegisterForm";
 
 const Register: React.FC = () => {
-  const { isLaptop } = useResponsive();
+  const { isTabletDevice } = useResponsive();
 
   return (
     <div className="parent">
-      {!isLaptop ? null : <Banner />}
+      {!isTabletDevice && <Banner />}
       <div className={styles.registerForm}>
         <Typography newcolor="primary" variant="h3">
           Halo, Pewpeople

@@ -2,6 +2,7 @@ import Typhography from "@components/core/Typography";
 import Banner from "@components/shared/Banner";
 import InputField from "@components/core/InputField";
 import Button from "@components/core/Button";
+import useResponsive from "@hooks/useResponsive";
 import { FormWrapper } from "./styled";
 import { Formik, Form } from "formik";
 import { useHistory } from "react-router-dom";
@@ -9,6 +10,7 @@ import { validate } from "./validate";
 
 const ResetPassword: React.FC = () => {
   const history = useHistory();
+  const { isTabletDevice } = useResponsive();
 
   const handleSubmit = (): void => {
     history.push("/change-password");
@@ -16,7 +18,7 @@ const ResetPassword: React.FC = () => {
 
   return (
     <div className="parent">
-      <Banner />
+      {!isTabletDevice && <Banner />}
       <FormWrapper>
         <Typhography newcolor="primary" variant="h3">
           Reset password
