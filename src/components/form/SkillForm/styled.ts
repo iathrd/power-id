@@ -4,6 +4,7 @@ export const SkillWrapper = styled("div")(() => ({
   display: "flex",
   flexDirection: "row",
   alignItems: "center",
+  marginTop: "10px",
   width: "100%",
   "& div": {
     width: "100%",

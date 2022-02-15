@@ -22,6 +22,8 @@ const SkillForm: React.FC = () => {
     { key: 2, label: "Polymer" },
     { key: 3, label: "React" },
     { key: 4, label: "Vue.js" },
+    { key: 5, label: "React" },
+    { key: 6, label: "Vue.js" },
   ]);
 
   const handleDelete = (chipToDelete: ChipData) => () => {
@@ -60,6 +62,7 @@ const SkillForm: React.FC = () => {
               {chipData.map((data) => {
                 return (
                   <Chip
+                    color="primary"
                     key={data.key}
                     label={data.label}
                     onDelete={handleDelete(data)}
