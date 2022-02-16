@@ -12,4 +12,8 @@ export const ProfileForm = styled("div")(({ theme }) => ({
     paddingInline: "30px",
     marginBottom: "50px",
   },
+  "& hr": {
+    marginBlock: "40px",
+    border: "1px solid #E2E5ED",
+  },
 }));

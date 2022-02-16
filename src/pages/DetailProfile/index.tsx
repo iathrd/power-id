@@ -1,3 +1,4 @@
+import ExperienceForm from "@components/form/ExperienceForm";
 import PersonalFrom from "@components/form/PersonalForm";
 import SkillForm from "@components/form/SkillForm";
 import ProfileInfo from "@components/shared/ProfileInfo";
@@ -13,6 +14,7 @@ const DetailProfile: React.FC = () => {
         <ProfileForm>
           <PersonalFrom />
           <SkillForm />
+          <ExperienceForm />
         </ProfileForm>
       </Content>
     </>

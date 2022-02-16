@@ -45,6 +45,7 @@ const getComponentThme = (theme: Theme) => ({
             },
           },
         },
+
         {
           props: { size: "small" },
           style: {
@@ -75,7 +76,15 @@ const getComponentThme = (theme: Theme) => ({
         {
           props: { color: "secondary" },
           style: {
-            color: theme.palette.fontColor.secondary + "!important",
+            "&:disabled,&[disabled]": {
+              color: theme.palette.fontColor.secondary,
+            },
+          },
+        },
+        {
+          props: { variant: "outlined", color: "secondary" },
+          style: {
+            color: theme.palette.secondary.main,
           },
         },
       ],
