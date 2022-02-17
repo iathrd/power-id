@@ -1,5 +1,6 @@
 import ExperienceForm from "@components/form/ExperienceForm";
 import PersonalFrom from "@components/form/PersonalForm";
+import PortofolioForm from "@components/form/PortofolioForm";
 import SkillForm from "@components/form/SkillForm";
 import ProfileInfo from "@components/shared/ProfileInfo";
 import { BlueBack, Content } from "@components/styled/styled";
@@ -10,11 +11,14 @@ const DetailProfile: React.FC = () => {
     <>
       <BlueBack />
       <Content>
-        <ProfileInfo isUser />
+        <div>
+          <ProfileInfo isUser />
+        </div>
         <ProfileForm>
           <PersonalFrom />
           <SkillForm />
           <ExperienceForm />
+          <PortofolioForm />
         </ProfileForm>
       </Content>
     </>

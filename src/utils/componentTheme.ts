@@ -193,7 +193,7 @@ const getComponentThme = (theme: Theme) => ({
           },
         },
         {
-          props: { variant: "subtitle1" },
+          props: { variant: "subtitle2" },
           style: {
             fontSize: "0.75rem",
             fontWeight: "normal",
