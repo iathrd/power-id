@@ -2,6 +2,7 @@ import Avatar from "@components/core/Avatar";
 import Button from "@components/core/Button";
 import MapPin from "@components/icon/MapPin";
 import Flex from "@components/core/Flex";
+import Pencil from "@components/icon/Pencil";
 import Typography from "@components/core/Typography";
 import { UserInfo } from "./styled";
 import { Skill } from "@pages/Home/styled";
@@ -30,6 +31,14 @@ const ProfileInfo: React.FC<ProfileInfoProps> = ({ isUser }) => {
           size="large"
           src="https://source.unsplash.com/random"
         />
+        {isUser && (
+          <div className="edit">
+            <Pencil height="17" width="17" />
+            <Typography newcolor="lightGrey" variant="h6">
+              Edit
+            </Typography>
+          </div>
+        )}
       </div>
       <div className="textContent">
         <Typography newcolor="primary" variant="h6">

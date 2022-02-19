@@ -16,6 +16,18 @@ export const UserInfo = styled("section")(({ theme }) => ({
   "& .avatar": {
     alignSelf: "center",
     marginBottom: "13px",
+    textAlign: "center",
+  },
+  "& .avatar > .edit": {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    marginTop: "25px",
+    marginBottom: "39px",
+    justifyContent: "center",
+  },
+  "& .avatar > .edit svg": {
+    marginRight: "6px",
   },
   "& .location": {
     marginBlock: "13px",
