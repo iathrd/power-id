@@ -18,3 +18,10 @@ export const BlueBack = styled("div")(({ theme }) => ({
   height: "361px",
   zIndex: -1,
 }));
+
+export const FormLabel = styled("label")(() => ({
+  color: "#9EA0A5",
+  fontSize: "12px",
+  fontWeight: "bold",
+  margin: "0 0 4px 8px",
+}));

@@ -40,11 +40,18 @@ const ExperienceForm: React.FC = () => {
               </div>
               <div>{renderField("Bulan/tahun", "role", "Januari 2018")}</div>
             </TwoInput>
-            {renderField(
+            {/* {renderField(
               "Deskripsi singkat",
               "role",
               "Deskripsikan pekerjaan anda"
-            )}
+            )} */}
+            <InputField
+              label="Deskripsi singkat"
+              name="role"
+              placeholder="Deskripsikan pekerjaan anda"
+              rows={5}
+              variant="textarea"
+            />
             <hr />
             <Button
               color="secondary"

@@ -36,11 +36,13 @@ const PersonalFrom: React.FC = () => {
             {renderField("Job desk", "fullName", "Masukan job desk")}
             {renderField("Domisili", "fullName", "Masukan domisili")}
             {renderField("Tempat kerja", "fullName", "Masukan tempat kerja")}
-            {renderField(
-              "Deskripsi singkat",
-              "fullName",
-              "Tuliskan deskripsi singkat"
-            )}
+            <InputField
+              label="Deskripsi singkat"
+              name="fullname"
+              placeholder="Tuliskan deskripsi singkat"
+              rows={5}
+              variant="textarea"
+            />
           </Form>
         )}
       </Formik>

@@ -6,9 +6,10 @@ import FormControl from "@mui/material/FormControl";
 import Button from "@components/core/Button";
 import Typography from "@components/core/Typography";
 import { Formik, Form } from "formik";
-import { Label, RadioLabel, PortofolioField } from "./styled";
+import { RadioLabel, PortofolioField } from "./styled";
 import { useHistory } from "react-router-dom";
 import Cloud from "@components/icon/Cloud";
+import { FormLabel } from "@components/styled/styled";
 
 const PortofolioForm = () => {
   const history = useHistory();
@@ -32,7 +33,7 @@ const PortofolioForm = () => {
   const renderRadio = () => {
     return (
       <FormControl>
-        <Label>Type portofolio</Label>
+        <FormLabel> Type portofolio </FormLabel>
         <RadioGroup
           aria-labelledby="demo-row-radio-buttons-group-label"
           name="row-radio-buttons-group"
@@ -56,7 +57,7 @@ const PortofolioForm = () => {
   const renderPortofolioField = () => {
     return (
       <div>
-        <Label>Upload gambar</Label>
+        <FormLabel>Upload gambar</FormLabel>
         <PortofolioField>
           <Cloud />
           <Typography newcolor="primary" variant="subtitle1">

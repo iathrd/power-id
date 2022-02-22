@@ -1,13 +1,6 @@
 import { styled } from "@mui/material/styles";
 import FormControlLabel from "@mui/material/FormControlLabel";
 
-export const Label = styled("label")(() => ({
-  color: "#9EA0A5",
-  fontSize: "12px",
-  fontWeight: "bold",
-  margin: "0 0 4px 8px",
-}));
-
 export const RadioLabel = styled(FormControlLabel)(({ theme }) => ({
   "& .MuiFormControlLabel-label": {
     fontSize: "14px",
