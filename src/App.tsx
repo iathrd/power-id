@@ -27,6 +27,7 @@ const App = () => {
           exact
           path="/detail-profile"
         />
+        <NavRoute component={pages.Hire} exact path="/hire" />
       </Switch>
     </Router>
   );

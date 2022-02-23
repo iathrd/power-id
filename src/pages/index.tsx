@@ -28,4 +28,5 @@ export default {
   ChangePassword: Suspensed(lazy(() => import("@pages/ChangePassword"))),
   Profile: Suspensed(lazy(() => import("@pages/Profile"))),
   DetailProfile: Suspensed(lazy(() => import("@pages/DetailProfile"))),
+  Hire: Suspensed(lazy(() => import("@pages/Hire"))),
 };
